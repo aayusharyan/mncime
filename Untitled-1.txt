@@ -17,7 +17,8 @@
         Convenor
         Coordinators
         Committee Members
-    About SIT:
+
+About SIT: (Single Page Design) - single_page.html
         College Campus
         Facilities
         Courses
