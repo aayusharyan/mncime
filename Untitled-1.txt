@@ -1,7 +1,7 @@
  Home
  
  About:
-    About Conference: LOL
+    About Conference:
         Conference Theme
         Schedule
         Important Dates
