@@ -17,7 +17,8 @@
         Convenor
         Coordinators
         Committee Members
-    About SIT:
+
+About SIT: (Single Page Design) - single_page.html
         College Campus
         Facilities
         Courses
@@ -44,7 +45,7 @@ Registration:
         Free Accomodation at Campus
         Paid Accomodation at outside Campus
     Transportation:
-        Detsila of Free Transportation
+        Details of Free Transportation
 
 Past Conferences:
     1<sup>st NCIME - 2012
@@ -52,7 +53,7 @@ Past Conferences:
     3<sup>rd NCIME - 2015
     4<sup>th NCIME - 2016
 
-Contact Us
+Contact Us - contact.html
 
 Register
     
