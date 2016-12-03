@@ -1,24 +1,27 @@
+ !important -> Data from Keynote Speakers is REQUIRED.!
+ 
+ 
  Home
  
  About:
     About Conference:
-        Conference Theme
-        Schedule
-        Important Dates
-        Benefits of Conference
+        Conference Theme        -   page-title-big-grey.html
+        Schedule                -   page-title-big-image.html having bodered-table
+        Important Dates         -   page-title-big-image.html
+        Benefits of Conference  -   page-title-big-grey.html
     Editorial Board and Speakers:
-        Advisory Committee
-        Review Committee
+        Advisory Committee      -   mail and item view from Contact Us page - contact.htnl
+        Review Committee        -   page-title-big-grey.html having bodered-table
         Keynote Speakers
     Organising Committee:
-        Chief Patron
-        Patron
+        Chief Patron            -   Different Member view from team.html
+        Patron                  
         Organising Secretary
         Convenor
         Coordinators
         Committee Members
 
-About SIT: (Single Page Design) - single_page.html
+About SIT: (Single Page Design) - single_page.html - about_sit.html
         College Campus
         Facilities
         Courses
