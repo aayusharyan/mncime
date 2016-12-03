@@ -11,102 +11,16 @@
 
 <html>
  	
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:15 GMT -->
-<head>
-		<title>Haswell - Responsive HTML5 Template</title>
-		<meta charset=utf-8 >
-		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-		<meta name="robots" content="index, follow" > 
-		<meta name="keywords" content="HTML5 Template" > 
-		<meta name="description" content="Haswell - Responsive HTML5 Template" > 
-		<meta name="author" content="Vladimir Azarushkin">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		
-		<!-- FAVICONS -->
-    <link rel="shortcut icon" href="images/favicon/favicon.png">
-    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
-		
-<!-- CSS -->
-
-    <!-- FLEXSLIDER SLIDER CSS -->
-		<link rel="stylesheet" type="text/css" href="css/flexslider.css"  >
-
-    <!-- BOOTSTRAP -->
-		<link rel="stylesheet" href="css/bootstrap.min.css"> 
-	
-    <!-- GOOGLE FONT -->		
-		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
-  
-    <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS -->		
-		<link rel="stylesheet" href="css/icons-fonts.css" >	
-	
-    <!-- CSS THEME -->		
-		<link rel="stylesheet" href="css/style.css" >
-
-    <!-- ANIMATE -->	
-		<link rel='stylesheet' href="css/animate.min.css">
-		
-    <!-- IE Warning CSS -->
-		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->
+<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/services.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:36 GMT -->
+    <?php require_once ("include_header.php"); ?>
     
-    <!-- Magnific popup  in style.css	Owl Carousel Assets in style.css -->		
-	
-<!-- CSS end -->
-
-<!-- JS begin some js files in bottom of file-->
-		
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-		
-    <!-- Modernizr -->
-    <!-- <script src="js/modernizr.js"></script> -->
-		
-	</head>
-	<body>
-	
-		<!-- LOADER -->	
-		<div id="loader-overflow">
-      <div id="loader3">Please enable JS</div>
-    </div>	
+    <body>
+	<?php require_once ("include_preloader.php"); ?>
 
 		<div id="wrap" class="boxed ">
 			<div class="grey-bg"> <!-- Grey BG  -->	
 				
-				<!--[if lte IE 8]>
-				<div id="ie-container">
-					<div id="ie-cont-close">
-						<a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
-					</div>
-					<div id="ie-cont-content" >
-						<div id="ie-cont-warning">
-							<img src='images/ie-warn/ie-warning.jpg' alt='Warning!'>
-						</div>
-						<div id="ie-cont-text" >
-							<div id="ie-text-bold">
-								You are using an outdated browser
-							</div>
-							<div id="ie-text">
-								For a better experience using this site, please upgrade to a modern web browser.
-							</div>
-						</div>
-						<div id="ie-cont-brows" >
-							<a href='http://www.firefox.com' target='_blank'><img src='images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
-							<a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
-							<a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
-							<a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
-						</div>
-					</div>
-				</div>
-				<![endif]-->
-				
+<?php require_once ("include_ie_warning.php"); ?>				
 				<!-- HEADER 1 NO-TRANSPARENT -->
 				<header id="nav" class="header header-1 no-transparent mobile-no-transparent">
           
@@ -145,7 +59,7 @@
 									  <ul class="nav navbar-nav">
 									  
                       <!-- MENU ITEM -->
-                      <li class="parent">
+                      <li class="parent ">
                         <a href="#"><div class="main-menu-title">HOME</div></a>
                         <ul class="sub">
                         <li class="parent">
@@ -287,11 +201,11 @@
                               <div class="box col-md-3 nofloat closed current">
                                 <h5 class="title">PAGES SAMPLES 2</h5>
                                 <ul>
-                                  <li><a class="current" href="about-us.html">About Us</a></li>
+                                  <li><a href="about-us.html">About Us</a></li>
                                   <li><a href="about-us-2.html">About Us 2</a></li>
                                   <li><a href="about-me.html">About Me</a></li>
                                   <li><a href="team.html">Team</a></li>
-                                  <li><a href="services.html">Services</a></li>
+                                  <li><a class="current" href="services.html">Services</a></li>
                                   <li><a href="faq.html">FAQ</a></li>
                                   <li><a href="404.html">404 Error</a></li>
                                 </ul>
@@ -569,349 +483,321 @@
 				  
 				</header>
 
-        <!-- PAGE TITLE LARGE IMG -->
-        <div class="page-title-cont page-title-large page-title-img grey-dark-bg pt-250" style="background-image: url(images/work-proc-bg.jpg)">
+        <!-- PAGE TITLE SMALL -->
+        <div class="page-title-cont page-title-small grey-light-bg">
           <div class="relative container align-left">
             <div class="row">
-               
+              
               <div class="col-md-8">
-                <h1 class="page-title">ABOUT US</h1>
-                <div class="page-sub-title">
-                  Lorem ipsum dolor sit amet consectetur 
-                </div>
+                <h1 class="page-title">SERVICES</h1>
               </div>
-               
+              
               <div class="col-md-4">
                 <div class="breadcrumbs">
-                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">PAGES & FEATURES</a><span class="slash-divider">/</span><span class="bread-current">ABOUT US</span>
+                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">PAGES & FEATURES</a><span class="slash-divider">/</span><span class="bread-current">SERVICES</span>
                 </div>
               </div>
               
             </div>
           </div>
         </div>
-				
-				<!-- FEATURES 1 -->
-				<div id="about" class="page-section">
-					<div class="container fes1-cont">
+        
+        <!-- COTENT CONTAINER -->
+				<!-- FEATURES 2 -->
+				<div class="page-section">
+					<div class="container-fluid">
 						<div class="row">
             
-							<div class="col-md-4 fes1-img-cont wow fadeInUp mb-20">
-								<img src="images/phone-with-arrow.png" alt="img" >
-							</div>
-              
-							<div class="col-md-8">
-              
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="fes1-main-title-cont wow fadeInDown">
-                      <div class="title-fs-60">
-                        WE ARE<br>
-                        <span class="bold">CREATIVE</span>
-                      </div>
-                      <div class="line-3-100"></div>
-                    </div>
-                  </div>
+							<div class="col-md-6 wow fadeInLeft equal-height ">
+								<div class="fes2-main-text-cont">
+									<div class="title-fs-45">
+										MORE THAN<br>
+										<span class="bold">RESPONSIVE</span>
+									</div>
+									<div class="line-3-70"></div>
+									<div class="fes2-text-cont">Sed ut perspiciatis unde omnis iste nat eror acus  antium que. Asperiores, ea velit enim labore doloribus.</div>
 								</div>
-                    
-                <div class="row">
-                    
-                  <div class="col-md-6 col-sm-6">
-                    <div class="fes1-box wow fadeIn" >
-                      <div class="fes1-box-icon">
-                        <div class="icon icon-basic-mixer2"></div>
-                      </div>
-                      <h3>FULLY RESPONSIVE</h3>
-                      <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
-                    </div>
-                  </div>
-                      
-                  <div class="col-md-6 col-sm-6">
-                    <div class="fes1-box wow fadeIn" data-wow-delay="200ms">
-                      <div class="fes1-box-icon">
-                        <div class="icon icon-basic-lightbulb"></div>
-                      </div>
-                      <h3>RETINA READY</h3>
-                      <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
-                    </div>
-                  </div>
-                      
-                </div>
-                    
-                <div class="row">
-                    
-                  <div class="col-md-6 col-sm-6">
-                    <div class="fes1-box wow fadeIn" data-wow-delay="400ms">
-                      <div class="fes1-box-icon">
-                        <div class="icon icon-basic-helm"></div>
-                      </div>
-                      <h3>UNIQUE DESIGN</h3>
-                      <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
-                    </div>
-                  </div>
-                      
-                  <div class="col-md-6 col-sm-6">
-                    <div class="fes1-box wow fadeIn"  data-wow-delay="600ms">
-                      <div class="fes1-box-icon">
-                        <div class="icon icon-basic-settings"></div>
-                      </div>
-                      <h3>EASY TO CUSTOMIZE</h3>
-                      <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
-                    </div>
-                  </div>
-                  
-                </div>                    
-                    
 							</div>
-						
-            </div>
-					</div>
-				</div>
-          
-
-        <!-- FEATURES 7 -->
-        <div class="page-section grey-light-bg clearfix">
-          <div class="fes7-img-cont col-md-5">
-            <div class="fes7-img" style="background-image: url(images/fes7.jpg)"></div>
-          </div>
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6 col-md-offset-6 fes7-text-cont p-80-cont">
-                <h1><span class="font-light">Nulla varius faucibus vestibulum. Sed imperdiet, tellus at iaculis</span></h1>
-                <p class="mb-60">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-                </p>
               
-                <div class="row">
-                    
-                  <div class="col-md-6 col-sm-6">
-                    <div class="fes7-box wow fadeIn" >
-                      <div class="fes7-box-icon">
-                        <div class="icon icon-ecommerce-graph-increase"></div>
-                      </div>
-                      <h3>SEO Friendly</h3>
-                      <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
-                    </div>
-                  </div>
-                      
-                  <div class="col-md-6 col-sm-6">
-                    <div class="fes7-box wow fadeIn" data-wow-delay="200ms">
-                      <div class="fes7-box-icon">
-                        <div class="icon icon-software-font-smallcaps"></div>
-                      </div>
-                      <h3>Google Fonts</h3>
-                      <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
-                    </div>
-                  </div>
-                      
-                </div>
-                    
-                <div class="row">
-                    
-                  <div class="col-md-6 col-sm-6">
-                    <div class="fes7-box wow fadeIn" data-wow-delay="400ms">
-                      <div class="fes7-box-icon">
-                        <div class="icon icon-basic-mixer2"></div>
-                      </div>
-                      <h3>Tons of Shortcodes</h3>
-                      <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
-                    </div>
-                  </div>
-                      
-                  <div class="col-md-6 col-sm-6">
-                    <div class="fes7-box wow fadeIn"  data-wow-delay="600ms">
-                      <div class="fes7-box-icon">
-                        <div class="icon icon-basic-bolt"></div>
-                      </div>
-                      <h3>1500+ Icons</h3>
-                      <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
-                    </div>
-                  </div>
-                  
-                </div> 
-            
-              </div>
-            </div><!--end of row-->
-          </div>
-        </div>        
-         
-				<!-- ABOUT US 1 -->
-				<div class="page-section pt-110-cont">
-					<div class="container">
-            <div class="row">
-            
-              <div class="member col-md-4 col-sm-4 wow fadeInUp">
-                <div class="member-image">
-                  <img src="images/team/team-1.jpg" alt="img">
-                </div>
-                <h3>JESSICA DOE</h3>
-                <span>VP ENGINEERING</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
-              </div>
-              
-              <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
-                <div class="member-image">
-                  <img src="images/team/team-2.jpg" alt="img">
-                </div>
-                <h3>JOHN DOE</h3>
-                <span>FOUNDER AND CEO</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
-              </div>
-              
-              <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
-                <div class="member-image">
-                  <img src="images/team/team-3.jpg" alt="img">
-                </div>
-                <h3>EDWARD DOE</h3>
-                <span>CREATIVE DIRECTOR</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
-              </div>
-              
-            </div>
-					</div>
-        </div>
-        <!-- VIEW MORE PROJECTS  -->
-        <div class="port-view-more-cont">
-          <a class="port-view-more" href="about-us.html">VIEW ALL TEAM</a>
-        </div>  
-        
-        <!-- CLIENTS 1 & TESTIMONIALS 1 -->
-        <div class="page-section p-110-cont">
-					<div class="container">
-            <div class="row">
-              <!-- CLIENTS 1 -->
-              <div class="col-md-7">
-                <div class="row client-row border-bot">
-
-                    <div class="col-xs-6 col-sm-3 text-center">
-                      <img alt="client" src="images/clients/1.png">
-                    </div>
-                  
-                    <div class="col-xs-6 col-sm-3 text-center">
-                      <img alt="client" src="images/clients/2.png">
-                    </div>
-                  
-                    <div class="col-xs-6 col-sm-3 text-center">
-                      <img alt="client" src="images/clients/3.png">
-                    </div>
-                  
-                    <div class="col-xs-6 col-sm-3 text-center">
-                      <img alt="client" src="images/clients/4.png">
-                    </div>
-
-                </div>
-                
-                <div class="row client-row">
-
-                    <div class="col-xs-6 col-sm-3 text-center">
-                      <img alt="client" src="images/clients/5.png">
-                    </div>
-                  
-                    <div class="col-xs-6 col-sm-3 text-center">
-                      <img alt="client" src="images/clients/6.png">
-                    </div>
-                  
-                    <div class="col-xs-6 col-sm-3 text-center">
-                      <img alt="client" src="images/clients/7.png">
-                    </div>
-                  
-                    <div class="col-xs-6 col-sm-3 text-center">
-                      <img alt="client" src="images/clients/8.png">
-                    </div>
-
-                </div>
-                
-							</div>
-              <!-- TESTIMONIALS 1 -->
-              <div class="col-md-5">
-                <blockquote class="quote mb-0 m-p-0">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, maiores esse temporibus accusantium quas soluta quis sed rerum.</p>
-                  <footer>John Doe, Google Inc.</footer>
-                 </blockquote>
+							<div class="col-md-6">
+								<div class="row">
+									<div class="fes2-img equal-height"></div>
+								</div>
 							</div>
               
 						</div>
 					</div>
 				</div>
-                
-        <!-- VIDEO ADS 1 -->
-				<div class="page-section video-ads-bg" >
+
+				<!-- FEATURES 3 -->
+				<div class="page-section">
+					<div class="container-fluid">
+						<div class="row">
+							
+							<div class="col-md-6 left-50 wow fadeInRight equal-height">
+									<div class="fes2-main-text-cont">
+										<div class="title-fs-45">
+											POWERFUL<br>
+											<span class="bold">PERFORMANCE</span>
+										</div>
+										<div class="line-3-100"></div>
+										<div class="fes2-text-cont">Sed ut perspiciatis unde omnis iste nat eror acus  antium que. Asperiores, ea velit enim labore doloribus.</div>
+									</div>
+							</div>
+              
+              <div class="col-md-6 right-50">
+								<div class="row">
+									<div class="fes3-img equal-height" ></div>
+								</div>
+							</div>
+              
+						</div>
+					</div>
+				</div>
+
+				<!-- DIVIDER -->
+				<hr class="mt-0 mb-0">	
+
+				<!-- FEATURES 4 -->
+				<div class="page-section fes4-cont">
 					<div class="container">
-            <div class="video-ads-text-cont clearfix">
-              <span class="video-ads-text">BE CREATIVE</span>
-              <span class="video-ads-a">
-                <a class="popup-youtube" href="https://www.youtube.com/watch?v=0gv7OC9L2s8">
-                  <span class="icon icon-music-play-button"></span>
-                </a>
-              </span>
-              <span class="video-ads-text">WITH HASWELL</span>
+            <div class="row">
+            
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="fes4-box wow fadeIn">
+								  <h2 class="section-title">OUR <span class="bold">SERVICES</span></h2>
+								</div>
+							</div>            
+							<div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="fes4-box wow fadeIn" data-wow-delay="200ms">
+								  <div class="fes4-title-cont" >
+								  	<div class="fes4-box-icon">
+								  		<div class="icon icon-basic-settings"></div>
+								  	</div>
+								  	<h3><span class="bold">DEVELOPMENT</span></h3>
+								  	<p>LOREM IPSUM DOLOR</p>
+								  </div>
+								  <div>
+								     Maecenas luctus nisi in sem fermentum blat. In nec  elit solliudin, elementum, dictum pur quam volutpat suscipit antena. 
+								  </div>
+								</div>
+							</div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="fes4-box wow fadeIn" data-wow-delay="400ms">
+								  <div class="fes4-title-cont" >
+								  	<div class="fes4-box-icon">
+								  		<div class="icon icon-basic-share"></div>
+								  	</div>
+								  	<h3><span class="bold">PRODUCTION</span></h3>
+								  	<p>LOREM IPSUM DOLOR</p>
+								  </div>
+								  <div>
+								     Seductio maesto nisi in sem fermentum blat. In nec elit solliudin, elementum, dictum pur quam volutpat suscipit antena.
+								  </div>
+								</div>
+							</div>
+              
+						</div>
+						<div class="row">
+            
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="fes4-box wow fadeIn" data-wow-delay="600ms">
+								  <div class="fes4-title-cont" >
+								  	<div class="fes4-box-icon">
+								  		<div class="icon icon-basic-target"></div>
+								  	</div>
+								  	<h3><span class="bold">BRANDING</span></h3>
+								  	<p>LOREM IPSUM DOLOR</p>
+								  </div>
+								  <div>
+								    Donec vel luctus nisi in sem fermentum blat. In nec elit solliudin, elementum, dictum pur quam volutpat suscipit antena.
+								  </div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="fes4-box wow fadeIn" data-wow-delay="800ms" >
+								  <div class="fes4-title-cont" >
+								  	<div class="fes4-box-icon">
+								  		<div class="icon icon-basic-globe"></div>
+								  	</div>
+								  	<h3><span class="bold">WEB DESIGN</span></h3>
+								  	<p>LOREM IPSUM DOLOR</p>
+								  </div>
+								  <div>
+								    Lorem luctus antena at nisi in sem blandit. In nec elit soltudin, elementum odio et, dictum quam a volutpat elementum. 
+								  </div>
+								</div>
+							</div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="fes4-box wow fadeIn" data-wow-delay="1000ms">
+								  <div class="fes4-title-cont" >
+								  	<div class="fes4-box-icon">
+								  		<div class="icon icon-basic-picture"></div>
+								  	</div>
+								  	<h3><span class="bold">PHOTOGRAPHY</span></h3>
+								  	<p>LOREM IPSUM DOLOR</p>
+								  </div>
+								  <div>
+								    Fermentum nisi in sem fertum blat. In elit soldin, elemtum, arenam pur quam volutpat suscipit dictum pur quam.
+								  </div>
+								</div>
+							</div>              
+						
             </div>
 					</div>
 				</div>
-   
-        <!-- COUNTERS 1 -->
-        <div id="counter-1" class="page-section p-80-cont">
-          <div class="container">
+
         
-            <div  class="row text-center">
-                            
-              <!-- Item -->
-              <div class="col-xs-6 col-sm-3">
-                <div class="count-number">
-                  75
+				<!-- WORK PROCESS 1 -->
+				<div class="page-section work-proc-1-bg" >
+					<div class="container fes4-cont">
+						<div class="row">
+							
+							<div class="col-md-4 ">
+								<div class="mb-50">
+								  <h2 class="section-title">WORK <span class="bold">PROCESS</span></h2>
+								</div>
+                <p class="mb-50 " >Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
+							</div>
+							<div class="col-md-7 col-lg-offset-1">
+                <div class="row">
+                
+                  <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="fes4-box">
+                      <div class="fes4-title-cont" >
+                        <div class="fes4-box-icon">
+                          <div class="icon icon-basic-lightbulb"></div>
+                        </div>
+                        <h3><span class="bold">PLANING</span></h3>
+                        <p>LOREM IPSUM DOLOR</p>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="fes4-box" >
+                      <div class="fes4-title-cont" >
+                        <div class="fes4-box-icon">
+                          <div class="icon icon-basic-gear"></div>
+                        </div>
+                        <h3><span class="bold">DEVELOPMENT</span></h3>
+                        <p>LOREM IPSUM DOLOR</p>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
-                <div class="count-descr">
-                  <span class="count-title">AWARDS WINNING</span>
+                
+                <div class="row">
+                
+                  <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="fes4-box" >
+                      <div class="fes4-title-cont" >
+                        <div class="fes4-box-icon">
+                          <div class="icon icon-basic-laptop"></div>
+                        </div>
+                        <h3><span class="bold">DESIGNING</span></h3>
+                        <p>LOREM IPSUM DOLOR</p>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="fes4-box" >
+                      <div class="fes4-title-cont" >
+                        <div class="fes4-box-icon">
+                          <div class="icon icon-basic-paperplane"></div>
+                        </div>
+                        <h3><span class="bold">LAUNCH</span></h3>
+                        <p>LOREM IPSUM DOLOR</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+							</div>
+						</div>
+					</div>
+				</div>        
+        
+        <!-- FEATURES 9 -->
+        <div class="page-section p-80-cont">
+        
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-6">
+                <div class="mt-60 mb-80">
+                  <h2 class="section-title">DO YOU WANT<br> TO CREATE A GOOD<br><span class="bold">WEBSITE</span>?</h2>
+                </div>
+                <div class="row">
+                        
+                      <div class="col-md-6 col-sm-6">
+                        <div class="fes7-box mb-20 wow fadeIn" >
+                          <div class="fes7-box-icon">
+                            <div class="icon icon-basic-mixer2"></div>
+                          </div>
+                          <h3>FULLY RESPONSIVE</h3>
+                          
+                        </div>
+                      </div>
+                          
+                      <div class="col-md-6 col-sm-6">
+                        <div class="fes7-box mb-20 wow fadeIn" data-wow-delay="200ms">
+                          <div class="fes7-box-icon">
+                            <div class="icon icon-basic-lightbulb"></div>
+                          </div>
+                          <h3>RETINA READY</h3>
+                          
+                        </div>
+                      </div>
+                          
+                    </div>
+                        
+                <div class="row">
+                        
+                  <div class="col-md-6 col-sm-6">
+                    <div class="fes7-box mb-20 wow fadeIn" data-wow-delay="400ms">
+                      <div class="fes7-box-icon">
+                        <div class="icon icon-basic-helm"></div>
+                      </div>
+                      <h3>UNIQUE DESIGN</h3>
+                      
+                    </div>
+                  </div>
+                          
+                  <div class="col-md-6 col-sm-6">
+                    <div class="fes7-box mb-20 wow fadeIn"  data-wow-delay="600ms">
+                      <div class="fes7-box-icon">
+                        <div class="icon icon-basic-settings"></div>
+                      </div>
+                      <h3>EASY TO CUSTOMIZE</h3>
+                     
+                    </div>
+                  </div>
+                      
+                </div>            
+              </div>
+            
+              <div class="col-md-6 fes9-img-cont clearfix">
+                <div class="fes9-img-center clearfix">
+                  <div class="fes9-img-center">
+                    <img src="images/fes9-black.png" alt="img" class="wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1s">
+                    <img src="images/fes9-white.png" alt="img" class=" wow fadeInUp" data-wow-delay="450ms" data-wow-duration="1s">
+                  </div>
                 </div>
               </div>
-              
-              <!-- Item -->
-              <div class="col-xs-6 col-sm-3">
-                <div class="count-number">
-                 450
-                </div>
-                <div class="count-descr">
-                  <span class="count-title">HAPPY CLIENTS</span>
-                </div>
-              </div>
-              
-              <!-- Item -->
-              <div class="col-xs-6 col-sm-3">
-                <div class="count-number">
-                  151
-                </div>
-                <div class="count-descr">
-                  <span class="count-title">PROJECTS DONE</span>
-                </div>
-              </div>
-              
-              <!-- Item -->
-              <div class="col-xs-6 col-sm-3">
-                <div class="count-number">
-                 768
-                </div>
-                <div class="count-descr">
-                  <span class="count-title">HOURS OF CODE</span>
-                </div>
-              </div>  
-              
+            
             </div>
           </div>
         </div>
         
+        <!-- CALL TO ACTION  -->
+        <div class="port-view-more-cont-dark">
+          <a class="port-view-more-dark " href="contact.html">LET'S WORK TOGETHER</a>
+        </div>
+          
         <!-- NEWS LETTER -->
         <div class="page-section nl-cont">
           <div class="container">
@@ -1038,35 +924,9 @@
 			</div><!-- End BG -->	
 		</div><!-- End wrap -->	
 			
-<!-- JS begin -->
-
-		<!-- jQuery  -->
-		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>		
-
-		<!-- MAGNIFIC POPUP -->
-		<script src='js/jquery.magnific-popup.min.js'></script>
-    
-    <!-- PORTFOLIO SCRIPTS -->
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-    
-    <!-- COUNTER -->
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
-    
-    <!-- APPEAR -->    
-    <script type="text/javascript" src="js/jquery.appear.js"></script>
-    
-    <!-- OWL CAROUSEL -->    
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    
-    <!-- MAIN SCRIPT -->
-		<script src="js/main.js"></script>
-    
-<!-- JS end -->	
+<?php require_once ("include_js.php"); ?>
 	
 	</body>
 
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:15 GMT -->
+<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/services.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:36 GMT -->
 </html>		

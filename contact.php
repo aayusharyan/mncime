@@ -1,117 +1,18 @@
 <!DOCTYPE html>
-<!--
-
-	Theme Name: HASWELL
-	Description: HTML/CSS 
-	Author: Abcgomel 
-	Version: 1.0
-	Designed & Coded by Abcgomel
-	
--->
 
 <html>
  	
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/portfolio-single1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:57 GMT -->
-<head>
-		<title>Haswell - Responsive HTML5 Template</title>
-		<meta charset=utf-8 >
-		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-		<meta name="robots" content="index, follow" > 
-		<meta name="keywords" content="HTML5 Template" > 
-		<meta name="description" content="Haswell - Responsive HTML5 Template" > 
-		<meta name="author" content="Vladimir Azarushkin">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		
-		<!-- FAVICONS -->
-    <link rel="shortcut icon" href="images/favicon/favicon.png">
-    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
-		
-<!-- CSS -->
-
-    <!-- FLEXSLIDER SLIDER CSS -->
-		<link rel="stylesheet" type="text/css" href="css/flexslider.css"  >
-
-    <!-- BOOTSTRAP -->
-		<link rel="stylesheet" href="css/bootstrap.min.css"> 
-	
-    <!-- GOOGLE FONT -->		
-		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
-  
-    <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS -->		
-		<link rel="stylesheet" href="css/icons-fonts.css" >	
-	
-    <!-- CSS THEME -->		
-		<link rel="stylesheet" href="css/style.css" >
-
-    <!-- ANIMATE -->	
-		<link rel='stylesheet' href="css/animate.min.css">
-		
-    <!-- IE Warning CSS -->
-		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->
-    
-    <!-- Magnific popup  in style.css	Owl Carousel Assets in style.css -->		
-	
-<!-- CSS end -->
-
-<!-- JS begin some js files in bottom of file-->
-		
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-		
-    <!-- Modernizr -->
-    <!-- <script src="js/modernizr.js"></script> -->
-		
-	</head>
-	<body>
-	
-		<!-- LOADER -->	
-		<div id="loader-overflow">
-      <div id="loader3">Please enable JS</div>
-    </div>	
+    <?php require_once ("include_header.php"); ?>
+    <body>
+	<?php require_once ("include_preloader.php"); ?>
 
 		<div id="wrap" class="boxed ">
 			<div class="grey-bg"> <!-- Grey BG  -->	
 				
-				<!--[if lte IE 8]>
-				<div id="ie-container">
-					<div id="ie-cont-close">
-						<a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
-					</div>
-					<div id="ie-cont-content" >
-						<div id="ie-cont-warning">
-							<img src='images/ie-warn/ie-warning.jpg' alt='Warning!'>
-						</div>
-						<div id="ie-cont-text" >
-							<div id="ie-text-bold">
-								You are using an outdated browser
-							</div>
-							<div id="ie-text">
-								For a better experience using this site, please upgrade to a modern web browser.
-							</div>
-						</div>
-						<div id="ie-cont-brows" >
-							<a href='http://www.firefox.com' target='_blank'><img src='images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
-							<a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
-							<a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
-							<a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
-						</div>
-					</div>
-				</div>
-				<![endif]-->
-		
-    <!-- HEADER TRANSPORENT BG BLACK -->
-    <div class="header-transporent-bg-black">		
-    
-				<!-- HEADER 1 BLACK TRANSPARENT -->
-				<header id="nav" class="header header-1 black-header">
+				<?php require_once ("include_ie_warning.php"); ?>
+				<!-- HEADER 1 NO-TRANSPARENT -->
+				<header id="nav" class="header header-1 no-transparent mobile-no-transparent">
           
 				  <div class="header-wrapper">
 					<div class="container-m-30 clearfix">
@@ -121,7 +22,7 @@
 						<div class="logo-container-2">
                 <div class="logo-2">
                   <a href="index.html" class="clearfix">
-                    <img src="images/logo-white.png" class="logo-img" alt="Logo">
+                    <img src="images/logo.png" class="logo-img" alt="Logo">
                   </a>
                 </div>
               </div>
@@ -321,7 +222,7 @@
                       </li>					
                       
                       <!-- MENU ITEM -->
-                      <li class="parent current">
+                      <li class="parent">
                         <a href="#"><div class="main-menu-title">PORTFOLIO</div></a>
                         <ul class="sub">
                           <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
@@ -370,9 +271,9 @@
                             </ul>
                           </li>
                           <li class="parent">
-                            <a class="current" href="#">Portfolio Single</a>
+                            <a href="#">Portfolio Single</a>
                             <ul class="sub">
-                              <li><a class="current" href="portfolio-single1.html">Single 1</a></li>
+                              <li><a href="portfolio-single1.html">Single 1</a></li>
                               <li><a href="portfolio-single2.html">Single 2</a></li>
                               <li><a href="portfolio-single3.html">Single 3</a></li>
                             </ul>
@@ -491,17 +392,17 @@
                       </li>					
                       
                       <!-- MENU ITEM -->
-                      <li id="menu-contact-info-big" class="parent megamenu">
+                      <li id="menu-contact-info-big" class="parent megamenu current">
                         <a href="#"><div class="main-menu-title">CONTACT</div></a>
                         <ul class="sub">
                           <li class="clearfix" >
                             <div class="menu-sub-container">
 
-                              <div class="box col-md-3 menu-demo-info closed">
+                              <div class="box col-md-3 menu-demo-info closed current">
                                 <h5 class="title">CONTACT PAGES</h5>
                                 <ul>
                                 <li><a href="contact.html">Contact Version 1</a></li>
-                                <li><a href="contact2.html">Contact Version 2</a></li>
+                                <li><a class="current" href="contact2.html">Contact Version 2</a></li>
                                 </ul>
                               </div>
                               
@@ -572,21 +473,20 @@
 				  
 				</header>
 
-        <!-- PAGE TITLE IMG -->
-        <div class="page-title-cont page-title-large grey-dark-bg page-title-img  blog-single-fullwidth-img" style="background-image: url(images/about-me.jpg)">
+        <!-- PAGE TITLE -->
+        <div class="page-title-cont page-title-big grey-light-bg">
           <div class="relative container align-left">
             <div class="row">
                
               <div class="col-md-8">
-                <h1 class="page-title">SINGLE PROJECT</h1>
+                <h1 class="page-title">CONTACT US</h1>
                 <div class="page-sub-title">
-                  LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT.
                 </div>
               </div>
                
               <div class="col-md-4">
                 <div class="breadcrumbs">
-                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">PORTFOLIO</a><span class="slash-divider">/</span><span class="bread-current">SINGLE</span>
+                  <a href="index.php">Home</a><span class="slash-divider">/</span><span class="bread-current">CONTACT US</span>
                 </div>
               </div>
               
@@ -594,352 +494,148 @@
           </div>
         </div>
         
-      </div><!-- END header-transporent-bg-black -->  
-      
-        <!-- COTENT CONTAINER -->
-        <div class="p-140-cont">
-        
-          <!-- PORTFOLIO INFO -->
-          <div class="container">
-            <div class="row">
-                
-              <div class="col-md-4">
-                <!-- PROJECT DETAIL -->
-                <div class="port-detail-cont mb-30">
-                  <h4 class="blog-page-title mt-0 mb-20">PROJECT DETAILS</h4>
-                  <div class="port-detail">
-                    <p>
-                      <strong>CLIENT:</strong>
-                        ENVATO
-                    </p>
-                    <p>
-                      <strong>DATE:</strong>
-                        10 OCTOBER, 2016
-                    </p>
-                    <p>
-                      <strong>CATEGORY:</strong>
-                        <a href="#">DESIGN</a>, <a href="#">DEVELOPMENT</a>, <a href="#">PHOTO</a>
-                    </p>
-                    <p>
-                      <strong>ONLINE:</strong>
-                      <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" target="_blank">WWW.ABC-STUDIO.COM</a>
-                    </p>
+          <!-- GOOGLE MAP & CONTACT FORM -->
+          <div class="page-section">
+            <div class="container-fluid">
+              <div class="row">
+              
+                <div class="col-md-6">
+                  <div class="row">
+                    <div data-address="410401" id="google-map"></div>
                   </div>
                 </div>
-              </div>
-              
-              <div class="col-md-8 mb-80">
-                <p>Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, cupiditate, minus, nisi sapiente eos amet praesentium id culpa excepturi beatae error suscipit dolorem quaerat recusandae veniam ea quam! Nisi, accusamus. ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</p> 
-              </div>
 
+                <div class="col-md-6">
+                  <div class="contact-form-cont">
+                    <!-- TITLE -->
+                    <div class="mb-40">
+                      <h2 class="section-title">CONTACT <span class="bold">US</span></h2>
+                    </div>
+                                  
+                    <!-- CONTACT FORM -->
+                    <div class="">
+                      <form id="contact-form" action="http://abcgomel.ru/haswell-1.8.1-demo/php/contact-form.php" method="POST">
+                      
+                        <div class="row">
+                          <div class="col-md-12 mb-30">
+                            <!-- <label>Your name *</label> -->
+                            <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" placeholder="NAME" required>
+                          </div>
+                        </div>
+                        
+                        <div class="row">    
+                          <div class="col-md-12 mb-30">
+                            <!-- <label>Your email address *</label> -->
+                            <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" placeholder="EMAIL" required>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                          <div class="col-md-12 mb-40">
+                            <!-- <label>Message *</label> -->
+                            <textarea maxlength="5000" data-msg-required="Please enter your message." rows="3" class="form-control" name="message" id="message" placeholder="MESSAGE" required></textarea>
+                          </div>
+                        </div>
+                        
+                        <div class="row">
+                          <div class="col-md-12 ">
+                            <input type="submit" value="SEND MESSAGE" class="button medium gray" data-loading-text="Loading...">
+                          </div>
+                        </div>
+                        
+                      </form>	
+                      <div class="alert alert-success hidden" id="contactSuccess">
+                        <strong>Success!</strong> Your message has been sent to us.
+                      </div>
+                    
+                      <div class="alert alert-danger hidden" id="contactError">
+                        <strong>Error!</strong> There was an error sending your message.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  
+              </div>
             </div>
+          </div>
           
-          </div>
-
-          <!-- CAROUSEL -->
-          <div class="container mb-80">
-            
-            <div class="fullwidth-slider owl-carousel owl-arrows-bg owl-dark-bg owl-pag-2" >
-              
-              <!-- ITEM -->		
-              <div class="item m-0">	
-                <div>
-                  <img alt="about us" src="images/blog/post-wide-1.jpg">
-                </div>
-              </div>
-                  
-              <!-- ITEM -->		
-              <div class="item m-0">	
-                <div>
-                  <img alt="about us" src="images/blog/post-wide-2.jpg">
-                </div>
-              </div>
-
-              <!-- ITEM -->		
-              <div class="item m-0">	
-                <div>
-                  <img alt="about us" src="images/blog/post-wide-5.jpg">
-                </div>
-              </div>
-                  
-            </div>
-            
-          </div>
-           
           <!-- DIVIDER -->
-          <hr class="mt-0 mb-0"> 
+          <hr class="mt-0 mb-0">          
           
-          <!-- WORK NAVIGATION -->
-          <div class="work-navigation plr-10 clearfix">
-            <a href="#" class="work-prev"><span><span class="icon icon-arrows-left"></span>&nbsp;Prev</span></a>
-            <a href="portfolio-wide-4col.html" class="work-all" title="View all" ><span class="icon icon-arrows-squares"></span></a>
-            <a href="#" class="work-next"><span>Next&nbsp;<span class="icon icon-arrows-right"></span></span></a>
-          </div>
-          
-          <!-- COUNTERS 1 -->
-          <div id="counter-1" class="page-section p-80-cont grey-light-bg">
+          <!-- CONTACT INFO SECTION 1 -->
+          <div id="contact-link" class="page-section p-110-cont grey-light-bg">
             <div class="container">
-          
-              <div  class="row text-center">
-                              
-                <!-- Item -->
-                <div class="col-xs-6 col-sm-3">
-                  <div class="count-number">
-                    75
-                  </div>
-                  <div class="count-descr">
-                    <span class="count-title">AWARDS WINNING</span>
-                  </div>
-                </div>
-                
-                <!-- Item -->
-                <div class="col-xs-6 col-sm-3">
-                  <div class="count-number">
-                   450
-                  </div>
-                  <div class="count-descr">
-                    <span class="count-title">HAPPY CLIENTS</span>
-                  </div>
-                </div>
-                
-                <!-- Item -->
-                <div class="col-xs-6 col-sm-3">
-                  <div class="count-number">
-                    151
-                  </div>
-                  <div class="count-descr">
-                    <span class="count-title">PROJECTS DONE</span>
-                  </div>
-                </div>
-                
-                <!-- Item -->
-                <div class="col-xs-6 col-sm-3">
-                  <div class="count-number">
-                   768
-                  </div>
-                  <div class="count-descr">
-                    <span class="count-title">HOURS OF CODE</span>
-                  </div>
-                </div>  
-                
-              </div>
-            </div>
-          </div>
-          
-          <!-- TESTIMONIALS 2 FULL WIDTH SLIDER -->
-          <div class="page-section p-60-cont owl-white-bg  fullwidth-slider">
-            <div class="owl-white-bg fullwidth-slider p-50-cont">          
-            
-              <!-- Slide Item -->
-              <div class="container relative">
-                <div class="row">
-                
-                  <div class="col-md-7">
-                    <blockquote class="testimonial-2">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quis, possimus alias!</p>
-                    </blockquote>
-                  </div>
-          
-                  <div class="col-md-4 col-md-offset-1">
-                    <div class="ts-author-cont">
-                      <div class="ts-author-info">
-                        <div class="ts-name">
-                          <span class="bold">Amanda Eniston</span>
-                        </div>
-                        <div class="ts-type">CEO Company</div>
-                      </div>
-                      <div class="ts-author-img">
-                        <img src="images/ts-author-2.png" alt="photo" >
-                      </div>
+              <div class="row">
+              
+                <div class="col-md-4 col-sm-6">
+                  <div class="cis-cont">
+                    <div class="cis-icon">
+                    </div>
+                    <div class="cis-text">
+                      <h3><span class="bold">Dr. V. V. Shinde</span>&nbsp;&nbsp;<small class="bold">(Organising Secretary)</small></h3>
+                      <p>Contact No. : (+91-9762051751)<br/>Email: vvshinde.sit@sinhgad.edu</p>
                     </div>
                   </div>
                 </div>
-              </div>
-          
-              <!-- Slide Item -->
-              <div class="container relative">
-                <div class="row">
-                
-                  <div class="col-md-7">
-                    <blockquote class="testimonial-2">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quis, possimus alias!</p>
-                    </blockquote>
-                  </div>
-
-                  <div class="col-md-4 col-md-offset-1">
-                    <div class="ts-author-cont">
-                      <div class="ts-author-info">
-                        <div class="ts-name">
-                          <span class="bold">Jessica Holmes</span>
-                        </div>
-                        <div class="ts-type">CEO Company</div>
-                      </div>
-                      <div class="ts-author-img">
-                        <img src="images/ts-author.png" alt="photo" >
-                      </div>
+                <div class="col-md-4 col-sm-6">
+                  <div class="cis-cont">
+                    <div class="cis-icon">
+                    </div>
+                    <div class="cis-text">
+                      <h3><span class="bold">Prof. A.G. Kamble</span>&nbsp;&nbsp;<small class="bold">(Convener)</small></h3>
+                      <p>Contact No. : ( +91- 9422984326)<br/>E-mail : agkamble.sit@sinhgad.edu</p>
                     </div>
                   </div>
-                  
                 </div>
-              </div>
-          
-              <!-- Slide Item -->
-              <div class="container relative">
-                <div class="row">
-                
-                  <div class="col-md-7">
-                    <blockquote class="testimonial-2">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quis, possimus alias!</p>
-                    </blockquote>
-                  </div>
-          
-                  <div class="col-md-4 col-md-offset-1">
-                    <div class="ts-author-cont">
-                      <div class="ts-author-info">
-                        <div class="ts-name">
-                          <span class="bold">John Doe</span>
-                        </div>
-                        <div class="ts-type">CEO Company</div>
-                      </div>
-                      <div class="ts-author-img">
-                        <img src="images/ts-author-3.png" alt="photo" >
-                      </div>
+                <div class="col-md-4 col-sm-6">
+                  <div class="cis-cont">
+                    <div class="cis-icon">
+                    </div>
+                    <div class="cis-text">
+                      <h3><span class="bold">Prof. L.P.Puranik </span>&nbsp;&nbsp;<small class="bold">(Coordinator)</small></h3>
+						<p>Contact No. : (+91-9822008592)<br/>E-mail: lppuranik.sit@sinhgad.edu</p>
                     </div>
                   </div>
-          
                 </div>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- VIDEO ADS 1 -->
-          <div class="page-section video-ads-bg" >
-            <div class="container">
-              <div class="video-ads-text-cont clearfix">
-                <span class="video-ads-text">BE CREATIVE</span>
-                <span class="video-ads-a">
-                  <a class="popup-youtube" href="https://www.youtube.com/watch?v=0gv7OC9L2s8">
-                    <span class="icon icon-music-play-button"></span>
-                  </a>
-                </span>
-                <span class="video-ads-text">WITH HASWELL</span>
-              </div>
-            </div>
-          </div> 
-
-          <!-- RELATED PORT ITEMS -->
-          <div class="page-section mt-80 mb-0" >
-            <div class="container">
-            
-              <h4 class="blog-page-title mt-0 mb-40">RELATED PROJECTS</h4>
-              <ul class="port-grid port-grid-gut clearfix" id="items-grid" style="position: relative; height: 564px;">
                 
-                <!-- Item 1 -->
-                <li class="port-item mix development" style="position: absolute; left: 0px; top: 0px;">
-                  <a href="portfolio-single1.html">
-                    <div class="port-img-overlay"><img class="port-main-img" src="images/portfolio/projects-5.jpg" alt="img"></div>
-                  </a>
-                  <div class="port-overlay-cont">
-
-                      <div class="port-title-cont">
-                        <h3><a href="portfolio-single1.html">MINIMALISM BOOKS</a></h3>
-                        <span><a href="#">ui elements</a><span class="slash-divider">/</span><a href="#">media</a></span>
-                      </div>
-                      <div class="port-btn-cont">
-                        <a href="images/portfolio/projects-2-big.jpg" class="lightbox mr-20"><div aria-hidden="true" class="icon_search"></div></a>
-                        <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
-                      </div>
-
-                  </div>
-                </li>
-
-                <!-- Item 2 -->
-                <li class="port-item mix design" style="position: absolute; left: 287px; top: 0px;">
-                  <a href="portfolio-single1.html">
-                    <div class="port-img-overlay">
-                      <img class="port-main-img" src="images/portfolio/projects-3.jpg" alt="img">
-                    </div>
-                  </a>
-                  <div class="port-overlay-cont">
-
-                      <div class="port-title-cont">
-                        <h3><a href="portfolio-single1.html">CALENDAR</a></h3>
-                        <span><a href="#">photography</a><span class="slash-divider">/</span><a href="#">media</a></span>
-                      </div>
-                      <div class="port-btn-cont">
-                        <a href="images/portfolio/projects-2-big.jpg" class="lightbox mr-20"><div aria-hidden="true" class="icon_search"></div></a>
-                        <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
-                      </div>
-
-                  </div>
-                </li>
-                
-                <!-- Item 3 -->
-                <li class="port-item mix photography" style="position: absolute; left: 575px; top: 0px;">
-                  <a href="portfolio-single1.html">
-                    <div class="port-img-overlay">
-                      <img class="port-main-img" src="images/portfolio/projects-1.jpg" alt="img">
-                    </div>
-                  </a>
-                  <div class="port-overlay-cont">
-
-                      <div class="port-title-cont">
-                        <h3><a href="portfolio-single1.html">EYES OF THE CAR</a></h3>
-                        <span><a href="#">branding</a><span class="slash-divider">/</span><a href="#">marketing</a></span>
-                      </div>
-                      <div class="port-btn-cont">
-                        <a href="images/portfolio/projects-2-big.jpg" class="lightbox mr-20"><div aria-hidden="true" class="icon_search"></div></a>
-                        <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
-                      </div>
-
-                  </div>
-                </li>
-                
-                <!-- Item 4 -->
-                <li class="port-item mix development" style="position: absolute; left: 862px; top: 0px;">
-                  <a href="portfolio-single1.html">
-                    <div class="port-img-overlay">
-                      <img class="port-main-img" src="images/portfolio/projects-6.jpg" alt="img">
-                    </div>
-                  </a>
-                  <div class="port-overlay-cont">
-
-                      <div class="port-title-cont">
-                        <h3><a href="portfolio-single1.html">NOW IS NOW</a></h3>
-                        <span><a href="#">design</a><span class="slash-divider">/</span><a href="#">photography</a></span>
-                      </div>
-                      <div class="port-btn-cont">
-                        <a href="images/portfolio/projects-2-big.jpg" class="lightbox mr-20"><div aria-hidden="true" class="icon_search"></div></a>
-                        <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
-                      </div>
-
-                  </div>
-                </li>
-
-              </ul>
-            </div>
-          </div>
-          
-        </div>
-        
-        <!-- NEWS LETTER -->
-        <div class="page-section nl-cont">
-          <div class="container">
-            <div class="relative" >
-              <div id="mc_embed_signup" class="nl-form-container clearfix">
-                <form action="http://abcgomel.us9.list-manage.com/subscribe/post-json?u=ba37086d08bdc9f56f3592af0&amp;id=e38247f7cc&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletterform validate" target="_blank" novalidate>   <!-- EDIT THIS ACTION URL (add "post-json?u" instead of "post?u" and appended "&amp;c=?" to the end of this URL) -->
-                  <input type="email" value="" name="EMAIL" class="email nl-email-input" id="mce-EMAIL" placeholder="Enter your email" required>
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_ba37086d08bdc9f56f3592af0_e38247f7cc" tabindex="-1" value=""></div>
-          
-                  <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button medium gray">
-                </form>
-                <div id="notification_container"  ></div>
               </div>
-            </div>
-          </div>
-        </div>
+				<div class="row">
+              
+                <div class="col-md-offset-2 col-md-4 col-sm-6">
+                  <div class="cis-cont">
+                    <div class="cis-icon">
+                    </div>
+                    <div class="cis-text">
+                      <h3><span class="bold">Prof. A.P. Ogale </span>&nbsp;&nbsp;<small class="bold">(Coordinator)</small></h3>
+                      <p>Contact No.  : (+91-7798653811)<br/>E-mail: apogale.sit@sinhgad.edu</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="cis-cont">
+                    <div class="cis-icon">
+                    </div>
+                    <div class="cis-text">
+                      <h3><span class="bold">Prof. S.V. Karankoti </span>&nbsp;&nbsp;<small class="bold">(Coordinator)</small></h3>
+                      <p>Contact No.  : (+91-8446588182)<br/>E-mail: svkarankoti.sit@sinhgad.edu</p>
+                    </div>
+                  </div>
+                </div>
+					
+                
+                
+              </div>
+				<hr style="border-top: 1px solid #bdbdbd">
+				
+				<div class="row">
+					<div class="col-md-offset-2 col-md-8 col-sm-12">
+						<h3><span class="bold"><center>Mailing Address</center></span></h3>
+						<p style="text-align: center"> Convener, NCIME-2017, Mechanical Engineering Department, Sinhgad Institute of Technology, STES Campus,<br/>Gat No 309/310, Near Mumbai-Pune Expressway, Kusgaon (Bk), Lonavala-410401, Maharashtra State.
+							<br/>Website: - www.sinhgad.edu Phone : 02114-304360 </p>
+					</div>
+				</div>
+            </div>        
+          </div>        
 
         <!-- FOOTER 2 -->
         <footer class="page-section pt-80 pb-50">
@@ -1049,37 +745,9 @@
 			</div><!-- End BG -->	
 		</div><!-- End wrap -->	
 			
-<!-- JS begin -->
 
-		<!-- jQuery  -->
-		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>		
-
-		<!-- MAGNIFIC POPUP -->
-		<script src='js/jquery.magnific-popup.min.js'></script>
-    
-    <!-- PORTFOLIO SCRIPTS -->
-    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-    
-    <!-- COUNTER -->
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
-    
-    <!-- APPEAR -->    
-    <script type="text/javascript" src="js/jquery.appear.js"></script>
-    
-    <!-- OWL CAROUSEL -->    
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    
-    <!-- MAIN SCRIPT -->
-		<script src="js/main.js"></script>
-    
-<!-- JS end -->	
-	
+        <?php require_once ("include_js.php"); ?>
+        
 	</body>
 
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/portfolio-single1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:57 GMT -->
 </html>		

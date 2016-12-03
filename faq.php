@@ -11,102 +11,16 @@
 
 <html>
  	
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:36 GMT -->
-<head>
-		<title>Haswell - Responsive HTML5 Template</title>
-		<meta charset=utf-8 >
-		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-		<meta name="robots" content="index, follow" > 
-		<meta name="keywords" content="HTML5 Template" > 
-		<meta name="description" content="Haswell - Responsive HTML5 Template" > 
-		<meta name="author" content="Vladimir Azarushkin">
+<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/faq.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:36 GMT -->
 
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		
-		<!-- FAVICONS -->
-    <link rel="shortcut icon" href="images/favicon/favicon.png">
-    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
-		
-<!-- CSS -->
-
-    <!-- FLEXSLIDER SLIDER CSS -->
-		<link rel="stylesheet" type="text/css" href="css/flexslider.css"  >
-
-    <!-- BOOTSTRAP -->
-		<link rel="stylesheet" href="css/bootstrap.min.css"> 
-	
-    <!-- GOOGLE FONT -->		
-		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
-  
-    <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS -->		
-		<link rel="stylesheet" href="css/icons-fonts.css" >	
-	
-    <!-- CSS THEME -->		
-		<link rel="stylesheet" href="css/style.css" >
-
-    <!-- ANIMATE -->	
-		<link rel='stylesheet' href="css/animate.min.css">
-		
-    <!-- IE Warning CSS -->
-		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->
-    
-    <!-- Magnific popup  in style.css	Owl Carousel Assets in style.css -->		
-	
-<!-- CSS end -->
-
-<!-- JS begin some js files in bottom of file-->
-		
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-		
-    <!-- Modernizr -->
-    <!-- <script src="js/modernizr.js"></script> -->
-		
-	</head>
-	<body>
-	
-		<!-- LOADER -->	
-		<div id="loader-overflow">
-      <div id="loader3">Please enable JS</div>
-    </div>	
+    <?php require_once ("include_header.php"); ?>
+    <body>
+	<?php require_once ("include_preloader.php"); ?>
 
 		<div id="wrap" class="boxed ">
 			<div class="grey-bg"> <!-- Grey BG  -->	
 				
-				<!--[if lte IE 8]>
-				<div id="ie-container">
-					<div id="ie-cont-close">
-						<a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
-					</div>
-					<div id="ie-cont-content" >
-						<div id="ie-cont-warning">
-							<img src='images/ie-warn/ie-warning.jpg' alt='Warning!'>
-						</div>
-						<div id="ie-cont-text" >
-							<div id="ie-text-bold">
-								You are using an outdated browser
-							</div>
-							<div id="ie-text">
-								For a better experience using this site, please upgrade to a modern web browser.
-							</div>
-						</div>
-						<div id="ie-cont-brows" >
-							<a href='http://www.firefox.com' target='_blank'><img src='images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
-							<a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
-							<a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
-							<a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
-						</div>
-					</div>
-				</div>
-				<![endif]-->
-				
+<?php require_once ("include_ie_warning.php"); ?>				
 				<!-- HEADER 1 NO-TRANSPARENT -->
 				<header id="nav" class="header header-1 no-transparent mobile-no-transparent">
           
@@ -292,8 +206,8 @@
                                   <li><a href="about-me.html">About Me</a></li>
                                   <li><a href="team.html">Team</a></li>
                                   <li><a href="services.html">Services</a></li>
-                                  <li><a href="faq.html">FAQ</a></li>
-                                  <li><a class="current" href="404.html">404 Error</a></li>
+                                  <li><a class="current" href="faq.html">FAQ</a></li>
+                                  <li><a href="404.html">404 Error</a></li>
                                 </ul>
                               </div>
                               
@@ -575,12 +489,12 @@
             <div class="row">
               
               <div class="col-md-8">
-                <h1 class="page-title">PAGE TITLES</h1>
+                <h1 class="page-title">FULL WIDTH LAYOUT</h1>
               </div>
               
               <div class="col-md-4">
                 <div class="breadcrumbs">
-                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">PAGES & FEATURES</a><span class="slash-divider">/</span><span class="bread-current">PAGE TITLES</span>
+                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">PAGES & FEATURES</a><span class="slash-divider">/</span><span class="bread-current">FULL WIDTH LAYOUT</span>
                 </div>
               </div>
               
@@ -589,40 +503,80 @@
         </div>
         
         <!-- COTENT CONTAINER -->
-        <div class="container p-140-cont">
 
-          <div class="row mb-40">
-            <div class="col-md-12 text-center">
-              <div id="clock"></div>
-            </div>
-            <div class="col-md-6 text-center img-container-404">
-              <img alt="img" src="images/content/404.png">
-            </div>
-            <div class="col-md-6 m-top-10">
-              <h3>OOPS! THE PAGE YOU WERE LOOKING FOR, COULDN'T BE FOUND</h3>
-              <p>We're sorry, but the page you were looking for doesn't exist. Here are some useful links</p>
-              <div class="row m-top-20">
-                <div class="col-md-6">
-                  <ul class="icon-list">
-                    <li><i class="fa fa-angle-right"></i><a class="a-invert" href="index.html">Home</a></li>
-                    <li><i class="fa fa-angle-right"></i><a class="a-invert" href="about-us.html">About Us</a></li>
-                    <li><i class="fa fa-angle-right"></i><a class="a-invert" href="faq.html">FAQs</a></li>
-                  </ul>
-                </div>
-                <div class="col-md-6">
-                  <ul class="icon-list">
-                                  <li><i class="fa fa-angle-right"></i><a class="a-invert" href="portfolio-2-col.html">Portfolio</a></li>
-                                  <li><i class="fa fa-angle-right"></i><a class="a-invert" href="blog.html">Blog</a></li>
-                                  <li><i class="fa fa-angle-right"></i><a class="a-invert" href="contact.html">Contact</a></li>
-                              </ul>
-                </div>
-              </div>
-              
-            </div>
+        
+          <!-- SEARCH -->
+          <div class="wow fadeIn grey-dark-bg">
+            <div class="container p-110-cont">
+              <div class="row">
             
-          </div>
-       
-        </div>
+                <div class="col-md-8">
+                  <h1 class="font-white">Hi, HOW CAN WE HELP YOU?</h1>
+                </div>
+                
+                <div class="col-md-4 wow fadeInUp">
+                  <form class="form-search faq-search-form form-dark-bg mt-40" action="http://abcgomel.ru/haswell-1.8.1-demo/page-search-results.html" method="get">
+                    <input type="text" name="q" class="input-dark-bg" placeholder="Search our Help Center">
+                    <button class="" type="submit" title="Start Search">
+                      <span aria-hidden="true" class="icon_search"></span>
+                    </button>
+                  </form>
+                </div>
+                
+              </div>
+            </div>
+          </div> 
+          
+          <!-- ACCORDIONS -->
+					<div class="container p-110-cont">
+            <div class="row">
+              <div class="col-md-12">
+              
+                <!-- Accordion -->
+                 <dl class="accordion">
+                   <dt>
+                     <a href="#">WHAT IS HTML?</a>
+                   </dt>
+                   <dd>
+                     HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages.
+                   </dd>
+                   <dt>
+                     <a href="#">WHAT IS TWITTER BOOTSTRAP?</a>
+                   </dt>
+                   <dd>
+                     Twitter Bootstrap is a powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions.
+                   </dd>
+                   <dt>
+                     <a href="#">WHAT IS CSS?</a>
+                   </dt>
+                   <dd>
+                     CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc.
+                   </dd>
+                   <dt>
+                     <a href="#">HOW DO I BECOME AN AUTHOR?</a>
+                   </dt>
+                   <dd>
+                     CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc.
+                   </dd>
+                   <dt>
+                     <a href="#">WHAT CONTENT CAN I USE IN MY ITEMS?</a>
+                   </dt>
+                   <dd>
+                     CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc.
+                   </dd>
+                   <dt>
+                     <a href="#">HOW DO I PAY FOR ITEMS?</a>
+                   </dt>
+                   <dd>
+                     CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc.
+                   </dd>
+                 </dl>
+                 <!-- End Accordion -->
+              </div>          
+            </div>          
+					</div>          
+
+
 	        
         <!-- NEWS LETTER -->
         <div class="page-section nl-cont">
@@ -750,35 +704,9 @@
 			</div><!-- End BG -->	
 		</div><!-- End wrap -->	
 			
-<!-- JS begin -->
-
-		<!-- jQuery  -->
-		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>		
-
-		<!-- MAGNIFIC POPUP -->
-		<script src='js/jquery.magnific-popup.min.js'></script>
-    
-    <!-- PORTFOLIO SCRIPTS -->
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-    
-    <!-- COUNTER -->
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
-    
-    <!-- APPEAR -->    
-    <script type="text/javascript" src="js/jquery.appear.js"></script>
-    
-    <!-- OWL CAROUSEL -->    
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    
-    <!-- MAIN SCRIPT -->
-		<script src="js/main.js"></script>
-    
-<!-- JS end -->	
+<?php require_once ("include_js.php"); ?>
 	
 	</body>
 
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:38 GMT -->
+<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/faq.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:36 GMT -->
 </html>		

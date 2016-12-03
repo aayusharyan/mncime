@@ -11,104 +11,19 @@
 
 <html>
  	
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/blog-masonry-3col.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:57 GMT -->
-<head>
-		<title>Haswell - Responsive HTML5 Template</title>
-		<meta charset=utf-8 >
-		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-		<meta name="robots" content="index, follow" > 
-		<meta name="keywords" content="HTML5 Template" > 
-		<meta name="description" content="Haswell - Responsive HTML5 Template" > 
-		<meta name="author" content="Vladimir Azarushkin">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		
-		<!-- FAVICONS -->
-    <link rel="shortcut icon" href="images/favicon/favicon.png">
-    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
-		
-<!-- CSS -->
-
-    <!-- FLEXSLIDER SLIDER CSS -->
-		<link rel="stylesheet" type="text/css" href="css/flexslider.css"  >
-
-    <!-- BOOTSTRAP -->
-		<link rel="stylesheet" href="css/bootstrap.min.css"> 
+<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/blog-single-fullwidth.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:17:01 GMT -->
+<?php require_once ("include_header.php"); ?>
+    <body>
 	
-    <!-- GOOGLE FONT -->		
-		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
-  
-    <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS -->		
-		<link rel="stylesheet" href="css/icons-fonts.css" >	
-	
-    <!-- CSS THEME -->		
-		<link rel="stylesheet" href="css/style.css" >
-
-    <!-- ANIMATE -->	
-		<link rel='stylesheet' href="css/animate.min.css">
-		
-    <!-- IE Warning CSS -->
-		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->
-    
-    <!-- Magnific popup  in style.css	Owl Carousel Assets in style.css -->		
-	
-<!-- CSS end -->
-
-<!-- JS begin some js files in bottom of file-->
-		
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-		
-    <!-- Modernizr -->
-    <!-- <script src="js/modernizr.js"></script> -->
-		
-	</head>
-	<body>
-	
-		<!-- LOADER -->	
-		<div id="loader-overflow">
-      <div id="loader3">Please enable JS</div>
-    </div>	
-
+<?php require_once ("include_preloader.php"); ?>
 		<div id="wrap" class="boxed ">
 			<div class="grey-bg"> <!-- Grey BG  -->	
 				
-				<!--[if lte IE 8]>
-				<div id="ie-container">
-					<div id="ie-cont-close">
-						<a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
-					</div>
-					<div id="ie-cont-content" >
-						<div id="ie-cont-warning">
-							<img src='images/ie-warn/ie-warning.jpg' alt='Warning!'>
-						</div>
-						<div id="ie-cont-text" >
-							<div id="ie-text-bold">
-								You are using an outdated browser
-							</div>
-							<div id="ie-text">
-								For a better experience using this site, please upgrade to a modern web browser.
-							</div>
-						</div>
-						<div id="ie-cont-brows" >
-							<a href='http://www.firefox.com' target='_blank'><img src='images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
-							<a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
-							<a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
-							<a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
-						</div>
-					</div>
-				</div>
-				<![endif]-->
-				
-				<!-- HEADER 1 NO-TRANSPARENT -->
-				<header id="nav" class="header header-1 no-transparent mobile-no-transparent">
+<?php require_once ("include_ie_warning.php"); ?>			
+      <div class="header-transporent-bg-black">		
+      
+				<!-- HEADER 1 BLACK TRANSPARENT -->
+				<header id="nav" class="header header-1 black-header">
           
 				  <div class="header-wrapper">
 					<div class="container-m-30 clearfix">
@@ -118,7 +33,7 @@
 						<div class="logo-container-2">
                 <div class="logo-2">
                   <a href="index.html" class="clearfix">
-                    <img src="images/logo.png" class="logo-img" alt="Logo">
+                    <img src="images/logo-white.png" class="logo-img" alt="Logo">
                   </a>
                 </div>
               </div>
@@ -382,10 +297,10 @@
                         <a href="#"><div class="main-menu-title">BLOG</div></a>
                         <ul class="sub">
                         <li class="parent">
-                          <a class="current" href="#">Blog Masonry</a>
+                          <a href="#">Blog Masonry</a>
                           <ul class="sub">
                             <li><a href="blog-masonry-2col.html">2 Columns</a></li>
-                            <li><a class="current" href="blog-masonry-3col.html">3 Columns</a></li>
+                            <li><a href="blog-masonry-3col.html">3 Columns</a></li>
                             <li><a href="blog-masonry-4col.html">4 Columns</a></li>
                           </ul>
                         </li>
@@ -395,13 +310,13 @@
                         <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
                         <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
                         <li class="parent">
-                          <a href="#">Blog Single</a>
+                          <a class="current" href="#">Blog Single</a>
                           <ul class="sub">
                           <li><a href="blog-single-disqus.html">Disqus Comments</a></li>
                           <li><a href="blog-single-facebook.html">Facebook Comments</a></li>
                           <li><a href="blog-single-sidebar-right.html">Right Sidebar</a></li>
                           <li><a href="blog-single-sidebar-left.html">Left Sidebar</a></li>
-                          <li><a href="blog-single-fullwidth.html">Fullwidth</a></li>
+                          <li><a class="current" href="blog-single-fullwidth.html">Fullwidth</a></li>
                           </ul>
                         </li>
                         </ul>
@@ -567,53 +482,66 @@
 				  
 				</header>
 
-        <!-- PAGE TITLE SMALL -->
-        <div class="page-title-cont page-title-large grey-dark-bg page-title-img  pt-250" style="background-image: url(images/about-me.jpg)">
+        <!-- PAGE TITLE IMG -->
+        <div class="page-title-cont page-title-large grey-dark-bg page-title-img  blog-single-fullwidth-img" style="background-image: url(images/about-me.jpg)">
           <div class="relative container align-left">
             <div class="row">
                
               <div class="col-md-8">
-                <h1 class="page-title">BLOG</h1>
+                <h1 class="page-title">TIME FOR MINIMALISM</h1>
                 <div class="page-sub-title">
-                  Lorem ipsum dolor sit amet consectetur 
+                  JULE 10<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a><span class="slash-divider">/</span><a href="#">DESIGN</a>, <a href="#">DEVELOPMENT</a>
                 </div>
               </div>
                
               <div class="col-md-4">
                 <div class="breadcrumbs">
-                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">BLOG</a><span class="slash-divider">/</span><span class="bread-current">MASONRY</span>
+                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">BLOG</a><span class="slash-divider">/</span><span class="bread-current">RIGHT SIDEBAR</span>
                 </div>
               </div>
               
             </div>
           </div>
         </div>
-        
+      
+      </div>
+      
         <!-- COTENT CONTAINER -->
-        <div class="container p-140-cont">
-          <div class="row masonry">
+        <div class="container p-80-cont">
+          <div class="row">
           
-            <!-- Post Item -->
-            <div class="col-sm-6 col-md-4 col-lg-4 pb-70">
-              <div class="post-prev-img">
-                  <a href="blog-single-sidebar-right.html"><img src="images/blog/post-prev-1.jpg" alt="img"></a>
-                </div>
-                  
-                <div class="post-prev-title">
-                  <h3><a href="blog-single-sidebar-right.html">TIME FOR MINIMALISM</a></h3>
-                </div>
-                  
-                <div class="post-prev-info">
-                  JULE 10<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
-                </div>
+            <!-- CONTENT -->
+            <div class="col-md-12 blog-main-posts">
+          
+              <!-- POST ITEM -->
+              <div class="blog-post wow fadeIn pb-50">
                   
                 <div class="post-prev-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. Donec nibh sapien, molestie quis elementum et, dim non atino ipsum.</p>
+                  <p>Fusce non ante sed lorem rutrum feugiat. Vestibulum pellentesque, purus ut&nbsp;dignissim consectetur, nulla erat ultrices purus, ut&nbsp;consequat sem elit non sem.
+                  Morbi lacus massa, euismod ut turpis molestie, tristique sodales est. Integer sit amet mi id sapien tempor molestie in nec massa.
+                  Fusce non ante sed lorem rutrum feugiat.</p>
+                  
+                  <blockquote class="mb-40 mt-40">
+                    <p>Vivamus sit amet facilisis metus. Fusce felis libero, hendrerit eu plac erat at, facilisis sit amet libero. Etiam eget interdum lorem. </p>
+                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  
+                  <p>Pellentesque venenatis tellus non purus tincidunt vitae ultrices tellus eleifend. Praesent quam augue, accumsan nec tempus dapibus, pharetra ac lacus. Nunc eleifend consequat justo id dapibus. In ut consequat massa. Nunc scelerisque suscipit leo nec imperdiet. Vestibulum pulvinar adipiscing turpis vitae ultrices. Suspendisse eu lectus dui, vitae lobortis lorem. Fusce gravida nibh et ante accusan molestie.</p>
+                  
+                  <pre class="mt-30 mb-30">&lt;p&gt;Sample text here...&lt;/p&gt;</pre>
+                  
+                  <p>Fusce id dui sem. Cras gravida odio et magna faucbus iaculis. Suspendisse eu lectus dui, vitae lobortis lorem. Fusce gravida nibh et ante accusan molestie. Duis convallis semper felis. Curabitur fringilla placerat vestibulum. Aenean dignissim libero et quam tristique vel vehicula nunc suscipit. Fusce id dui sem.  Cras gravida odio et magna faucbus iaculis. Vestibulum ante ipsum primis in faucibus orci. Curabitur fringilla placerat vestibulum. Aenean dignissim libero et quam tristique nunc suscipit.</p>
+          
                 </div>
                   
                 <div class="post-prev-more-cont clearfix">
                   <div class="post-prev-more left">
-                    <a href="blog-single-sidebar-right.html" class="blog-more">READ MORE</a>
+                    <div class="tags">
+                    <a href="#">Design</a>
+                    <a href="#">Development</a>
+                    <a href="#">Minimal</a>
+                  </div>
                   </div>
                   <div class="right" >
                     <a href="blog-single-sidebar-right.html#comments" class="post-prev-count"><span aria-hidden="true" class="icon_comment_alt"></span><span class="icon-count">21</span></a>
@@ -629,349 +557,254 @@
                     </ul>
                   </div>
                 </div>
-            </div>
-            
-            <!-- Post Item big -->
-            <div class="col-sm-6 col-md-4 col-lg-4 pb-70" >
-                
-              <div class="post-prev-img">
-                <a href="blog-single-sidebar-right.html"><img src="images/portfolio/projects-3-big.jpg" alt="img"></a>
               </div>
-                
-              <div class="post-prev-title">
-                <h3><a href="blog-single-sidebar-right.html">NEW TRENDS IN WEB DESIGN</a></h3>
-              </div>
-                
-              <div class="post-prev-info">
-                MAY 11<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
-              </div>
-                
-              <div class="post-prev-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
-              </div>
-                
-              <div class="post-prev-more-cont clearfix">
-                <div class="post-prev-more left">
-                  <a href="blog-single-sidebar-right.html" class="blog-more">READ MORE</a>
+              
+              <!-- AUTHOR -->	
+							<div class="post-author-container clearfix mb-50">
+              
+                <div class="post-author-avatar">
+                  <img alt="ava" src="images/content/avatar-1.png" >
                 </div>
-                <div class="right" >
-                  <a href="blog-single-sidebar-right.html#comments" class="post-prev-count"><span aria-hidden="true" class="icon_comment_alt"></span><span class="icon-count">21</span></a>
-                  <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" class="post-prev-count"><span aria-hidden="true" class="icon_heart_alt"></span><span class="icon-count">53</span></a>
-                  <a href="#" class="post-prev-count dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
-                    <span aria-hidden="true" class="social_share"></span>
-                  </a>
-                  <ul class="social-menu dropdown-menu dropdown-menu-right" role="menu">
-                    <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
-                    </li>
-                    <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                    <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                  </ul>
+                
+                <div class="comment-content">
+                  
+                  <div class="comment-author">
+                    <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
+                  </div>
+                  
+                  <p>CEO & Founder Haswell. Data lover, hobby chef, econometrician with strong experiences in the finance industry. </p>
+                                             
                 </div>
               </div>
-            
-            </div>
-            
-            <!-- Post Item -->
-            <div class="col-sm-6 col-md-4 col-lg-4 pb-70" >
-                
-              <div class="post-prev-img">
-                <a href="blog-single-sidebar-right.html"><img src="images/blog/post-prev-3.jpg" alt="img"></a>
+
+              <!-- DIVIDER -->
+              <hr class="mt-0 mb-0">
+              
+              <!-- WORK NAVIGATION -->
+              <div class="work-navigation clearfix">
+                <a href="#" class="work-prev"><span><span class="icon icon-arrows-left"></span>&nbsp;Prev</span></a>
+                <a href="#" class="work-all"><span>All Posts</span></a>
+                <a href="#" class="work-next"><span>Next&nbsp;<span class="icon icon-arrows-right"></span></span></a>
               </div>
-                
-              <div class="post-prev-title">
-                <h3><a href="blog-single-sidebar-right.html">THE SOUND OF LIFE</a></h3>
-              </div>
-                
-              <div class="post-prev-info">
-                DECEMBER 21<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
-              </div>
-                
-              <div class="post-prev-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
-              </div>
-                
-              <div class="post-prev-more-cont clearfix">
-                <div class="post-prev-more left">
-                  <a href="blog-single-sidebar-right.html" class="blog-more">READ MORE</a>
+              
+              <!-- DIVIDER -->
+              <hr class="mt-0 mb-0">
+                      
+              <!-- RELATED POSTS -->
+              <h4 class="blog-page-title mt-50 mb-25">RELATED POSTS</h4>
+              
+              <div class="row related-posts">
+              
+                <!-- Post Item 1 -->
+                <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" >
+                    
+                  <div class="post-prev-img">
+                    <a href="blog-single-sidebar-right.html"><img src="images/blog/post-prev-1.jpg" alt="img"></a>
+                  </div>
+                    
+                  <div class="post-prev-title">
+                    <h3><a href="blog-single-sidebar-right.html">TIME FOR MINIMALISM</a></h3>
+                  </div>
+                    
+                  <div class="post-prev-info">
+                    JULE 10<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
+                  </div>
+
                 </div>
-                <div class="right" >
-                  <a href="blog-single-sidebar-right.html#comments" class="post-prev-count"><span aria-hidden="true" class="icon_comment_alt"></span><span class="icon-count">21</span></a>
-                  <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" class="post-prev-count"><span aria-hidden="true" class="icon_heart_alt"></span><span class="icon-count">53</span></a>
-                  <a href="#" class="post-prev-count dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
-                    <span aria-hidden="true" class="social_share"></span>
-                  </a>
-                  <ul class="social-menu dropdown-menu dropdown-menu-right" role="menu">
-                    <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
-                    </li>
-                    <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                    <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                  </ul>
+                
+                <!-- Post Item 2 -->
+                <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" data-wow-delay="200ms" >
+                    
+                  <div class="post-prev-img">
+                    <a href="blog-single-sidebar-right.html"><img src="images/blog/post-prev-2.jpg" alt="img"></a>
+                  </div>
+                    
+                  <div class="post-prev-title">
+                    <h3><a href="blog-single-sidebar-right.html">NEW TRENDS IN WEB DESIGN</a></h3>
+                  </div>
+                    
+                  <div class="post-prev-info">
+                    MAY 11<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
+                  </div>
+                    
+
                 </div>
-              </div>
-            
-            </div>
-                          
-            <!-- Post Item -->
-            <div class="col-sm-6 col-md-4 col-lg-4 pb-70" >
                 
-              <div class="post-prev-img">
-                <a href="blog-single-sidebar-right.html"><img src="images/blog/post-prev-2.jpg" alt="img"></a>
-              </div>
-                
-              <div class="post-prev-title">
-                <h3><a href="blog-single-sidebar-right.html">THE SOUND OF LIFE</a></h3>
-              </div>
-                
-              <div class="post-prev-info">
-                DECEMBER 21<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
-              </div>
-                
-              <div class="post-prev-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
-              </div>
-                
-              <div class="post-prev-more-cont clearfix">
-                <div class="post-prev-more left">
-                  <a href="blog-single-sidebar-right.html" class="blog-more">READ MORE</a>
+                <!-- Post Item 3 -->
+                <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" data-wow-delay="400ms" >
+                    
+                  <div class="post-prev-img">
+                    <a href="blog-single-sidebar-right.html"><img src="images/blog/post-prev-3.jpg" alt="img"></a>
+                  </div>
+                    
+                  <div class="post-prev-title">
+                    <h3><a href="blog-single-sidebar-right.html">THE SOUND OF LIFE</a></h3>
+                  </div>
+                    
+                  <div class="post-prev-info">
+                    DECEMBER 21<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
+                  </div>
+
                 </div>
-                <div class="right" >
-                  <a href="blog-single-sidebar-right.html#comments" class="post-prev-count"><span aria-hidden="true" class="icon_comment_alt"></span><span class="icon-count">21</span></a>
-                  <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" class="post-prev-count"><span aria-hidden="true" class="icon_heart_alt"></span><span class="icon-count">53</span></a>
-                  <a href="#" class="post-prev-count dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
-                    <span aria-hidden="true" class="social_share"></span>
-                  </a>
-                  <ul class="social-menu dropdown-menu dropdown-menu-right" role="menu">
-                    <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
-                    </li>
-                    <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                    <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                  </ul>
-                </div>
-              </div>
-            
-            </div>
-                                        
-            <!-- Post Item -->
-            <div class="col-sm-6 col-md-4 col-lg-4 pb-70" >
                 
-              <div class="post-prev-img">
-                <a href="blog-single-sidebar-right.html"><img src="images/portfolio/projects-8.jpg" alt="img"></a>
               </div>
+              
+              <!-- DIVIDER -->
+              <hr class="mt-0 mb-0">
+              
+              <!-- COMMENTS -->
+              <div id="comments" class="mt-60">
                 
-              <div class="post-prev-title">
-                <h3><a href="blog-single-sidebar-right.html">THE SOUND OF LIFE</a></h3>
-              </div>
-                
-              <div class="post-prev-info">
-                DECEMBER 21<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
-              </div>
-                
-              <div class="post-prev-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
-              </div>
-                
-              <div class="post-prev-more-cont clearfix">
-                <div class="post-prev-more left">
-                  <a href="blog-single-sidebar-right.html" class="blog-more">READ MORE</a>
-                </div>
-                <div class="right" >
-                  <a href="blog-single-sidebar-right.html#comments" class="post-prev-count"><span aria-hidden="true" class="icon_comment_alt"></span><span class="icon-count">21</span></a>
-                  <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" class="post-prev-count"><span aria-hidden="true" class="icon_heart_alt"></span><span class="icon-count">53</span></a>
-                  <a href="#" class="post-prev-count dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
-                    <span aria-hidden="true" class="social_share"></span>
-                  </a>
-                  <ul class="social-menu dropdown-menu dropdown-menu-right" role="menu">
-                    <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
-                    </li>
-                    <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                    <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                  </ul>
-                </div>
-              </div>
-            
-            </div>
-                                                        
-            <!-- Post Item audio html5 -->
-            <div class="col-sm-6 col-md-4 col-lg-4 pb-70" >
-                
-              <div class="audio-box mb-25">
-                <audio controls>
-                  <source src="http://abcgomel.ru/audio/swan-lake.ogg" type="audio/ogg">
-                  <source src="http://abcgomel.ru/audio/swan-lake.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-                </audio>
-              </div>
-                
-              <div class="post-prev-title">
-                <h3><a href="blog-single-sidebar-right.html">POST WITH HTML 5 AUDIO</a></h3>
-              </div>
-                
-              <div class="post-prev-info">
-                DECEMBER 21<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
-              </div>
-                
-              <div class="post-prev-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
-              </div>
-                
-              <div class="post-prev-more-cont clearfix">
-                <div class="post-prev-more left">
-                  <a href="blog-single-sidebar-right.html" class="blog-more">READ MORE</a>
-                </div>
-                <div class="right" >
-                  <a href="blog-single-sidebar-right.html#comments" class="post-prev-count"><span aria-hidden="true" class="icon_comment_alt"></span><span class="icon-count">21</span></a>
-                  <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" class="post-prev-count"><span aria-hidden="true" class="icon_heart_alt"></span><span class="icon-count">53</span></a>
-                  <a href="#" class="post-prev-count dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
-                    <span aria-hidden="true" class="social_share"></span>
-                  </a>
-                  <ul class="social-menu dropdown-menu dropdown-menu-right" role="menu">
-                    <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
-                    </li>
-                    <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                    <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                  </ul>
-                </div>
-              </div>
-            
-            </div>
-                                                          
-            <!-- Post Item soundcloud -->
-            <div class="col-sm-6 col-md-4 col-lg-4 pb-70" >
-                
-              <div class="mb-25">
-                <iframe width="100%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/143037212&amp;auto_play=false&amp;hide_related=true&amp;visual=true"></iframe>
-              </div>
-                
-              <div class="post-prev-title">
-                <h3><a href="blog-single-sidebar-right.html">POST WITH SOUNDCLOUD</a></h3>
-              </div>
-                
-              <div class="post-prev-info">
-                DECEMBER 21<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
-              </div>
-                
-              <div class="post-prev-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
-              </div>
-                
-              <div class="post-prev-more-cont clearfix">
-                <div class="post-prev-more left">
-                  <a href="blog-single-sidebar-right.html" class="blog-more">READ MORE</a>
-                </div>
-                <div class="right" >
-                  <a href="blog-single-sidebar-right.html#comments" class="post-prev-count"><span aria-hidden="true" class="icon_comment_alt"></span><span class="icon-count">21</span></a>
-                  <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" class="post-prev-count"><span aria-hidden="true" class="icon_heart_alt"></span><span class="icon-count">53</span></a>
-                  <a href="#" class="post-prev-count dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
-                    <span aria-hidden="true" class="social_share"></span>
-                  </a>
-                  <ul class="social-menu dropdown-menu dropdown-menu-right" role="menu">
-                    <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
-                    </li>
-                    <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                    <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                  </ul>
-                </div>
-              </div>
-            
-            </div>
-                                                        
-            <!-- Post Item embedded video -->
-            <div class="col-sm-6 col-md-4 col-lg-4 pb-70" >
-                
-              <div class="embed-responsive embed-responsive-16by9 mb-25">
-                <iframe frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/oNBBijn4JuY?showinfo=0&amp;wmode=opaque"></iframe>
-              </div>
-                
-              <div class="post-prev-title">
-                <h3><a href="blog-single-sidebar-right.html">POST WITH EMBEDDED VIDEO</a></h3>
-              </div>
-                
-              <div class="post-prev-info">
-                DECEMBER 21<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
-              </div>
-                
-              <div class="post-prev-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
-              </div>
-                
-              <div class="post-prev-more-cont clearfix">
-                <div class="post-prev-more left">
-                  <a href="blog-single-sidebar-right.html" class="blog-more">READ MORE</a>
-                </div>
-                <div class="right" >
-                  <a href="blog-single-sidebar-right.html#comments" class="post-prev-count"><span aria-hidden="true" class="icon_comment_alt"></span><span class="icon-count">21</span></a>
-                  <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" class="post-prev-count"><span aria-hidden="true" class="icon_heart_alt"></span><span class="icon-count">53</span></a>
-                  <a href="#" class="post-prev-count dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
-                    <span aria-hidden="true" class="social_share"></span>
-                  </a>
-                  <ul class="social-menu dropdown-menu dropdown-menu-right" role="menu">
-                    <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
-                    </li>
-                    <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                    <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                  </ul>
-                </div>
-              </div>
-            
-            </div>
-            
-            <!-- Post Item -->
-            <div class="col-sm-6 col-md-4 col-lg-4 pb-70" >
-                
-              <div class="post-prev-img">
-                <a href="blog-single-sidebar-right.html"><img src="images/portfolio/projects-6.jpg" alt="img"></a>
-              </div>
-                
-              <div class="post-prev-title">
-                <h3><a href="blog-single-sidebar-right.html">NEW TRENDS IN WEB DESIGN</a></h3>
-              </div>
-                
-              <div class="post-prev-info">
-                MAY 11<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
-              </div>
-                
-              <div class="post-prev-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum. 
-              </div>
-                
-              <div class="post-prev-more-cont clearfix">
-                <div class="post-prev-more left">
-                  <a href="blog-single-sidebar-right.html" class="blog-more">READ MORE</a>
-                </div>
-                <div class="right" >
-                  <a href="blog-single-sidebar-right.html#comments" class="post-prev-count"><span aria-hidden="true" class="icon_comment_alt"></span><span class="icon-count">21</span></a>
-                  <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" class="post-prev-count"><span aria-hidden="true" class="icon_heart_alt"></span><span class="icon-count">53</span></a>
-                  <a href="#" class="post-prev-count dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
-                    <span aria-hidden="true" class="social_share"></span>
-                  </a>
-                  <ul class="social-menu dropdown-menu dropdown-menu-right" role="menu">
-                    <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
-                    </li>
-                    <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                    <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                  </ul>
-                </div>
-              </div>
-            
-            </div>
-            
-          </div>
-          
-          <!-- PAGINATION -->
-          <div class="mt-0">
-            <nav class="blog-pag">
-              <ul class="pagination m-0">
-              <li><a href="#"><i class="fa fa-angle-left"></i><span class="sr-only">Previous</span></a></li>
-              <li class="active"><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              <li><a href="#"><i class="fa fa-angle-right"></i><span class="sr-only">Next</span></a></li>
-              </ul>
-            </nav>
-          </div>
+                <h4 class="blog-page-title mb-15">Comments<small><span class="slash-divider">/</span> 21</small></h4>
+
+                <ul class="media-list text comment-list">
+                 
+                  <!-- Comment Item -->
+                  <li class="media comment-item">
+                 
+                    <a class="pull-left" href="#"><img class="media-object comment-avatar" src="images/content/avatar-1.png" alt="ava" ></a>
+                    
+                    <div class="media-body">
+       
+                      <div class="comment-item-title">
+                        <div class="comment-author">
+                          <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
+                        </div>
+                        <div class="comment-date">
+                          Jul 21, 2015, at 10:10<span class="slash-divider">-</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">REPLY</a>
+                        </div>
+                      </div>
+       
+                      <p class="pb-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at magna ut ante eleifend eleifend.</p>
+       
+                        <!-- Comment of second level -->
+                        <div class="media comment-item comment-reply">
+                            
+                          <a class="pull-left" href="#"><img class="media-object comment-avatar" src="images/content/avatar-1.png" alt="ava"></a>
+                            
+                          <div class="media-body">
+                             
+                            <div class="comment-item-title">
+                              <div class="comment-author">
+                                <a href="#">Simon Morgan</a>
+                              </div>
+                              <div class="comment-date">
+                                Jul 21, 2015, at 10:10<span class="slash-divider">-</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">REPLY</a>
+                              </div>
+                            </div>
+                                
+                            <p class="pb-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at magna ut ante eleifend eleifend.</p>
+                            
+                          </div>
+                              
+                        </div>
+                        <!-- End Comment of second level -->
+       
+                    </div>
         
+                  </li>
+                    <!-- End Comment Item -->
+
+                    <!-- Comment Item -->
+                  <li class="media comment-item">
+                      
+                    <a class="pull-left" href="#"><img class="media-object comment-avatar" src="images/content/avatar-1.png" alt="ava"></a>
+                      
+                    <div class="media-body">
+                                          
+                      <div class="comment-item-title">
+                        <div class="comment-author">
+                          <a href="#">Hugh Turner</a>
+                        </div>
+                        <div class="comment-date">
+                          Jul 21, 2015, at 10:10<span class="slash-divider">-</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">REPLY</a>
+                        </div>
+                      </div>
+                        
+                      <p class="pb-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at magna ut ante eleifend eleifend.</p>
+
+                    </div>
+
+                  </li>
+                  <!-- End Comment Item -->
+
+                  <!-- Comment Item -->
+                  <li class="media comment-item">
+                      
+                    <a class="pull-left" href="#"><img class="media-object comment-avatar" src="images/content/avatar-1.png" alt="ava"></a>
+                                      
+                    <div class="media-body">
+                                          
+                      <div class="comment-item-title">
+                        <div class="comment-author">
+                          <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
+                        </div>
+                        <div class="comment-date">
+                          Jul 21, 2015, at 10:10<span class="slash-divider">-</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">REPLY</a>
+                        </div>
+                      </div>
+                                          
+                      <p class="pb-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at magna ut ante eleifend eleifend.</p>
+                      
+                    </div>
+
+                  </li>
+                  <!-- End Comment Item -->
+
+                </ul>
+
+              </div>
+
+              <!-- DIVIDER -->
+              <hr class="mt-30 mb-0">
+              
+              <!-- LEAVE A COMMENT	-->
+
+							<!-- CONTACT FORM -->
+							<div class="grey-light-bg leave-comment-cont">
+                <!-- TITLE -->
+                <h4 class="blog-page-title mt-50 mb-25">LEAVE A COMMENT</h4>              
+								<div class="contact-form-container">
+									<form id="contact-form" action="#" method="POST">
+										<div class="row">
+											<div>
+												<div class="col-md-6 mb-30">
+													<!-- <label>Your name *</label> -->
+													<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" placeholder="NAME" required>
+												</div>
+												<div class="col-md-6 mb-30">
+													<!-- <label>Your email address *</label> -->
+													<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" placeholder="EMAIL" required>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div >
+												<div class="col-md-12 mb-40">
+													<!-- <label>Message *</label> -->
+													<textarea maxlength="5000" data-msg-required="Please enter your message." rows="3" class="form-control" name="message" id="message" placeholder="MESSAGE" required></textarea>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<input type="submit" value="SEND MESSAGE" class="button medium gray" data-loading-text="Loading...">
+											</div>
+										</div>
+									</form>	
+									<div class="alert alert-success hidden" id="contactSuccess">
+										<strong>Success!</strong> Your message has been sent to us.
+									</div>
+
+									<div class="alert alert-danger hidden" id="contactError">
+										<strong>Error!</strong> There was an error sending your message.
+									</div>
+								</div>
+							</div>
+             
+            </div>
+
+          </div>
         </div>
 	        
         <!-- NEWS LETTER -->
@@ -993,7 +826,7 @@
         </div>
 
         <!-- FOOTER 2 -->
-        <footer class="page-section pt-80 pb-50">
+        <footer class="page-section pt-80 pb-50  text-center-767">
           <div class="container">
             <div class="row">
             
@@ -1100,38 +933,9 @@
 			</div><!-- End BG -->	
 		</div><!-- End wrap -->	
 			
-<!-- JS begin -->
-
-		<!-- jQuery  -->
-		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>		
-
-		<!-- MAGNIFIC POPUP -->
-		<script src='js/jquery.magnific-popup.min.js'></script>
-    
-    <!-- PORTFOLIO SCRIPTS -->
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-
-    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-    
-    
-    <!-- COUNTER -->
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
-    
-    <!-- APPEAR -->    
-    <script type="text/javascript" src="js/jquery.appear.js"></script>
-    
-    <!-- OWL CAROUSEL -->    
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    
-    <!-- MAIN SCRIPT -->
-		<script src="js/main.js"></script>
-    
-<!-- JS end -->	
+<?php require_once ("include_js.php"); ?>
 	
 	</body>
 
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/blog-masonry-3col.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:57 GMT -->
+<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/blog-single-fullwidth.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:17:01 GMT -->
 </html>		

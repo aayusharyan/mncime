@@ -11,104 +11,22 @@
 
 <html>
  	
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/page-title-big-img.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:38 GMT -->
-<head>
-		<title>Haswell - Responsive HTML5 Template</title>
-		<meta charset=utf-8 >
-		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-		<meta name="robots" content="index, follow" > 
-		<meta name="keywords" content="HTML5 Template" > 
-		<meta name="description" content="Haswell - Responsive HTML5 Template" > 
-		<meta name="author" content="Vladimir Azarushkin">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		
-		<!-- FAVICONS -->
-    <link rel="shortcut icon" href="images/favicon/favicon.png">
-    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
-		
-<!-- CSS -->
-
-    <!-- FLEXSLIDER SLIDER CSS -->
-		<link rel="stylesheet" type="text/css" href="css/flexslider.css"  >
-
-    <!-- BOOTSTRAP -->
-		<link rel="stylesheet" href="css/bootstrap.min.css"> 
-	
-    <!-- GOOGLE FONT -->		
-		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
-  
-    <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS -->		
-		<link rel="stylesheet" href="css/icons-fonts.css" >	
-	
-    <!-- CSS THEME -->		
-		<link rel="stylesheet" href="css/style.css" >
-
-    <!-- ANIMATE -->	
-		<link rel='stylesheet' href="css/animate.min.css">
-		
-    <!-- IE Warning CSS -->
-		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->
+<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/portfolio-single1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:57 GMT -->
+    <?php require_once ("include_header.php"); ?>
     
-    <!-- Magnific popup  in style.css	Owl Carousel Assets in style.css -->		
-	
-<!-- CSS end -->
-
-<!-- JS begin some js files in bottom of file-->
-		
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-		
-    <!-- Modernizr -->
-    <!-- <script src="js/modernizr.js"></script> -->
-		
-	</head>
-	<body>
-	
-		<!-- LOADER -->	
-		<div id="loader-overflow">
-      <div id="loader3">Please enable JS</div>
-    </div>	
+    <body>
+	<?php require_once ("include_preloader.php"); ?>
 
 		<div id="wrap" class="boxed ">
 			<div class="grey-bg"> <!-- Grey BG  -->	
 				
-				<!--[if lte IE 8]>
-				<div id="ie-container">
-					<div id="ie-cont-close">
-						<a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
-					</div>
-					<div id="ie-cont-content" >
-						<div id="ie-cont-warning">
-							<img src='images/ie-warn/ie-warning.jpg' alt='Warning!'>
-						</div>
-						<div id="ie-cont-text" >
-							<div id="ie-text-bold">
-								You are using an outdated browser
-							</div>
-							<div id="ie-text">
-								For a better experience using this site, please upgrade to a modern web browser.
-							</div>
-						</div>
-						<div id="ie-cont-brows" >
-							<a href='http://www.firefox.com' target='_blank'><img src='images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
-							<a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
-							<a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
-							<a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
-						</div>
-					</div>
-				</div>
-				<![endif]-->
-				
-				<!-- HEADER 1 NO-TRANSPARENT -->
-				<header id="nav" class="header header-1 no-transparent mobile-no-transparent">
+<?php require_once ("icnclude_if_warning.php"); ?>
+                
+    <!-- HEADER TRANSPORENT BG BLACK -->
+    <div class="header-transporent-bg-black">		
+    
+				<!-- HEADER 1 BLACK TRANSPARENT -->
+				<header id="nav" class="header header-1 black-header">
           
 				  <div class="header-wrapper">
 					<div class="container-m-30 clearfix">
@@ -118,7 +36,7 @@
 						<div class="logo-container-2">
                 <div class="logo-2">
                   <a href="index.html" class="clearfix">
-                    <img src="images/logo.png" class="logo-img" alt="Logo">
+                    <img src="images/logo-white.png" class="logo-img" alt="Logo">
                   </a>
                 </div>
               </div>
@@ -145,7 +63,7 @@
 									  <ul class="nav navbar-nav">
 									  
                       <!-- MENU ITEM -->
-                      <li class="parent ">
+                      <li class="parent">
                         <a href="#"><div class="main-menu-title">HOME</div></a>
                         <ul class="sub">
                         <li class="parent">
@@ -235,7 +153,7 @@
                       </li>
                       
                       <!-- MEGA MENU ITEM -->
-                      <li class="parent megamenu current">
+                      <li class="parent megamenu">
                         <a href="#"><div class="main-menu-title">PAGES & FEATURES</div></a>
                         <ul class="sub">
                           <li>
@@ -297,7 +215,7 @@
                                 </ul>
                               </div>
                               
-                              <div class="box col-md-2 nofloat closed current">
+                              <div class="box col-md-2 nofloat closed">
                                 <h5 class="title">PAGE TITLES</h5>
                                 <ul>
                                   <li><a href="page-title-small-grey.html">Small Grey</a></li>
@@ -306,7 +224,7 @@
                                   <li><a href="page-title-big-grey.html">Big Grey</a></li>
                                   <li><a href="page-title-big-white.html">Big White</a></li>
                                   <li><a href="page-title-big-dark.html">Big Dark</a></li>
-                                  <li><a class="current" href="page-title-big-img.html">Big Image</a></li>
+                                  <li><a href="page-title-big-img.html">Big Image</a></li>
                                   <li><a href="page-title-large-img.html">Large Image</a></li>
                                 </ul>
                               </div>
@@ -318,7 +236,7 @@
                       </li>					
                       
                       <!-- MENU ITEM -->
-                      <li class="parent">
+                      <li class="parent current">
                         <a href="#"><div class="main-menu-title">PORTFOLIO</div></a>
                         <ul class="sub">
                           <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
@@ -367,9 +285,9 @@
                             </ul>
                           </li>
                           <li class="parent">
-                            <a href="#">Portfolio Single</a>
+                            <a class="current" href="#">Portfolio Single</a>
                             <ul class="sub">
-                              <li><a href="portfolio-single1.html">Single 1</a></li>
+                              <li><a class="current" href="portfolio-single1.html">Single 1</a></li>
                               <li><a href="portfolio-single2.html">Single 2</a></li>
                               <li><a href="portfolio-single3.html">Single 3</a></li>
                             </ul>
@@ -568,84 +486,356 @@
 				  <!-- END header-wrapper -->
 				  
 				</header>
-                  
-        <!-- PAGE TITLE BIG IMG -->
-        <div class="page-title-cont page-title-big page-title-img grey-dark-bg" style="background-image: url(images/work-proc-bg.jpg)">
+
+        <!-- PAGE TITLE IMG -->
+        <div class="page-title-cont page-title-large grey-dark-bg page-title-img  blog-single-fullwidth-img" style="background-image: url(images/about-me.jpg)">
           <div class="relative container align-left">
             <div class="row">
                
               <div class="col-md-8">
-                <h1 class="page-title">tittle big IMAGE</h1>
+                <h1 class="page-title">SINGLE PROJECT</h1>
                 <div class="page-sub-title">
-                  More about <a href="http://getbootstrap.com/css/#grid" target="_blank">Bootstrap grid system</a>
+                  LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT.
                 </div>
               </div>
                
               <div class="col-md-4">
                 <div class="breadcrumbs">
-                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">Elements</a><span class="slash-divider">/</span><span class="bread-current">Grid</span>
+                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">PORTFOLIO</a><span class="slash-divider">/</span><span class="bread-current">SINGLE</span>
                 </div>
               </div>
               
             </div>
           </div>
         </div>
- 
-        <!-- CONTAINER -->
-        <div class="container p-140-cont">
+        
+      </div><!-- END header-transporent-bg-black -->  
+      
+        <!-- COTENT CONTAINER -->
+        <div class="p-140-cont">
+        
+          <!-- PORTFOLIO INFO -->
+          <div class="container">
+            <div class="row">
+                
+              <div class="col-md-4">
+                <!-- PROJECT DETAIL -->
+                <div class="port-detail-cont mb-30">
+                  <h4 class="blog-page-title mt-0 mb-20">PROJECT DETAILS</h4>
+                  <div class="port-detail">
+                    <p>
+                      <strong>CLIENT:</strong>
+                        ENVATO
+                    </p>
+                    <p>
+                      <strong>DATE:</strong>
+                        10 OCTOBER, 2016
+                    </p>
+                    <p>
+                      <strong>CATEGORY:</strong>
+                        <a href="#">DESIGN</a>, <a href="#">DEVELOPMENT</a>, <a href="#">PHOTO</a>
+                    </p>
+                    <p>
+                      <strong>ONLINE:</strong>
+                      <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" target="_blank">WWW.ABC-STUDIO.COM</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-8 mb-80">
+                <p>Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, cupiditate, minus, nisi sapiente eos amet praesentium id culpa excepturi beatae error suscipit dolorem quaerat recusandae veniam ea quam! Nisi, accusamus. ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</p> 
+              </div>
 
-          <div class="row">
-            <div class="col-md-12">
-              <h4>1/1 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Nulla scelerisque ex sed nibh accumsan efficitur. Nullam vitae accumsan eros.
             </div>
-            
-            <!-- 	1/2 Width		 -->			
-            <div class="col-md-6">
-              <h4>1/2 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-6">
-              <h4>1/2 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	1/3 Width		 -->
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	2/3 Width		 -->
-            <div class="col-md-8">
-              <h4>2/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	3/4 Width		 -->
-            <div class="col-md-9">
-              <h4>3/4 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis.
-            </div>
-            <div class="col-md-3">
-              <h4>1/4 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus.
-            </div>
-
+          
           </div>
-		
+
+          <!-- CAROUSEL -->
+          <div class="container mb-80">
+            
+            <div class="fullwidth-slider owl-carousel owl-arrows-bg owl-dark-bg owl-pag-2" >
+              
+              <!-- ITEM -->		
+              <div class="item m-0">	
+                <div>
+                  <img alt="about us" src="images/blog/post-wide-1.jpg">
+                </div>
+              </div>
+                  
+              <!-- ITEM -->		
+              <div class="item m-0">	
+                <div>
+                  <img alt="about us" src="images/blog/post-wide-2.jpg">
+                </div>
+              </div>
+
+              <!-- ITEM -->		
+              <div class="item m-0">	
+                <div>
+                  <img alt="about us" src="images/blog/post-wide-5.jpg">
+                </div>
+              </div>
+                  
+            </div>
+            
+          </div>
+           
+          <!-- DIVIDER -->
+          <hr class="mt-0 mb-0"> 
+          
+          <!-- WORK NAVIGATION -->
+          <div class="work-navigation plr-10 clearfix">
+            <a href="#" class="work-prev"><span><span class="icon icon-arrows-left"></span>&nbsp;Prev</span></a>
+            <a href="portfolio-wide-4col.html" class="work-all" title="View all" ><span class="icon icon-arrows-squares"></span></a>
+            <a href="#" class="work-next"><span>Next&nbsp;<span class="icon icon-arrows-right"></span></span></a>
+          </div>
+          
+          <!-- COUNTERS 1 -->
+          <div id="counter-1" class="page-section p-80-cont grey-light-bg">
+            <div class="container">
+          
+              <div  class="row text-center">
+                              
+                <!-- Item -->
+                <div class="col-xs-6 col-sm-3">
+                  <div class="count-number">
+                    75
+                  </div>
+                  <div class="count-descr">
+                    <span class="count-title">AWARDS WINNING</span>
+                  </div>
+                </div>
+                
+                <!-- Item -->
+                <div class="col-xs-6 col-sm-3">
+                  <div class="count-number">
+                   450
+                  </div>
+                  <div class="count-descr">
+                    <span class="count-title">HAPPY CLIENTS</span>
+                  </div>
+                </div>
+                
+                <!-- Item -->
+                <div class="col-xs-6 col-sm-3">
+                  <div class="count-number">
+                    151
+                  </div>
+                  <div class="count-descr">
+                    <span class="count-title">PROJECTS DONE</span>
+                  </div>
+                </div>
+                
+                <!-- Item -->
+                <div class="col-xs-6 col-sm-3">
+                  <div class="count-number">
+                   768
+                  </div>
+                  <div class="count-descr">
+                    <span class="count-title">HOURS OF CODE</span>
+                  </div>
+                </div>  
+                
+              </div>
+            </div>
+          </div>
+          
+          <!-- TESTIMONIALS 2 FULL WIDTH SLIDER -->
+          <div class="page-section p-60-cont owl-white-bg  fullwidth-slider">
+            <div class="owl-white-bg fullwidth-slider p-50-cont">          
+            
+              <!-- Slide Item -->
+              <div class="container relative">
+                <div class="row">
+                
+                  <div class="col-md-7">
+                    <blockquote class="testimonial-2">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quis, possimus alias!</p>
+                    </blockquote>
+                  </div>
+          
+                  <div class="col-md-4 col-md-offset-1">
+                    <div class="ts-author-cont">
+                      <div class="ts-author-info">
+                        <div class="ts-name">
+                          <span class="bold">Amanda Eniston</span>
+                        </div>
+                        <div class="ts-type">CEO Company</div>
+                      </div>
+                      <div class="ts-author-img">
+                        <img src="images/ts-author-2.png" alt="photo" >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Slide Item -->
+              <div class="container relative">
+                <div class="row">
+                
+                  <div class="col-md-7">
+                    <blockquote class="testimonial-2">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quis, possimus alias!</p>
+                    </blockquote>
+                  </div>
+
+                  <div class="col-md-4 col-md-offset-1">
+                    <div class="ts-author-cont">
+                      <div class="ts-author-info">
+                        <div class="ts-name">
+                          <span class="bold">Jessica Holmes</span>
+                        </div>
+                        <div class="ts-type">CEO Company</div>
+                      </div>
+                      <div class="ts-author-img">
+                        <img src="images/ts-author.png" alt="photo" >
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+          
+              <!-- Slide Item -->
+              <div class="container relative">
+                <div class="row">
+                
+                  <div class="col-md-7">
+                    <blockquote class="testimonial-2">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quis, possimus alias!</p>
+                    </blockquote>
+                  </div>
+          
+                  <div class="col-md-4 col-md-offset-1">
+                    <div class="ts-author-cont">
+                      <div class="ts-author-info">
+                        <div class="ts-name">
+                          <span class="bold">John Doe</span>
+                        </div>
+                        <div class="ts-type">CEO Company</div>
+                      </div>
+                      <div class="ts-author-img">
+                        <img src="images/ts-author-3.png" alt="photo" >
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- VIDEO ADS 1 -->
+          <div class="page-section video-ads-bg" >
+            <div class="container">
+              <div class="video-ads-text-cont clearfix">
+                <span class="video-ads-text">BE CREATIVE</span>
+                <span class="video-ads-a">
+                  <a class="popup-youtube" href="https://www.youtube.com/watch?v=0gv7OC9L2s8">
+                    <span class="icon icon-music-play-button"></span>
+                  </a>
+                </span>
+                <span class="video-ads-text">WITH HASWELL</span>
+              </div>
+            </div>
+          </div> 
+
+          <!-- RELATED PORT ITEMS -->
+          <div class="page-section mt-80 mb-0" >
+            <div class="container">
+            
+              <h4 class="blog-page-title mt-0 mb-40">RELATED PROJECTS</h4>
+              <ul class="port-grid port-grid-gut clearfix" id="items-grid" style="position: relative; height: 564px;">
+                
+                <!-- Item 1 -->
+                <li class="port-item mix development" style="position: absolute; left: 0px; top: 0px;">
+                  <a href="portfolio-single1.html">
+                    <div class="port-img-overlay"><img class="port-main-img" src="images/portfolio/projects-5.jpg" alt="img"></div>
+                  </a>
+                  <div class="port-overlay-cont">
+
+                      <div class="port-title-cont">
+                        <h3><a href="portfolio-single1.html">MINIMALISM BOOKS</a></h3>
+                        <span><a href="#">ui elements</a><span class="slash-divider">/</span><a href="#">media</a></span>
+                      </div>
+                      <div class="port-btn-cont">
+                        <a href="images/portfolio/projects-2-big.jpg" class="lightbox mr-20"><div aria-hidden="true" class="icon_search"></div></a>
+                        <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                      </div>
+
+                  </div>
+                </li>
+
+                <!-- Item 2 -->
+                <li class="port-item mix design" style="position: absolute; left: 287px; top: 0px;">
+                  <a href="portfolio-single1.html">
+                    <div class="port-img-overlay">
+                      <img class="port-main-img" src="images/portfolio/projects-3.jpg" alt="img">
+                    </div>
+                  </a>
+                  <div class="port-overlay-cont">
+
+                      <div class="port-title-cont">
+                        <h3><a href="portfolio-single1.html">CALENDAR</a></h3>
+                        <span><a href="#">photography</a><span class="slash-divider">/</span><a href="#">media</a></span>
+                      </div>
+                      <div class="port-btn-cont">
+                        <a href="images/portfolio/projects-2-big.jpg" class="lightbox mr-20"><div aria-hidden="true" class="icon_search"></div></a>
+                        <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                      </div>
+
+                  </div>
+                </li>
+                
+                <!-- Item 3 -->
+                <li class="port-item mix photography" style="position: absolute; left: 575px; top: 0px;">
+                  <a href="portfolio-single1.html">
+                    <div class="port-img-overlay">
+                      <img class="port-main-img" src="images/portfolio/projects-1.jpg" alt="img">
+                    </div>
+                  </a>
+                  <div class="port-overlay-cont">
+
+                      <div class="port-title-cont">
+                        <h3><a href="portfolio-single1.html">EYES OF THE CAR</a></h3>
+                        <span><a href="#">branding</a><span class="slash-divider">/</span><a href="#">marketing</a></span>
+                      </div>
+                      <div class="port-btn-cont">
+                        <a href="images/portfolio/projects-2-big.jpg" class="lightbox mr-20"><div aria-hidden="true" class="icon_search"></div></a>
+                        <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                      </div>
+
+                  </div>
+                </li>
+                
+                <!-- Item 4 -->
+                <li class="port-item mix development" style="position: absolute; left: 862px; top: 0px;">
+                  <a href="portfolio-single1.html">
+                    <div class="port-img-overlay">
+                      <img class="port-main-img" src="images/portfolio/projects-6.jpg" alt="img">
+                    </div>
+                  </a>
+                  <div class="port-overlay-cont">
+
+                      <div class="port-title-cont">
+                        <h3><a href="portfolio-single1.html">NOW IS NOW</a></h3>
+                        <span><a href="#">design</a><span class="slash-divider">/</span><a href="#">photography</a></span>
+                      </div>
+                      <div class="port-btn-cont">
+                        <a href="images/portfolio/projects-2-big.jpg" class="lightbox mr-20"><div aria-hidden="true" class="icon_search"></div></a>
+                        <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                      </div>
+
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          
         </div>
         
         <!-- NEWS LETTER -->
@@ -774,35 +964,9 @@
 			</div><!-- End BG -->	
 		</div><!-- End wrap -->	
 			
-<!-- JS begin -->
-
-		<!-- jQuery  -->
-		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>		
-
-		<!-- MAGNIFIC POPUP -->
-		<script src='js/jquery.magnific-popup.min.js'></script>
-    
-    <!-- PORTFOLIO SCRIPTS -->
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-    
-    <!-- COUNTER -->
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
-    
-    <!-- APPEAR -->    
-    <script type="text/javascript" src="js/jquery.appear.js"></script>
-    
-    <!-- OWL CAROUSEL -->    
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    
-    <!-- MAIN SCRIPT -->
-		<script src="js/main.js"></script>
-    
-<!-- JS end -->	
+<?php require_once ("include_js.php"); ?>
 	
 	</body>
 
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/page-title-big-img.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:38 GMT -->
+<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/portfolio-single1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:57 GMT -->
 </html>		
