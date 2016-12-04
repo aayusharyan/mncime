@@ -489,15 +489,12 @@
             <div class="row">
                
               <div class="col-md-8">
-                <h1 class="page-title">tittle big IMAGE</h1>
-                <div class="page-sub-title">
-                  More about <a href="http://getbootstrap.com/css/#grid" target="_blank">Bootstrap grid system</a>
-                </div>
+                <h1 class="page-title">SCHEDULE</h1>
               </div>
                
               <div class="col-md-4">
                 <div class="breadcrumbs">
-                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">Elements</a><span class="slash-divider">/</span><span class="bread-current">Grid</span>
+                  <a href="index.html">Home</a><span class="slash-divider">/</span><span class="bread-current">SCHEDULE</span>
                 </div>
               </div>
               
@@ -510,76 +507,205 @@
 
           <div class="row">
             <div class="col-md-12">
-              <h4>1/1 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Nulla scelerisque ex sed nibh accumsan efficitur. Nullam vitae accumsan eros.
+              <h2>Conference Schedule</h2><br/>
+				<h4 style="text-align:center">Conference is organised on 17<sup>th</sup> &amp; 18<sup>th</sup> March 2017 and Lonavala Site Tour on 19<sup>th</sup> March 2017</h4>
+				<h4>Day 1, 17<sup>th</sup> March 2017</h4>
+				<div class="col-md-offset-1">
+									<table class="table table-bordered mb-40">
+										
+					  <thead>
+						<tr>
+						  <th>Time</th>
+						  <th>Details</th>
+						  <th>Venue</th>
+						</tr>
+					  </thead>
+					  <tbody>
+						<tr>
+						  <td>09.00am to 10.00am</td>
+						  <td>Registration, Kit distribution, Tea &amp; Breakfast</td>
+						  <td>Corporate Training Centre (CTC), Lonavala</td>
+						</tr>
+						<tr>
+						  <td>10.00am to 10.30am</td>
+						  <td>Inauguration function</td>
+						  <td>Seminar Hall 1, CTC</td>
+						</tr>
+						  <tr>
+						  <td>10.30am to 11.30am</td>
+						  <td>Key Note Speech 1</td>
+						  <td>Seminar Hall 1, CTC</td>
+						</tr>
+						  <tr>
+						  <td>11.30am to 11.45am</td>
+						  <td>High Tea</td>
+						  <td>CTC</td>
+						</tr>
+						  <tr>
+						  <td rowspan="3">11.45am to 01.15pm</td>
+						  <td>Session 1</td>
+						  <td>Seminar Hall 1</td>
+						</tr>
+						  <tr>
+						  <td>Session 2</td>
+						  <td>Seminar Hall 2</td>
+						</tr>
+						<tr>
+						  <td>Session 3</td>
+						  <td>Seminar Hall 3</td>
+						</tr>
+						   <tr>
+						  <td>01.15pm to 02.15pm</td>
+						  <td>Lunch</td>
+						  <td>CTC</td>
+						</tr>
+						   <tr>
+						  <td>02.15pm to 03.15pm</td>
+						  <td>Key Note Speech 2</td>
+						  <td>Seminar Hall 1, CTC</td>
+						</tr>
+						   <tr>
+						  <td rowspan="3">03.15pm to 04.45pm</td>
+						  <td>Session 4</td>
+						  <td>Seminar Hall 1</td>
+						</tr>
+						   <tr>
+						  <td>Session 5</td>
+						  <td>Seminar Hall 2</td>
+						</tr>
+						  <tr>
+						  <td>Session 6</td>
+						  <td>Seminar Hall 3</td>
+						</tr>
+						  <tr>
+						  <td>04.45pm to 05.00pm</td>
+						  <td>High Tea</td>
+						  <td>CTC</td>
+						</tr>
+						  <tr>
+						  <td>06.00pm to 07.30pm </td>
+						  <td>Entertaining Program  </td>
+						  <td>Amphe Theatre  </td>
+						</tr>
+						<tr>
+						  <td>07.30pm to 08.30pm</td>
+						  <td>Dinner</td>
+						  <td>CTC	</td>
+						</tr>
+					  </tbody>
+					</table>
+					</div>
+				<h4>Day 2, 18<sup>th</sup> March 2017</h4>
+				<div class="col-md-offset-1">
+				
+				<table class="table table-bordered mb-40">
+										
+					  <thead>
+						<tr>
+						  <th>Time</th>
+						  <th>Details</th>
+						  <th>Venue</th>
+						</tr>
+					  </thead>
+					  <tbody>
+						<tr>
+						  <td>09.00am to 10.00am</td>
+						  <td>Registration, Kit distribution, Tea &amp; Breakfast</td>
+						  <td>Corporate Training Centre (CTC), Lonavala</td>
+						</tr>
+						<tr>
+						  <td>10.00am to 11.30am</td>
+						  <td>Key Note Speech 3</td>
+						  <td>Seminar Hall 1, CTC</td>
+						</tr>
+						  <tr>
+						  <td>11.30am to 11.45am</td>
+						  <td>High Tea</td>
+						  <td>CTC</td>
+						</tr>
+						  <tr>
+						  <td rowspan="3">11.45am to 01.15pm</td>
+						  <td>Session 7</td>
+						  <td>Seminar Hall 1</td>
+						</tr>
+						  <tr>
+						  <td>Session 8</td>
+						  <td>Seminar Hall 2</td>
+						</tr>
+						<tr>
+						  <td>Session 9</td>
+						  <td>Seminar Hall 3</td>
+						</tr>
+						   <tr>
+						  <td>01.15pm to 02.15pm</td>
+						  <td>Lunch</td>
+						  <td>CTC</td>
+						</tr>
+						   <tr>
+						  <td>02.15pm to 03.15pm</td>
+						  <td>Key Note Speech 4</td>
+						  <td>Seminar Hall 1, CTC</td>
+						</tr>
+						   <tr>
+						  <td rowspan="2">03.15pm to 04.15pm</td>
+						  <td>Session 10</td>
+						  <td>Seminar Hall 1</td>
+						</tr>
+						   <tr>
+						  <td>Session 11</td>
+						  <td>Seminar Hall 2</td>
+						</tr>
+						   <tr>
+						  <td>04.15pm to 04.30pm</td>
+						  <td>High Tea</td>
+						  <td>CTC</td>
+						</tr>
+						  <tr>
+						  <td>04.30pm to 05.15pm </td>
+						  <td>Valedictory Function </td>
+						  <td>Seminar Hall 1</td>
+						</tr>
+						<tr>
+						  <td>07.30pm to 08.30pm</td>
+						  <td>Dinner</td>
+						  <td>CTC</td>
+						</tr>
+					  </tbody>
+					</table>
+				
+				
+				</div>
+              		<h4>Day 3, 19<sup>th</sup> March 2017</h4>
+				<div class="col-md-offset-1">
+									<table class="table table-bordered mb-40">
+					  <thead>
+						<tr>
+						  <th>Time</th>
+						  <th>Details</th>
+						  <th>Venue</th>
+						</tr>
+					  </thead>
+					  <tbody>
+						<tr>
+						  <td>09.00am to 10.00am</td>
+						  <td>Tea &amp; Breakfast</td>
+						  <td>Corporate Training Centre (CTC), Lonavala</td>
+						</tr>
+						<tr>
+						  <td>10.00am to 05.00pm</td>
+						  <td>Site Seeing of Various Locations in Lonavala</td>
+						  <td><span style="color: red">Note: Lunch and entry fees at locations will not be provided</span></td>
+						</tr>
+						
+						
+					  </tbody>
+					</table>
+					</div>
             </div>
-            
-            <!-- 	1/2 Width		 -->			
-            <div class="col-md-6">
-              <h4>1/2 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-6">
-              <h4>1/2 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	1/3 Width		 -->
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	2/3 Width		 -->
-            <div class="col-md-8">
-              <h4>2/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	3/4 Width		 -->
-            <div class="col-md-9">
-              <h4>3/4 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis.
-            </div>
-            <div class="col-md-3">
-              <h4>1/4 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus.
-            </div>
-
-          </div>
-		
+          </div>		
         </div>
         
-        <!-- NEWS LETTER -->
-        <div class="page-section nl-cont">
-          <div class="container">
-            <div class="relative" >
-              <div id="mc_embed_signup" class="nl-form-container clearfix">
-                <form action="http://abcgomel.us9.list-manage.com/subscribe/post-json?u=ba37086d08bdc9f56f3592af0&amp;id=e38247f7cc&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletterform validate" target="_blank" novalidate>   <!-- EDIT THIS ACTION URL (add "post-json?u" instead of "post?u" and appended "&amp;c=?" to the end of this URL) -->
-                  <input type="email" value="" name="EMAIL" class="email nl-email-input" id="mce-EMAIL" placeholder="Enter your email" required>
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_ba37086d08bdc9f56f3592af0_e38247f7cc" tabindex="-1" value=""></div>
-          
-                  <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button medium gray">
-                </form>
-                <div id="notification_container"  ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        
         <!-- FOOTER 2 -->
         <footer class="page-section pt-80 pb-50">
           <div class="container">
