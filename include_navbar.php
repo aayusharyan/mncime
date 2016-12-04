@@ -36,7 +36,7 @@
 
                                 <!-- MENU ITEM -->
                                 <li class="current">
-                                    <a href="">
+                                    <a href="index.php">
                                         <div class="main-menu-title">HOME</div>
                                     </a>
                                 </li>
@@ -50,10 +50,10 @@
                                         <li class="parent">
                                             <a href="#">ABOUT CONFERENCE</a>
                                             <ul class="sub">
-                                                <li><a href="#">CONFERENCE THEME</a></li>
-                                                <li><a href="#">SCHEDULE</a></li>
-                                                <li><a href="#">IMPORTANT DATES</a></li>
-                                                <li><a href="#">BENEFITS OF CONFERENCE</a></li>
+                                                <li><a href="conference_theme.php">CONFERENCE THEME</a></li>
+                                                <li><a href="schedule.php">SCHEDULE</a></li>
+                                                <li><a href="imp_dates.php">IMPORTANT DATES</a></li>
+                                                <li><a href="benefits_conference.php">BENEFITS OF CONFERENCE</a></li>
                                             </ul>
                                         </li>
                                         <li class="parent">
@@ -75,13 +75,8 @@
                                                 <li><a href="#">Committee Members</a></li>
                                             </ul>
                                         </li>
-                                        <li class="parent">
-                                            <a href="#">About SIT</a>
-                                            <ul class="sub">
-                                                <li><a href="#">College Campus</a></li>
-                                                <li><a href="#">Facilities</a></li>
-                                                <li><a href="#">Courses</a></li>
-                                            </ul>
+                                        <li class="">
+                                            <a href="about_SIT.php">About SIT</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -103,10 +98,10 @@
                                         <li class="parent">
                                             <a href="#">Author's Guidelines</a>
                                             <ul class="sub">
-                                                <li><a href="#">Paper Submission Guidelines</a></li>
-                                                <li><a href="#">Guidelines for Listeners/Attendee</a></li>
+                                                <li><a href="paper_sub_guide.php">Paper Submission Guidelines</a></li>
+                                                <li><a href="listeners_guide.php">Guidelines for Listeners/Attendee</a></li>
                                                 <li><a href="#">Paper Selection Process</a></li>
-                                                <li><a href="#">Publication Ethics</a></li>
+                                                <li><a href="publication_ethics.php">Publication Ethics</a></li>
                                                 <li><a href="#">Paper Formats</a></li>
                                                 <li><a href="#">Copyright Form</a></li>
                                             </ul>
@@ -119,25 +114,14 @@
                                         <div class="main-menu-title">REGISTRATION</div>
                                     </a>
                                     <ul class="sub">
-                                        <li class="parent">
-                                            <a href="#">Registration Details</a>
-                                            <ul class="sub">
-                                                <li><a href="#">Registration Fees</a></li>
-                                                <li><a href="#">How to Pay Fees</a></li>
-                                            </ul>
+                                        <li class="">
+                                            <a href="regitration_details.php">Registration Details</a>
                                         </li>
-                                        <li class="parent">
-                                            <a href="#">Accomodation</a>
-                                            <ul class="sub">
-                                                <li><a href="#">Free Accomodation at Campus</a></li>
-                                                <li><a href="#">Paid Accomodation at outside Campus</a></li>
-                                            </ul>
+                                        <li class="">
+                                            <a href="accomodation.php">Accomodation</a>
                                         </li>
-                                        <li class="parent">
-                                            <a href="#">Transportation</a>
-                                            <ul class="sub">
-                                                <li><a href="#">Details of Free Transportation</a></li>
-                                            </ul>
+                                        <li class="">
+                                            <a href="transportation.php">Transportation</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -158,7 +142,7 @@
 
                                 <!-- MENU ITEM -->
                                 <li id="menu-contact-info-big" class="parent megamenu hidden-sm hidden-xs visible-lg">
-                                    <a href="#">
+                                    <a href="contact.php">
                                         <div class="main-menu-title">CONTACT US</div>
                                     </a>
                                     <ul class="sub col-md-offset-3 col-md-9" style="width: 100%;">
@@ -171,17 +155,17 @@
                                                             <div class="loc-icon-container">
                                                                 <span aria-hidden="true" class="icon_pin_alt main-menu-contact-icon"></span>
                                                             </div>
-                                                            <div class="menu-contact-text-container">555 California str, Suite 100</div>
+                                                            <div class="menu-contact-text-container">Sinhgad Institute of Technology, Lonavala</div>
                                                         </li>
                                                         <li class="contact-phone clearfix">
                                                             <div class="loc-icon-container">
                                                                 <span aria-hidden="true" class="icon_phone main-menu-contact-icon"></span>
                                                             </div>
-                                                            <div class="menu-contact-text-container">1-32-312-22, 1-32-112-22</div>
+                                                            <div class="menu-contact-text-container">02114-304360</div>
                                                         </li>
                                                         <li class="contact-mail clearfix">
                                                             <div class="loc-icon-container">
-                                                                <span aria-hidden="true" class="icon_mail_alt main-menu-contact-icon"></span>
+                                                                <span aria-hidden="true" class="fa fa-anchor"></span>
                                                             </div>
                                                             <div class="menu-contact-text-container">
                                                                 <a class="a-mail" href="mailto:info@haswell.com">info@haswell.com</a>
@@ -205,7 +189,7 @@
 
 
                                 <li class="hidden-md hidden-lg visible-xs visible-sm">
-                                    <a href="">
+                                    <a href="contact.php">
                                         <div class="main-menu-title">CONTACT US</div>
                                     </a>
                                 </li>
