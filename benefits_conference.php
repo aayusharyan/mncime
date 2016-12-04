@@ -491,15 +491,12 @@
             <div class="row">
                
               <div class="col-md-8">
-                <h1 class="page-title">tittle big</h1>
-                <div class="page-sub-title">
-                  More about <a href="http://getbootstrap.com/css/#grid" target="_blank">Bootstrap grid system</a>
-                </div>
+                <h1 class="page-title">Benefits of Conference</h1>
               </div>
                
               <div class="col-md-4">
                 <div class="breadcrumbs">
-                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">Elements</a><span class="slash-divider">/</span><span class="bread-current">Grid</span>
+                  <a href="index.php">Home</a><span class="slash-divider">/</span><span class="bread-current">Benefits of Conference</span>
                 </div>
               </div>
               
@@ -512,74 +509,18 @@
 
           <div class="row">
             <div class="col-md-12">
-              <h4>1/1 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Nulla scelerisque ex sed nibh accumsan efficitur. Nullam vitae accumsan eros.
-            </div>
-            
-            <!-- 	1/2 Width		 -->			
-            <div class="col-md-6">
-              <h4>1/2 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-6">
-              <h4>1/2 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	1/3 Width		 -->
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	2/3 Width		 -->
-            <div class="col-md-8">
-              <h4>2/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	3/4 Width		 -->
-            <div class="col-md-9">
-              <h4>3/4 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis.
-            </div>
-            <div class="col-md-3">
-              <h4>1/4 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus.
+              <h2>Benefits</h2>
+              <ul style="list-style-type:circle">
+						<li><span style="text-align:justify; font-size:120%">All selected papers will be published in NCIME-2017 conference proceedings.</span></li>
+						<li><span style="text-align:justify; font-size:120%">All selected papers will be published in Reputed Indexed Journals. (Springer, Web of Science, Thomson Reuters, Google Scholar).</span></li>
+						<li><span style="text-align:justify; font-size:120%">Corresponding Author and Co-authors will get Conference Paper publication certificates.</span></li>
+						<li><span style="text-align:justify; font-size:120%">Author will get soft copy (CD/DVD) of conference proceedings.</span></li>
+						<li><span style="text-align:justify; font-size:120%">Author will get soft/hard copy of published journal papers.</span></li>
+					</ul>
             </div>
 
           </div>
 		
-        </div>
-        
-        <!-- NEWS LETTER -->
-        <div class="page-section nl-cont">
-          <div class="container">
-            <div class="relative" >
-              <div id="mc_embed_signup" class="nl-form-container clearfix">
-                <form action="http://abcgomel.us9.list-manage.com/subscribe/post-json?u=ba37086d08bdc9f56f3592af0&amp;id=e38247f7cc&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletterform validate" target="_blank" novalidate>   <!-- EDIT THIS ACTION URL (add "post-json?u" instead of "post?u" and appended "&amp;c=?" to the end of this URL) -->
-                  <input type="email" value="" name="EMAIL" class="email nl-email-input" id="mce-EMAIL" placeholder="Enter your email" required>
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_ba37086d08bdc9f56f3592af0_e38247f7cc" tabindex="-1" value=""></div>
-          
-                  <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button medium gray">
-                </form>
-                <div id="notification_container"  ></div>
-              </div>
-            </div>
-          </div>
         </div>
 
         <!-- FOOTER 2 -->

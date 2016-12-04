@@ -491,15 +491,12 @@
             <div class="row">
                
               <div class="col-md-8">
-                <h1 class="page-title">tittle big</h1>
-                <div class="page-sub-title">
-                  More about <a href="http://getbootstrap.com/css/#grid" target="_blank">Bootstrap grid system</a>
-                </div>
+                <h1 class="page-title">CONFERENCE THEME</h1>
               </div>
                
               <div class="col-md-4">
                 <div class="breadcrumbs">
-                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">Elements</a><span class="slash-divider">/</span><span class="bread-current">Grid</span>
+                  <a href="index.php">Home</a><span class="slash-divider">/</span><span class="bread-current">Conference Theme</span>
                 </div>
               </div>
               
@@ -511,77 +508,48 @@
         <div class="container p-140-cont">
 
           <div class="row">
-            <div class="col-md-12">
-              <h4>1/1 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Nulla scelerisque ex sed nibh accumsan efficitur. Nullam vitae accumsan eros.
-            </div>
-            
-            <!-- 	1/2 Width		 -->			
-            <div class="col-md-6">
-              <h4>1/2 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-6">
-              <h4>1/2 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	1/3 Width		 -->
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	2/3 Width		 -->
-            <div class="col-md-8">
-              <h4>2/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	3/4 Width		 -->
-            <div class="col-md-9">
-              <h4>3/4 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis.
-            </div>
-            <div class="col-md-3">
-              <h4>1/4 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus.
-            </div>
-
-          </div>
-		
-        </div>
-        
-        <!-- NEWS LETTER -->
-        <div class="page-section nl-cont">
-          <div class="container">
-            <div class="relative" >
-              <div id="mc_embed_signup" class="nl-form-container clearfix">
-                <form action="http://abcgomel.us9.list-manage.com/subscribe/post-json?u=ba37086d08bdc9f56f3592af0&amp;id=e38247f7cc&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletterform validate" target="_blank" novalidate>   <!-- EDIT THIS ACTION URL (add "post-json?u" instead of "post?u" and appended "&amp;c=?" to the end of this URL) -->
-                  <input type="email" value="" name="EMAIL" class="email nl-email-input" id="mce-EMAIL" placeholder="Enter your email" required>
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_ba37086d08bdc9f56f3592af0_e38247f7cc" tabindex="-1" value=""></div>
-          
-                  <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button medium gray">
-                </form>
-                <div id="notification_container"  ></div>
-              </div>
-            </div>
+            <div class="col-md-12" style="text-align:justify; font-size:120%">
+              <h2>About Conference</h2>
+				<p>The 5<sup>st</sup> National Level Conference on Innovations in Mechanical Engineering is being organized to provide a platform for researchers, students, academic faculty members and industries to share knowledge and expertise in the field of mechanical engineering education and research. We shall invite the PhD/PG students, researchers and academicians from various Engineering colleges and industries for presentations, deliberations, and discussions at a common platform. The conference focuses on fundamental research related to innovations in Mechanical Engineering.  This comes at an appropriate time when the whole world is moving towards innovation.<br/><br/>&emsp;&emsp;&emsp;NCIME addresses key topics and issues related to all aspects of Mechanical, Production, Automobile and Manufacturing will be presented in a program of technical sessions, panel discussions, and keynote speeches.<br/><br/>The Conference is indexed by  <strong>SCOPUS, Web of Science, Thomson Reuters and Google Scholar.</strong></p>
+				<br/><br/>
+				
+			 	<h4><span style="color:red; font-size:150%">Potential themes to be addressed in this conference include:</span></h4>
+				<ol type="A">
+  					<li>THERMAL:</li><br/>
+					<ul style="list-style-type:circle">
+						<li>Internal Combustion Engines</li>
+  						<li>Computational methods in Thermal Engineering</li>
+						<li>Refrigeration and Air conditioning</li>
+						<li>Heat and Mass Transfer</li>
+						<li>Computational Fluid Dynamics</li>
+						<li>Thermal Power and Heat transfer</li>
+							<ul>
+								<li>Renewable and Non-Conventional Energy Sources</li>
+								<li>Alternative Fuels.</li>
+						</ul>
+					</ul>
+					<br/><br/>
+  					<li>DESIGN:</li><br/>
+					<ul style="list-style-type:circle">
+						<li>Modeling and Simulation of Systems and Processes</li>
+  						<li>CAD/CAM/CIM/FEM</li>
+						<li>Optimization Techniques</li>
+						<li>Automation and Robotics</li>
+					</ul>
+					<br/><br/>
+  					<li>PRODUCTION AND MANUFACTURING:</li><br/>
+					<ul style="list-style-type:circle">
+						<li>Supply Chain Management</li>
+  						<li>Nano-Material and Manufacturing</li>
+						<li>Composites/Ceramics/Polymers</li>
+						<li>Foundry/ Castings/ Welding/ Corrosion</li>
+						<li>Advanced Manufacturing Processes</li>
+					</ul>
+				</ol>
+			</div>
           </div>
         </div>
-
+				
         <!-- FOOTER 2 -->
         <footer class="page-section pt-80 pb-50">
           <div class="container">

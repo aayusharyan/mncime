@@ -11,16 +11,14 @@
 
 <html>
  	
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/page-title-big-grey.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:38 GMT -->
-
-    <?php require_once ("include_header.php"); ?>
+<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:27 GMT -->
+<?php require_once ("include_header.php"); ?>
     
     <body>
-	
-<?php require_once ("include_preloader.php"); ?>
+	<?php require_once ("include_preloader.php"); ?>
 
 		<div id="wrap" class="boxed ">
-			<div class="grey-bg"> <!-- Grey BG  -->
+			<div class="grey-bg"> <!-- Grey BG  -->	
 				
 <?php require_once ("include_ie_warning.php"); ?>				
 				<!-- HEADER 1 NO-TRANSPARENT -->
@@ -61,7 +59,7 @@
 									  <ul class="nav navbar-nav">
 									  
                       <!-- MENU ITEM -->
-                      <li class="parent ">
+                      <li class="parent">
                         <a href="#"><div class="main-menu-title">HOME</div></a>
                         <ul class="sub">
                         <li class="parent">
@@ -200,26 +198,26 @@
                                 </ul>
                               </div>
                               
-                              <div class="box col-md-3 nofloat closed">
+                              <div class="box col-md-3 nofloat closed current">
                                 <h5 class="title">PAGES SAMPLES 2</h5>
                                 <ul>
                                   <li><a href="about-us.html">About Us</a></li>
                                   <li><a href="about-us-2.html">About Us 2</a></li>
                                   <li><a href="about-me.html">About Me</a></li>
-                                  <li><a href="team.html">Team</a></li>
+                                  <li><a class="current" href="team.html">Team</a></li>
                                   <li><a href="services.html">Services</a></li>
                                   <li><a href="faq.html">FAQ</a></li>
                                   <li><a href="404.html">404 Error</a></li>
                                 </ul>
                               </div>
                               
-                              <div class="box col-md-2 nofloat closed current">
+                              <div class="box col-md-2 nofloat closed">
                                 <h5 class="title">PAGE TITLES</h5>
                                 <ul>
                                   <li><a href="page-title-small-grey.html">Small Grey</a></li>
                                   <li><a href="page-title-small-white.html">Small White</a></li>
                                   <li><a href="page-title-small-dark.html">Small Dark</a></li>
-                                  <li><a class="current" href="page-title-big-grey.html">Big Grey</a></li>
+                                  <li><a href="page-title-big-grey.html">Big Grey</a></li>
                                   <li><a href="page-title-big-white.html">Big White</a></li>
                                   <li><a href="page-title-big-dark.html">Big Dark</a></li>
                                   <li><a href="page-title-big-img.html">Big Image</a></li>
@@ -485,83 +483,192 @@
 				  
 				</header>
 
-        <!-- PAGE TITLE BIG GREY LIGHT-->
-        <div class="page-title-cont page-title-big grey-light-bg">
+        <!-- PAGE TITLE LARGE IMG -->
+        <div class="page-title-cont page-title-large page-title-img grey-dark-bg pt-250" style="background-image: url(images/work-proc-bg.jpg)">
           <div class="relative container align-left">
             <div class="row">
                
               <div class="col-md-8">
-                <h1 class="page-title">tittle big</h1>
-                <div class="page-sub-title">
-                  More about <a href="http://getbootstrap.com/css/#grid" target="_blank">Bootstrap grid system</a>
-                </div>
+				  <h1 class="page-title">Organising Committee</h1>
               </div>
                
               <div class="col-md-4">
                 <div class="breadcrumbs">
-                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">Elements</a><span class="slash-divider">/</span><span class="bread-current">Grid</span>
+                  <a href="index.php">Home</a><span class="slash-divider">/</span><span class="bread-current">Organising Committee</span>
                 </div>
               </div>
               
             </div>
           </div>
         </div>
+        
+				<!-- ABOUT US 1 -->
+				<div class="page-section p-140-cont">
+					<div class="container">
+            <div class="row mb-100">
+            
+              <div class="member col-md-4 col-sm-4 wow fadeInUp">
+                <div class="member-image">
+                  <img src="images/team/team-1.jpg" alt="img">
+                </div>
+                <h3>JESSICA DOE</h3>
+                <span>VP ENGINEERING</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+              <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
+                <div class="member-image">
+                  <img src="images/team/team-2.jpg" alt="img">
+                </div>
+                <h3>JOHN DOE</h3>
+                <span>FOUNDER AND CEO</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+              <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="images/team/team-3.jpg" alt="img">
+                </div>
+                <h3>EDWARD DOE</h3>
+                <span>CREATIVE DIRECTOR</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+            </div>
+            
+            <div class="row">
+            
+              <div class="member col-md-3 col-sm-3 wow fadeInUp">
+                <div class="member-image">
+                  <img src="images/team/team-6.jpg" alt="img">
+                </div>
+                <h3>EMMA GRIFFITH</h3>
+                <span>VP ENGINEERING</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="200ms">
+                <div class="member-image">
+                  <img src="images/team/team-8.jpg" alt="img">
+                </div>
+                <h3>MARY BLACK</h3>
+                <span>HR MANAGER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="images/team/team-7.jpg" alt="img">
+                </div>
+                <h3>BRIAN GREEN</h3>
+                <span>ANDROID DEVELOPER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
 
-        <!-- CONTAINER -->
-        <div class="container p-140-cont">
-
-          <div class="row">
-            <div class="col-md-12">
-              <h4>1/1 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Nulla scelerisque ex sed nibh accumsan efficitur. Nullam vitae accumsan eros.
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="images/team/team-10.jpg" alt="img">
+                </div>
+                <h3>PAUL BISHOP</h3>
+                <span>iOS DEVELOPER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
             </div>
-            
-            <!-- 	1/2 Width		 -->			
-            <div class="col-md-6">
-              <h4>1/2 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
+					</div>
+        </div>
+       
+        <!-- VIDEO ADS 1 -->
+				<div class="page-section video-ads-bg" >
+					<div class="container">
+            <div class="video-ads-text-cont clearfix">
+              <span class="video-ads-text">BE CREATIVE</span>
+              <span class="video-ads-a">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=0gv7OC9L2s8">
+                  <span class="icon icon-music-play-button"></span>
+                </a>
+              </span>
+              <span class="video-ads-text">WITH HASWELL</span>
             </div>
-            <div class="col-md-6">
-              <h4>1/2 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
+					</div>
+				</div>
+   
+        <!-- COUNTERS 1 -->
+        <div id="counter-1" class="page-section p-80-cont">
+          <div class="container">
+        
+            <div  class="row text-center">
+                            
+              <!-- Item -->
+              <div class="col-xs-6 col-sm-3">
+                <div class="count-number">
+                  75
+                </div>
+                <div class="count-descr">
+                  <span class="count-title">AWARDS WINNING</span>
+                </div>
+              </div>
+              
+              <!-- Item -->
+              <div class="col-xs-6 col-sm-3">
+                <div class="count-number">
+                 450
+                </div>
+                <div class="count-descr">
+                  <span class="count-title">HAPPY CLIENTS</span>
+                </div>
+              </div>
+              
+              <!-- Item -->
+              <div class="col-xs-6 col-sm-3">
+                <div class="count-number">
+                  151
+                </div>
+                <div class="count-descr">
+                  <span class="count-title">PROJECTS DONE</span>
+                </div>
+              </div>
+              
+              <!-- Item -->
+              <div class="col-xs-6 col-sm-3">
+                <div class="count-number">
+                 768
+                </div>
+                <div class="count-descr">
+                  <span class="count-title">HOURS OF CODE</span>
+                </div>
+              </div>  
+              
             </div>
-            
-            <!-- 	1/3 Width		 -->
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	2/3 Width		 -->
-            <div class="col-md-8">
-              <h4>2/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis.
-            </div>
-            <div class="col-md-4">
-              <h4>1/3 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo.
-            </div>
-            
-            <!-- 	3/4 Width		 -->
-            <div class="col-md-9">
-              <h4>3/4 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis. Quisque euismod consequat lectus. Sed in elit eu nisi rhoncus maximus eu a mauris. Donec nisi magna, interdum vel turpis in, ullamcorper ultrices justo. Fusce ligula felis, pharetra et ex at, vulputate tincidunt turpis.
-            </div>
-            <div class="col-md-3">
-              <h4>1/4 Width</h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae arcu nec est pharetra aliquet sit amet et ipsum. Vestibulum eget dui vitae nunc blandit rutrum non vitae tellus.
-            </div>
-
           </div>
-		
         </div>
         
         <!-- NEWS LETTER -->
@@ -694,5 +801,5 @@
 	
 	</body>
 
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/page-title-big-grey.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:38 GMT -->
+<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:36 GMT -->
 </html>		

@@ -489,15 +489,12 @@
             <div class="row">
                
               <div class="col-md-8">
-                <h1 class="page-title">team</h1>
-                <div class="page-sub-title">
-                  Lorem ipsum dolor sit amet consectetur 
-                </div>
+				  <h1 class="page-title">Organising Committee</h1>
               </div>
                
               <div class="col-md-4">
                 <div class="breadcrumbs">
-                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">PAGES & FEATURES</a><span class="slash-divider">/</span><span class="bread-current">team</span>
+                  <a href="index.php">Home</a><span class="slash-divider">/</span><span class="bread-current">Organising Committee</span>
                 </div>
               </div>
               
@@ -508,6 +505,9 @@
 				<!-- ABOUT US 1 -->
 				<div class="page-section p-140-cont">
 					<div class="container">
+						<div class="heading-underline h3-line">
+						<h3 class="mt-0">Chief Patron</h3>
+					</div>
             <div class="row mb-100">
             
               <div class="member col-md-4 col-sm-4 wow fadeInUp">
@@ -552,6 +552,241 @@
             </div>
             
             <div class="row">
+				<div class="heading-underline h3-line">
+						<h3 class="mt-0">Patron</h3>
+					</div>
+            
+              <div class="member col-md-3 col-sm-3 wow fadeInUp">
+                <div class="member-image">
+                  <img src="images/team/team-6.jpg" alt="img">
+                </div>
+                <h3>EMMA GRIFFITH</h3>
+                <span>VP ENGINEERING</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="200ms">
+                <div class="member-image">
+                  <img src="images/team/team-8.jpg" alt="img">
+                </div>
+                <h3>MARY BLACK</h3>
+                <span>HR MANAGER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="images/team/team-7.jpg" alt="img">
+                </div>
+                <h3>BRIAN GREEN</h3>
+                <span>ANDROID DEVELOPER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="images/team/team-10.jpg" alt="img">
+                </div>
+                <h3>PAUL BISHOP</h3>
+                <span>iOS DEVELOPER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+            </div>
+			<div class="row">
+				<div class="heading-underline h3-line">
+						<h3 class="mt-0">Organising Secretary</h3>
+					</div>
+            
+              <div class="member col-md-3 col-sm-3 wow fadeInUp">
+                <div class="member-image">
+                  <img src="images/team/team-6.jpg" alt="img">
+                </div>
+                <h3>EMMA GRIFFITH</h3>
+                <span>VP ENGINEERING</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="200ms">
+                <div class="member-image">
+                  <img src="images/team/team-8.jpg" alt="img">
+                </div>
+                <h3>MARY BLACK</h3>
+                <span>HR MANAGER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="images/team/team-7.jpg" alt="img">
+                </div>
+                <h3>BRIAN GREEN</h3>
+                <span>ANDROID DEVELOPER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="images/team/team-10.jpg" alt="img">
+                </div>
+                <h3>PAUL BISHOP</h3>
+                <span>iOS DEVELOPER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+            </div>
+			<div class="row">
+				<div class="heading-underline h3-line">
+						<h3 class="mt-0">Convenor</h3>
+					</div>
+            
+              <div class="member col-md-3 col-sm-3 wow fadeInUp">
+                <div class="member-image">
+                  <img src="images/team/team-6.jpg" alt="img">
+                </div>
+                <h3>EMMA GRIFFITH</h3>
+                <span>VP ENGINEERING</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="200ms">
+                <div class="member-image">
+                  <img src="images/team/team-8.jpg" alt="img">
+                </div>
+                <h3>MARY BLACK</h3>
+                <span>HR MANAGER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="images/team/team-7.jpg" alt="img">
+                </div>
+                <h3>BRIAN GREEN</h3>
+                <span>ANDROID DEVELOPER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="images/team/team-10.jpg" alt="img">
+                </div>
+                <h3>PAUL BISHOP</h3>
+                <span>iOS DEVELOPER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+            </div>
+			<div class="row">
+				<div class="heading-underline h3-line">
+						<h3 class="mt-0">Coordinators</h3>
+					</div>
+            
+              <div class="member col-md-3 col-sm-3 wow fadeInUp">
+                <div class="member-image">
+                  <img src="images/team/team-6.jpg" alt="img">
+                </div>
+                <h3>EMMA GRIFFITH</h3>
+                <span>VP ENGINEERING</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="200ms">
+                <div class="member-image">
+                  <img src="images/team/team-8.jpg" alt="img">
+                </div>
+                <h3>MARY BLACK</h3>
+                <span>HR MANAGER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="images/team/team-7.jpg" alt="img">
+                </div>
+                <h3>BRIAN GREEN</h3>
+                <span>ANDROID DEVELOPER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="images/team/team-10.jpg" alt="img">
+                </div>
+                <h3>PAUL BISHOP</h3>
+                <span>iOS DEVELOPER</span>
+                <ul class="team-social">
+                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                </ul>
+              </div>
+              
+            </div>
+						<div class="row">
+				<div class="heading-underline h3-line">
+						<h3 class="mt-0">Committee Members</h3>
+					</div>
             
               <div class="member col-md-3 col-sm-3 wow fadeInUp">
                 <div class="member-image">
@@ -608,90 +843,7 @@
             </div>
 					</div>
         </div>
-       
-        <!-- VIDEO ADS 1 -->
-				<div class="page-section video-ads-bg" >
-					<div class="container">
-            <div class="video-ads-text-cont clearfix">
-              <span class="video-ads-text">BE CREATIVE</span>
-              <span class="video-ads-a">
-                <a class="popup-youtube" href="https://www.youtube.com/watch?v=0gv7OC9L2s8">
-                  <span class="icon icon-music-play-button"></span>
-                </a>
-              </span>
-              <span class="video-ads-text">WITH HASWELL</span>
-            </div>
-					</div>
-				</div>
-   
-        <!-- COUNTERS 1 -->
-        <div id="counter-1" class="page-section p-80-cont">
-          <div class="container">
-        
-            <div  class="row text-center">
-                            
-              <!-- Item -->
-              <div class="col-xs-6 col-sm-3">
-                <div class="count-number">
-                  75
-                </div>
-                <div class="count-descr">
-                  <span class="count-title">AWARDS WINNING</span>
-                </div>
-              </div>
-              
-              <!-- Item -->
-              <div class="col-xs-6 col-sm-3">
-                <div class="count-number">
-                 450
-                </div>
-                <div class="count-descr">
-                  <span class="count-title">HAPPY CLIENTS</span>
-                </div>
-              </div>
-              
-              <!-- Item -->
-              <div class="col-xs-6 col-sm-3">
-                <div class="count-number">
-                  151
-                </div>
-                <div class="count-descr">
-                  <span class="count-title">PROJECTS DONE</span>
-                </div>
-              </div>
-              
-              <!-- Item -->
-              <div class="col-xs-6 col-sm-3">
-                <div class="count-number">
-                 768
-                </div>
-                <div class="count-descr">
-                  <span class="count-title">HOURS OF CODE</span>
-                </div>
-              </div>  
-              
-            </div>
-          </div>
-        </div>
-        
-        <!-- NEWS LETTER -->
-        <div class="page-section nl-cont">
-          <div class="container">
-            <div class="relative" >
-              <div id="mc_embed_signup" class="nl-form-container clearfix">
-                <form action="http://abcgomel.us9.list-manage.com/subscribe/post-json?u=ba37086d08bdc9f56f3592af0&amp;id=e38247f7cc&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletterform validate" target="_blank" novalidate>   <!-- EDIT THIS ACTION URL (add "post-json?u" instead of "post?u" and appended "&amp;c=?" to the end of this URL) -->
-                  <input type="email" value="" name="EMAIL" class="email nl-email-input" id="mce-EMAIL" placeholder="Enter your email" required>
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_ba37086d08bdc9f56f3592af0_e38247f7cc" tabindex="-1" value=""></div>
-          
-                  <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button medium gray">
-                </form>
-                <div id="notification_container"  ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+      
         <!-- FOOTER 2 -->
         <footer class="page-section pt-80 pb-50">
           <div class="container">
