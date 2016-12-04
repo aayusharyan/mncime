@@ -27,7 +27,7 @@ About SIT: (Single Page Design) - single_page.html - about_sit.html
         Courses
 
 Journals:
-    Journals & Publishing Bodies:
+    Journals & Publishing Bodies:	-	NO DATA
         Scopus Indexed Journals
         Web of Science Indexed Journals
         Thomson Reuters Indexed Journals
@@ -50,7 +50,7 @@ Registration:
     Transportation:
         Details of Free Transportation
 
-Past Conferences:
+Past Conferences:						-	NO DATA
     1<sup>st NCIME - 2012
     2<sup>nd NCIME - 2013
     3<sup>rd NCIME - 2015
