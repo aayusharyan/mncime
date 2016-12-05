@@ -82,15 +82,14 @@
 				<h4>Authors can pay fees offline or online.</h4>
 				<div class="col-md-offset-1">
 				<p>	<span style="color: red; font-size:120%">For offline payment:</span><br/>
-					<strong>&emsp;&emsp;DD in favour of ‘Principal, Sinhgad Institute of Technology’, payable at Pune.</strong><br/>
+					<strong>&emsp;&emsp;DD in favour of ‘Principal, Sinhgad Institute of Technology’, payable at Pune. </strong><br/>
 					<span style="color: red; font-size:120%">For Online payment: (NEFT/RTGS)</span><br/>
-					<strong>&emsp;&emsp;A/c Name:</strong> Sinhgad Institute of Technology, Lonavala<br/>
-					<strong>&emsp;&emsp;Bank Name:</strong> Bank of Maharashtra<br/>
-					<strong>&emsp;&emsp;Current A/C No.:</strong> 60046979175<br/>
-					<strong>&emsp;&emsp;Branch Name:</strong> Lonavala<br/>
-					<strong>&emsp;&emsp;Branch code	:</strong> 00075<br/>
-					<strong>&emsp;&emsp;IFSC Code:</strong> MAHB0000075<br/>
-					<strong>&emsp;&emsp;MICR:</strong> 4100140001<br/>
+					<strong>&emsp;&emsp;A/c Name:</strong> Shri Anand Co-op bank ltd.<br/>
+					<strong>&emsp;&emsp;Bank Name:</strong>Cosmos co. op. Bank ltd. <br/>
+					<strong>&emsp;&emsp;Current A/C No.:</strong> 006204301200049<br/>
+					<strong>&emsp;&emsp;Branch Name:</strong> Chinchwad<br/>
+					<strong>&emsp;&emsp;IFSC Code:</strong> COSB0000006<br/>
+					<strong>&emsp;&emsp;MICR:</strong> 411164010<br/>
 					</p>
 				</div>
 				</div>
