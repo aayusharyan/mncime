@@ -18,12 +18,12 @@
             <div class="row">
                
               <div class="col-md-8">
-                <h1 class="page-title">Keynote Speakers</h1>
+                <h1 class="page-title">Register For the Event</h1>
               </div>
                
               <div class="col-md-4">
                 <div class="breadcrumbs">
-                  <a href="index.html">Home</a><span class="slash-divider">/</span><span class="bread-current">Keynote Speakers</span>
+                  <a href="index.html">Home</a><span class="slash-divider">/</span><span class="bread-current">Signup</span>
                 </div>
               </div>
               
@@ -35,7 +35,20 @@
         <div class="container p-140-cont">
 
           <div class="row">
-			  				<h4 style="text-align:center">CONTENT YET TO BE GIVEN</h4>            
+			  				<h4 style="text-align:center">Enter your details Below</h4>  
+			  
+			  <label for="salutation" class="col-sm-2 control-label">Salutation:</label>
+			  <select class="form-inline">
+				  <option>Dr.</option>
+				  <option>Prof.</option>
+				  <option>Mr.</option>
+				  <option>Ms.</option>
+				  <option>Mrs.</option>
+			  </select><br/>
+			  <label for="salutation" class="col-sm-2 control-label">First Name:</label>
+			  <input type="text" class="form-inline" placeholder="First Name">
+			  
+			  
           </div>		
         </div>
         

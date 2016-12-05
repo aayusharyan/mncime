@@ -228,7 +228,8 @@
 				
        
 		</div>
-	</div>        
+	</div>    
+				</div>
       
     <div id="footer-offset">  
         <!-- FOOTER 2 -->
