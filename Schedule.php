@@ -29,12 +29,12 @@
             <div class="row">
                
               <div class="col-md-8">
-                <h1 class="page-title">SCHEDULE</h1>
+                <h1 class="page-title">CONFERENCE SCHEDULE</h1>
               </div>
                
               <div class="col-md-4">
                 <div class="breadcrumbs">
-                  <a href="index.html">Home</a><span class="slash-divider">/</span><span class="bread-current">SCHEDULE</span>
+                  <a href="index.html">Home</a><span class="slash-divider">/</span><span class="bread-current">CONFERENCE SCHEDULE</span>
                 </div>
               </div>
               
@@ -47,7 +47,6 @@
 
           <div class="row">
             <div class="col-md-12">
-              <h2>Conference Schedule</h2><br/>
 				<h4 style="text-align:center">Conference is organised on 17<sup>th</sup> &amp; 18<sup>th</sup> March 2017 and Lonavala Site Tour on 19<sup>th</sup> March 2017</h4>
 				<h4 style="text-align: center;" class="bold">Day 1, 17<sup>th</sup> March 2017</h4>
 				<div class="col-md-offset-1">

@@ -50,7 +50,6 @@
 
           <div class="row">
             <div class="col-md-12">
-              <h2>Benefits</h2>
               <ul style="list-style-type:circle">
 						<li><span style="text-align:justify; font-size:120%">All selected papers will be published in NCIME-2017 conference proceedings.</span></li><br/>
 						<li><span style="text-align:justify; font-size:120%">All selected papers will be published in Reputed Indexed Journals. (Springer, Web of Science, Thomson Reuters, Google Scholar).</span></li><br/>

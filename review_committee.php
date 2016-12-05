@@ -47,7 +47,6 @@
 
           <div class="row">
             <div class="col-md-12">
-              <h2>Review Committee</h2><br/>
 				<div class="col-md-offset-1">
 									<table class="table table-bordered mb-40">
 										

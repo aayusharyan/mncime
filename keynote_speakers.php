@@ -35,9 +35,7 @@
         <div class="container p-140-cont">
 
           <div class="row">
-			  				<h4 style="text-align:center">CONTENT YET TO BE GIVEN</h4>
-
-            
+			  				<h4 style="text-align:center">CONTENT YET TO BE GIVEN</h4>            
           </div>		
         </div>
         

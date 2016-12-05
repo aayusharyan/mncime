@@ -48,7 +48,6 @@
 
           <div class="row">
             <div class="col-md-12">
-              <h2>Important Dates</h2>
 				<div class="col-md-offset-2">
 									<table class="table table-bordered mb-80">
 					  <thead>
