@@ -87,7 +87,7 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                         </ul>
                                     </li>
 
-                                    <li class="parent <?= (($page_link == "paper_sub_guide.php") || ($page_link == "lieteners_guide.php") || ($page_link == "publication_ethics.php") || ($page_link == "paper_selection_process.php"))?"current":""; ?>">
+                                    <li class="parent <?= (($page_link == "paper_sub_guide.php") || ($page_link == "listeners_guide.php") || ($page_link == "publication_ethics.php") || ($page_link == "paper_selection_process.php") || ($page_link == "copyright.php"))?"current":""; ?>">
                                         <a href="#">
                                             <div class="main-menu-title">JOURNALS</div>
                                         </a>
@@ -101,7 +101,7 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                                     <li><a href="#">Google Indexed Journals</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="parent <?= (($page_link == "paper_sub_guide.php") || ($page_link == "lieteners_guide.php") || ($page_link == "publication_ethics.php") || ($page_link == "paper_selection_process.php"))?"current":""; ?>">
+                                            <li class="parent <?= (($page_link == "paper_sub_guide.php") || ($page_link == "lieteners_guide.php") || ($page_link == "publication_ethics.php") || ($page_link == "paper_selection_process.php") || ($page_link == "copyright.php"))?"current":""; ?>">
                                                 <a href="#">Author's Guidelines</a>
                                                 <ul class="sub">
                                                     <li><a href="paper_sub_guide.php">Paper Submission Guidelines</a></li>
