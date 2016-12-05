@@ -27,7 +27,7 @@
 				<?php require_once ("include_navbar.php"); ?>
 
         <!-- PAGE TITLE BIG GREY LIGHT-->
-        <div class="page-title-cont page-title-big grey-light-bg">
+        <div class="page-title-cont page-title-big page-title-img grey-dark-bg" style="background-image: url(assets/process.png)">
           <div class="relative container align-left">
             <div class="row">
                
@@ -50,8 +50,9 @@
 
           <div class="row">
             <div class="col-md-12">
-              <h2>Paper selection Process</h2>
-				IMAGE HERE
+              <h2>Paper selection Process: </h2>
+                <br />
+				<img src="assets/selection_process.png" alt="Paper Selection Process"/>
             </div>
           </div>
         </div>
