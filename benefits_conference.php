@@ -52,11 +52,11 @@
             <div class="col-md-12">
               <h2>Benefits</h2>
               <ul style="list-style-type:circle">
-						<li><span style="text-align:justify; font-size:120%">All selected papers will be published in NCIME-2017 conference proceedings.</span></li>
-						<li><span style="text-align:justify; font-size:120%">All selected papers will be published in Reputed Indexed Journals. (Springer, Web of Science, Thomson Reuters, Google Scholar).</span></li>
-						<li><span style="text-align:justify; font-size:120%">Corresponding Author and Co-authors will get Conference Paper publication certificates.</span></li>
-						<li><span style="text-align:justify; font-size:120%">Author will get soft copy (CD/DVD) of conference proceedings.</span></li>
-						<li><span style="text-align:justify; font-size:120%">Author will get soft/hard copy of published journal papers.</span></li>
+						<li><span style="text-align:justify; font-size:120%">All selected papers will be published in NCIME-2017 conference proceedings.</span></li><br/>
+						<li><span style="text-align:justify; font-size:120%">All selected papers will be published in Reputed Indexed Journals. (Springer, Web of Science, Thomson Reuters, Google Scholar).</span></li><br/>
+						<li><span style="text-align:justify; font-size:120%">Corresponding Author and Co-authors will get Conference Paper publication certificates.</span></li><br/>
+						<li><span style="text-align:justify; font-size:120%">Author will get soft copy (CD/DVD) of conference proceedings.</span></li><br/>
+						<li><span style="text-align:justify; font-size:120%">Author will get soft/hard copy of published journal papers.</span></li><br/>
 					</ul>
             </div>
 
