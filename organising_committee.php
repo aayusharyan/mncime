@@ -51,43 +51,38 @@
 					</div>
             <div class="row mb-100">
             
-              <div class="member col-md-4 col-sm-4 wow fadeInUp">
+              <div class="member col-md-3 col-sm-3 wow fadeInUp">
                 <div class="member-image">
-                  <img src="images/team/team-1.jpg" alt="img">
+                  <img src="assets/chief_patron_1.jpg" alt="Chief Patron 1">
                 </div>
                 <h3>JESSICA DOE</h3>
                 <span>VP ENGINEERING</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
+                
               </div>
               
-              <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="200ms">
                 <div class="member-image">
-                  <img src="images/team/team-2.jpg" alt="img">
+                  <img src="assets/chief_patron_2.jpg" alt="img">
                 </div>
                 <h3>JOHN DOE</h3>
                 <span>FOUNDER AND CEO</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
+                
               </div>
               
-              <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
                 <div class="member-image">
-                  <img src="images/team/team-3.jpg" alt="img">
+                  <img src="assets/chief_patron_3.jpg" alt="img">
                 </div>
                 <h3>EDWARD DOE</h3>
                 <span>CREATIVE DIRECTOR</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
+                
+              </div><div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="assets/chief_patron_4.jpg" alt="img">
+                </div>
+                <h3>EDWARD DOE</h3>
+                <span>CREATIVE DIRECTOR</span>
+                
               </div>
               
             </div>
