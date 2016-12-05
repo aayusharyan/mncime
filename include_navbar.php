@@ -48,7 +48,7 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                     </li>
 
                                     <!-- MENU ITEM -->
-                                    <li class="parent <?= (($page_link == "conference_theme.php") || ($page_link == "schedule.php") || ($page_link == "imp_dates.php") || ($page_link == "benifits_conference.php") || ($page_link == "advisory_committee.php") || ($page_link == "organising_committee.php") || ($page_link == "review_committee.php") || ($page_link == "about_SIT.php"))?"current":""; ?>">
+                                    <li class="parent <?= (($page_link == "conference_theme.php") || ($page_link == "schedule.php") || ($page_link == "imp_dates.php") || ($page_link == "benifits_conference.php") || ($page_link == "advisory_committee.php") || ($page_link == "organising_committee.php") || ($page_link == "review_committee.php") || ($page_link == "keynote_speakers.php") || ($page_link == "about_SIT.php"))?"current":""; ?>">
                                         <a href="#">
                                             <div class="main-menu-title">ABOUT</div>
                                         </a>
@@ -67,7 +67,7 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                                 <ul class="sub">
                                                     <li><a href="advisory_committee.php">Advisory Committee</a></li>
                                                     <li><a href="review_committee.php">Review Committee</a></li>
-                                                    <li><a href="#">Keynote Speakers</a></li>
+                                                    <li><a href="keynote_speakers.php">Keynote Speakers</a></li>
                                                 </ul>
                                             </li>
                                             <li class="<?= ($page_link == "organising_committee.php")?"current":""; ?>">
@@ -125,16 +125,11 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                     </li>
 
 
-                                    <li class="parent">
-                                        <a href="#">
+                                    <li class="<?= ($page_link == "past.php")?"current":""; ?>">
+                                        <a href="past.php">
                                             <div class="main-menu-title">PAST CONFERENCES</div>
                                         </a>
-                                        <ul class="sub">
-                                            <li><a href="#">1 &nbsp;<sup>st</sup>&nbsp;NCIME - 2012</a></li>
-                                            <li><a href="#">2 &nbsp;<sup>nd</sup>&nbsp;NCIME - 2013</a></li>
-                                            <li><a href="#">3 &nbsp;<sup>rd</sup>&nbsp;NCIME - 2015</a></li>
-                                            <li><a href="#">4 &nbsp;<sup>th</sup>&nbsp;NCIME - 2016</a></li>
-                                        </ul>
+                                        
                                     </li>
 
 

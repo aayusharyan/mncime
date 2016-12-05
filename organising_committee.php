@@ -25,7 +25,7 @@
 				<?php require_once ("include_navbar.php"); ?>
 
         <!-- PAGE TITLE LARGE IMG -->
-        <div class="page-title-cont page-title-large page-title-img grey-dark-bg pt-250" style="background-image: url(images/work-proc-bg.jpg)">
+        <div class="page-title-cont page-title-large page-title-img grey-dark-bg pt-250" style="background-image: url(assets/organising.jpg)">
           <div class="relative container align-left">
             <div class="row">
                
