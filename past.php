@@ -62,7 +62,6 @@
       <!-- COTENT  -->
       <div class="col-md-9">
       
-        <!-- ACCORDIONS  -->	
 				<div id="2012" class="bs-docs-section mb-100">
 					<div class="heading-underline h3-line">
 						<h3 class="mt-0">1<sup>st</sup> NCIME-2012</h3>
@@ -103,169 +102,131 @@
 					</div>
 
 				</div>
+		  
+		  <div id="2013" class="bs-docs-section mb-100">
+					<div class="heading-underline h3-line">
+						<h3 class="mt-0">2<sup>nd</sup> NCIME-2013</h3>
+					</div>
+					<div class="row">
+						<div class="col-md-6 mb-30">
+							<div class="lightbox-item">
+								<a href="images/content/blog-big-1.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        <div class="col-md-6 mb-30">
+							<div class="lightbox-item">
+								<a href="images/content/blog-big-1.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+					</div>
+
+				</div>
+		  
+		  <div id="2013" class="bs-docs-section mb-100">
+					<div class="heading-underline h3-line">
+						<h3 class="mt-0">3<sup>rd</sup> NCIME-2015</h3>
+					</div>
+					<div class="row">
+						<div class="col-md-6 mb-30">
+							<div class="lightbox-item">
+								<a href="images/content/blog-big-1.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        <div class="col-md-6 mb-30">
+							<div class="lightbox-item">
+								<a href="images/content/blog-big-1.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+					</div>
+
+				</div>
+		  
+		  <div id="2015" class="bs-docs-section mb-100">
+					<div class="heading-underline h3-line">
+						<h3 class="mt-0">4<sup>th</sup> NCIME-2016</h3>
+					</div>
+					<div class="row">
+						<div class="col-md-6 mb-30">
+							<div class="lightbox-item">
+								<a href="images/content/blog-big-1.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        <div class="col-md-6 mb-30">
+							<div class="lightbox-item">
+								<a href="images/content/blog-big-1.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+					</div>
+
+				</div>
 				
-        <!-- TOGGLES  -->	
-				<div id="facilities" class="bs-docs-section mb-100">
-					<div class="heading-underline h3-line">
-						<h3 class="mb-40">Facilities</h3>
-					</div>
-          
-                  
-					<div class="row">
-						<div class="col-md-4 mb-30">
-							<div class="lightbox-item">
-								<a href="images/content/blog-big-1.jpg" class="lightbox">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
-                  </div>
-                  <div class="port-overlay-cont">
-                    <div class="port-btn-cont">
-                      <div aria-hidden="true" class="icon_search"></div>
-                    </div>
-                  </div>
-                </a>  
-
-							</div>
-              
-						</div>
-						<div class="col-md-4 mb-30">
-							<div class="lightbox-item">
-								<a href="images/content/blog-big-1.jpg" class="lightbox">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
-                  </div>
-                  <div class="port-overlay-cont">
-                    <div class="port-btn-cont">
-                      <div aria-hidden="true" class="icon_search"></div>
-                    </div>
-                  </div>
-                </a>  
-
-							</div>
-              
-						</div>
-						<div class="col-md-4 mb-30">
-							<div class="lightbox-item">
-								<a href="images/content/blog-big-1.jpg" class="lightbox">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
-                  </div>
-                  <div class="port-overlay-cont">
-                    <div class="port-btn-cont">
-                      <div aria-hidden="true" class="icon_search"></div>
-                    </div>
-                  </div>
-                </a>  
-
-							</div>
-              
-						</div>
-          
-				</div>
-
-				</div>
-
-        <!-- TABS  -->			
-				<div id="courses" class="mb-100 bs-docs-section">
-					<div class="heading-underline h3-line">
-					<h3 class="mb-20" >Courses</h3>
-					</div>          
-					<div class="row">
-					<table class="table table-bordered mb-40">
-					  <thead>
-						<tr>
-						  <th>#</th>
-						  <th>Courses Offered</th>
-						  <th>Shift</th>
-						  <th>Intake</th>
-						</tr>
-					  </thead>
-					  <tbody>
-						<tr>
-						  <td>1</td>
-						  <td>Computer Engineering</td>
-						  <td>1<sup>st</sup> Shift</td>
-						  <td>120</td>
-						</tr>
-						<tr>
-						  <td>2</td>
-							<td>Electronics &amp; Tele Communication Engineering</td>
-						  <td>1<sup>st</sup> Shift</td>
-						  <td>180</td>
-						</tr>
-						<tr>
-						  <td>3</td>
-						  <td>Information Technology</td>
-						  <td>1<sup>st</sup> Shift</td>
-						  <td>60</td>
-						</tr>
-						<tr>
-						  <td>4</td>
-						  <td>Mechanical Engineering</td>
-						  <td>1<sup>st</sup> Shift</td>
-							<td>240</td>
-						</tr>
-						  <tr>
-						  <td>5</td>
-						  <td>Electrical Engineering</td>
-						  <td>1<sup>st</sup> Shift</td>
-							<td>60</td>
-						</tr>
-						  <tr>
-						  <td>6</td>
-						  <td>Computer Engineering</td>
-						  <td>2<sup>nd</sup> Shift</td>
-							<td>60</td>
-						</tr>
-						  <tr>
-						  <td>7</td>
-						  <td>Electronics & Tele Communication Engineering</td>
-						  <td>2<sup>nd</sup> Shift</td>
-							<td>60</td>
-						</tr>
-						  <tr>
-						  <td>8</td>
-						  <td>Mechanical Engineering</td>
-						  <td>2<sup>nd</sup> Shift</td>
-							<td>120</td>
-						</tr>
-						  <tr>
-						  <td>9</td>
-						  <td>ME ETC (VLSI)</td>
-						  <td>1<sup>st</sup> Shift</td>
-							<td>24</td>
-						</tr>
-						  <tr>
-						  <td>10</td>
-						  <td>ME Computer Engg.</td>
-						  <td>1<sup>st</sup> Shift</td>
-							<td>18</td>
-						</tr>
-						  <tr>
-						  <td>11</td>
-						  <td>ME Computer Networks</td>
-						  <td>1<sup>st</sup> Shift</td>
-							<td>24</td>
-						</tr>
-						  <tr>
-						  <td>12</td>
-						  <td>ME Mech (Design)</td>
-						  <td>1<sup>st</sup> Shift</td>
-							<td>18</td>
-						</tr>
-						  <tr>
-						  <td>13</td>
-						  <td>ME Electrical (Power System)</td>
-						  <td>1<sup>st</sup> Shift</td>
-							<td>24</td>
-						</tr>
-						  
-					  </tbody>
-					</table>
-					</div>
-				</div>       
-			</div>
-
+       
 		</div>
 	</div>        
       
