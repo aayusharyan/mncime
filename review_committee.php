@@ -22,7 +22,7 @@
 				
 <?php require_once ("include_ie_warning.php"); ?>				
 				<?php require_once ("include_header.php"); ?>
-                  
+                  <?php require_once ("include_navbar.php"); ?>
         <!-- PAGE TITLE BIG IMG -->
         <div class="page-title-cont page-title-big page-title-img grey-dark-bg" style="background-image: url(images/work-proc-bg.jpg)">
           <div class="relative container align-left">

@@ -27,7 +27,7 @@
 				<?php require_once ("include_navbar.php"); ?>
 				
         <!-- PAGE TITLE BIG GREY LIGHT-->
-        <div class="page-title-cont page-title-big grey-light-bg">
+        <div class="page-title-cont page-title-big page-title-img grey-dark-bg" style="background-image: url(assets/conference_benefits.jpg)">
           <div class="relative container align-left">
             <div class="row">
                

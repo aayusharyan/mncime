@@ -48,12 +48,12 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                     </li>
 
                                     <!-- MENU ITEM -->
-                                    <li class="parent <?= (($page_link == "conference_theme.php") || ($page_link == "schedule.php") || ($page_link == "imp_dates.php") || ($page_link == "benifits_conference.php") || ($page_link == "about_SIT.php"))?"current":""; ?>">
+                                    <li class="parent <?= (($page_link == "conference_theme.php") || ($page_link == "schedule.php") || ($page_link == "imp_dates.php") || ($page_link == "benifits_conference.php") || ($page_link == "advisory_committee.php") || ($page_link == "review_committee.php") || ($page_link == "about_SIT.php"))?"current":""; ?>">
                                         <a href="#">
                                             <div class="main-menu-title">ABOUT</div>
                                         </a>
                                         <ul class="sub">
-                                            <li class="parent <?= (($page_link == "conference_theme.php") || ($page_link == "schedule.php") || ($page_link == "imp_dates.php") || ($page_link == "benifits_conference.php"))?"current":""; ?>">
+                                            <li class="parent <?= (($page_link == "conference_theme.php") || ($page_link == "schedule.php") || ($page_link == "imp_dates.php") || ($page_link == "benifits_conference.php") || ($page_link == "advisory_committee.php") || ($page_link == "review_committee.php"))?"current":""; ?>">
                                                 <a href="#">ABOUT CONFERENCE</a>
                                                 <ul class="sub">
                                                     <li><a href="conference_theme.php">CONFERENCE THEME</a></li>
@@ -65,15 +65,15 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                             <li class="parent">
                                                 <a href="#">EDITORIAL BOARD &amp; SPEAKERS</a>
                                                 <ul class="sub">
-                                                    <li><a href="#">Advisory Committee</a></li>
-                                                    <li><a href="#">Review Committee</a></li>
+                                                    <li><a href="advisory_committee.php">Advisory Committee</a></li>
+                                                    <li><a href="review_committee.php">Review Committee</a></li>
                                                     <li><a href="#">Keynote Speakers</a></li>
                                                 </ul>
                                             </li>
                                             <li class="parent">
                                                 <a href="#">Organising &emsp;Committee</a>
                                                 <ul class="sub">
-                                                    <li><a href="#">Chief Patron#</a></li>
+                                                    <li><a href="#">Chief Patron</a></li>
                                                     <li><a href="#">Patron</a></li>
                                                     <li><a href="#">Organising Secretary</a></li>
                                                     <li><a href="#">Convenor</a></li>
