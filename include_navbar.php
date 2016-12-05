@@ -193,20 +193,14 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                         </ul>
                                     </li>
 
-                                    
+
                                     <li class="hidden-md hidden-lg visible-xs visible-sm <?= ($page_link == "contact.php")?"current":""; ?>">
                                         <a href="contact.php">
                                             <div class="main-menu-title">CONTACT US</div>
                                         </a>
                                     </li>
-                                    <li class="">
-                                        <a href="#">
-                                            <div class="main-menu-title">SIGN UP</div>
-                                        </a>
-                                    </li>
-                                    
                                 </ul>
-                                
+
                             </nav>
 
                         </div>
@@ -218,11 +212,7 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
 
             </div>
             <!-- END main-menu-container -->
-            
-            <!-- Take to Members Area -->
-            
-            
-            
+
 
         </div>
         <!-- END header-wrapper -->
