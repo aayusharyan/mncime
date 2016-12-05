@@ -139,9 +139,9 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                         </a>
                                         <ul class="sub">
                                             <li><a href="#">1 &nbsp;<sup>st</sup>&nbsp;NCIME - 2012</a></li>
-                                            <li><a href="#">2 &nbsp;<sup>st</sup>&nbsp;NCIME - 2013</a></li>
-                                            <li><a href="#">3 &nbsp;<sup>st</sup>&nbsp;NCIME - 2015</a></li>
-                                            <li><a href="#">4 &nbsp;<sup>st</sup>&nbsp;NCIME - 2016</a></li>
+                                            <li><a href="#">2 &nbsp;<sup>nd</sup>&nbsp;NCIME - 2013</a></li>
+                                            <li><a href="#">3 &nbsp;<sup>rd</sup>&nbsp;NCIME - 2015</a></li>
+                                            <li><a href="#">4 &nbsp;<sup>th</sup>&nbsp;NCIME - 2016</a></li>
                                         </ul>
                                     </li>
 
