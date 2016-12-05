@@ -106,10 +106,10 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                                 <ul class="sub">
                                                     <li><a href="paper_sub_guide.php">Paper Submission Guidelines</a></li>
                                                     <li><a href="listeners_guide.php">Guidelines for Listeners/Attendee</a></li>
-                                                    <li><a href="#">Paper Selection Process</a></li>
+                                                    <li><a href="paper_selection_process.php">Paper Selection Process</a></li>
                                                     <li><a href="publication_ethics.php">Publication Ethics</a></li>
                                                     <li><a href="#">Paper Formats</a></li>
-                                                    <li><a href="#">Copyright Form</a></li>
+                                                    <li><a href="copyright.php">Copyright Form</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
