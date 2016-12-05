@@ -48,7 +48,7 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                     </li>
 
                                     <!-- MENU ITEM -->
-                                    <li class="parent <?= (($page_link == "conference_theme.php") || ($page_link == "schedule.php") || ($page_link == "imp_dates.php") || ($page_link == "benifits_conference.php") || ($page_link == "advisory_committee.php") || ($page_link == "review_committee.php") || ($page_link == "about_SIT.php"))?"current":""; ?>">
+                                    <li class="parent <?= (($page_link == "conference_theme.php") || ($page_link == "schedule.php") || ($page_link == "imp_dates.php") || ($page_link == "benifits_conference.php") || ($page_link == "advisory_committee.php") || ($page_link == "organising_committee.php") || ($page_link == "review_committee.php") || ($page_link == "about_SIT.php"))?"current":""; ?>">
                                         <a href="#">
                                             <div class="main-menu-title">ABOUT</div>
                                         </a>
@@ -70,16 +70,8 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                                     <li><a href="#">Keynote Speakers</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="parent">
-                                                <a href="#">Organising &emsp;Committee</a>
-                                                <ul class="sub">
-                                                    <li><a href="#">Chief Patron</a></li>
-                                                    <li><a href="#">Patron</a></li>
-                                                    <li><a href="#">Organising Secretary</a></li>
-                                                    <li><a href="#">Convenor</a></li>
-                                                    <li><a href="#">Coordinators</a></li>
-                                                    <li><a href="#">Committee Members</a></li>
-                                                </ul>
+                                            <li class="<?= ($page_link == "organising_committee.php")?"current":""; ?>">
+                                                <a href="organising_committee.php">Organising &emsp;Committee</a>
                                             </li>
                                             <li class="<?= ($page_link == "about_SIT.php")?"current":""; ?>">
                                                 <a href="about_SIT.php">About SIT</a>
@@ -197,6 +189,12 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                     <li class="hidden-md hidden-lg visible-xs visible-sm <?= ($page_link == "contact.php")?"current":""; ?>">
                                         <a href="contact.php">
                                             <div class="main-menu-title">CONTACT US</div>
+                                        </a>
+                                    </li>
+                                    <!-- MENU ITEM -->
+                                    <li class="">
+                                        <a href="">
+                                            <div class="main-menu-title">SIGN UP</div>
                                         </a>
                                     </li>
                                 </ul>
