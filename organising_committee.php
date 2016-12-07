@@ -183,7 +183,6 @@
               </div>
               
             </div>
-			
 			<div class="row">
 				<div class="heading-underline h3-line">
 						<h3 class="mt-0">Co - Coordinators</h3>

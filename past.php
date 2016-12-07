@@ -36,27 +36,17 @@
 		<div class="row">
 		
 			<!-- SIDENAV HIDE -->			
-			<div class="col-md-3">
-				<div id="sidebar-stiky"  class="bs-sidebar hidden-xs hidden-sm clearfix" role="complementary" >
-					<ul id="nav-sidebar" class="nav bs-sidenav blog-categories">
-						<li><a href="#2012"><span class="blog-cat-icon"><i class="fa fa-angle-right"></i></span>1<sup>st</sup> NCIME-2012</a></li>
-						<li><a href="#2013"><span class="blog-cat-icon"><i class="fa fa-angle-right"></i></span>2<sup>nd</sup> NCIME-2013</a></li>
-						<li><a href="#2015"><span class="blog-cat-icon"><i class="fa fa-angle-right"></i></span>3<sup>rd</sup> NCIME-2015</a></li>
-						<li><a href="#2016"><span class="blog-cat-icon"><i class="fa fa-angle-right"></i></span>4<sup>th</sup> NCIME-2016</a></li>
-						
-					</ul>
-				</div>
-			</div>
+			
 			
       <!-- COTENT  -->
-      <div class="col-md-9">
+      <div class="col-md-12">
       
 				<div id="2012" class="bs-docs-section mb-100">
 					<div class="heading-underline h3-line">
 						<h3 class="mt-0">1<sup>st</sup> NCIME-2012</h3>
 					</div>
 					<div class="row">
-						<div class="col-md-6 mb-30">
+						<div class="col-md-4 mb-30">
 							<div class="lightbox-item">
 								<a href="images/content/blog-big-1.jpg" class="lightbox">
                   <div class="port-img-overlay">
@@ -72,7 +62,23 @@
 							</div>
               
 						</div>
-                        <div class="col-md-6 mb-30">
+						<div class="col-md-4 mb-30">
+							<div class="lightbox-item">
+								<a href="images/content/blog-big-1.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        <div class="col-md-4 mb-30">
 							<div class="lightbox-item">
 								<a href="images/content/blog-big-1.jpg" class="lightbox">
                   <div class="port-img-overlay">
@@ -97,7 +103,7 @@
 						<h3 class="mt-0">2<sup>nd</sup> NCIME-2013</h3>
 					</div>
 					<div class="row">
-						<div class="col-md-6 mb-30">
+						<div class="col-md-4 mb-30">
 							<div class="lightbox-item">
 								<a href="images/content/blog-big-1.jpg" class="lightbox">
                   <div class="port-img-overlay">
@@ -113,7 +119,23 @@
 							</div>
               
 						</div>
-                        <div class="col-md-6 mb-30">
+						<div class="col-md-4 mb-30">
+							<div class="lightbox-item">
+								<a href="images/content/blog-big-1.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        <div class="col-md-4 mb-30">
 							<div class="lightbox-item">
 								<a href="images/content/blog-big-1.jpg" class="lightbox">
                   <div class="port-img-overlay">
@@ -138,7 +160,7 @@
 						<h3 class="mt-0">3<sup>rd</sup> NCIME-2015</h3>
 					</div>
 					<div class="row">
-						<div class="col-md-6 mb-30">
+						<div class="col-md-4 mb-30">
 							<div class="lightbox-item">
 								<a href="images/content/blog-big-1.jpg" class="lightbox">
                   <div class="port-img-overlay">
@@ -154,7 +176,23 @@
 							</div>
               
 						</div>
-                        <div class="col-md-6 mb-30">
+						<div class="col-md-4 mb-30">
+							<div class="lightbox-item">
+								<a href="images/content/blog-big-1.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        <div class="col-md-4 mb-30">
 							<div class="lightbox-item">
 								<a href="images/content/blog-big-1.jpg" class="lightbox">
                   <div class="port-img-overlay">
@@ -179,11 +217,11 @@
 						<h3 class="mt-0">4<sup>th</sup> NCIME-2016</h3>
 					</div>
 					<div class="row">
-						<div class="col-md-6 mb-30">
+						<div class="col-md-4 mb-30">
 							<div class="lightbox-item">
-								<a href="images/content/blog-big-1.jpg" class="lightbox">
+								<a href="assets/conference_2016.jpg" class="lightbox">
                   <div class="port-img-overlay">
-                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                    <img class="port-main-img" src="assets/conference_2016.jpg" alt="img" >
                   </div>
                   <div class="port-overlay-cont">
                     <div class="port-btn-cont">
@@ -195,11 +233,27 @@
 							</div>
               
 						</div>
-                        <div class="col-md-6 mb-30">
+                        <div class="col-md-4 mb-30">
 							<div class="lightbox-item">
-								<a href="images/content/blog-big-1.jpg" class="lightbox">
+								<a href="assets/conference_2016_2.jpg" class="lightbox">
                   <div class="port-img-overlay">
-                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                    <img class="port-main-img" src="assets/conference_2016_2.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+						<div class="col-md-4 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/conference_2016_3.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/conference_2016_3.jpg" alt="img" >
                   </div>
                   <div class="port-overlay-cont">
                     <div class="port-btn-cont">
@@ -212,8 +266,58 @@
               
 						</div>
 					</div>
+			  <div class="row">
+						<div class="col-md-4 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/conference_2016_3.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/conference_2016_3.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        <div class="col-md-4 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/conference_2016_4.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/conference_2016_4.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+						<div class="col-md-4 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/conference_2016_5.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/conference_2016_5.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+					</div>
 
 				</div>
+		  </div>
 				
        
 		</div>
