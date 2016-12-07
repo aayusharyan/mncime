@@ -54,7 +54,7 @@
                                   
                     <!-- CONTACT FORM -->
                     <div class="">
-                      <form id="contact-form" action="http://abcgomel.ru/haswell-1.8.1-demo/php/contact-form.php" method="POST">
+                      <form id="contact-form" action="#" method="POST">
                       
                         <div class="row">
                           <div class="col-md-12 mb-30">

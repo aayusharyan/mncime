@@ -4,8 +4,8 @@
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="robots" content="index, follow">
     <meta name="keywords" content="HTML5 Template">
-    <meta name="description" content="Haswell - Responsive HTML5 Template">
-    <meta name="author" content="Vladimir Azarushkin">
+    <meta name="description" content="National Conference on Innovations in Mechanical Engineering - 2017">
+    <meta name="author" content="Aayush & Sudarshan">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 

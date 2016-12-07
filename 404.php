@@ -425,7 +425,7 @@
                                       <span aria-hidden="true" class="icon_mail_alt main-menu-contact-icon"></span>
                                     </div>
                                     <div class="menu-contact-text-container">							
-                                      <a class="a-mail" href="mailto:info@haswell.com">info@haswell.com</a>
+                                      <a class="a-mail" href="#">#</a>
                                     </div>	
                                   </li>
                                 </ul>
