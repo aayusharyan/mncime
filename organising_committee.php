@@ -168,25 +168,39 @@
 						<h3 class="mt-0">Coordinators</h3>
 					</div>
             
-              <div class="member col-md-4 col-sm-4 wow fadeInUp">
+               <div class="member col-md-6 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
                 <div class="member-image">
                   <img src="assets/coordinator_1.jpg" alt="img" style="height: 140px;">
-                </div>
-                <h3>Prof. L. P. Puranik</h3>
-              </div>
-              
-              <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
-                <div class="member-image">
-                  <img src="assets/coordinator_2.jpg" alt="img" style="height: 140px;">
                 </div>
                 <h3>Prof. A. P. Ogale</h3>
               </div>
               
-              <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+              <div class="member col-md-6 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="assets/coordinator_2.jpg" alt="img" style="height: 140px;">
+                </div>
+                <h3>Prof. S. V. Karankoti</h3>
+              </div>
+              
+            </div>
+			
+			<div class="row">
+				<div class="heading-underline h3-line">
+						<h3 class="mt-0">Co - Coordinators</h3>
+					</div>
+            
+               <div class="member col-md-6 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
                 <div class="member-image">
                   <img src="assets/coordinator_3.jpg" alt="img" style="height: 140px;">
                 </div>
-                <h3>Prof. S. V. Karankoti</h3>
+                <h3>Prof. M. N. Chougule</h3>
+              </div>
+              
+              <div class="member col-md-6 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="assets/coordinator_4.jpg" alt="img" style="height: 140px;">
+                </div>
+                <h3>Prof. L. P. Puranik</h3>
               </div>
               
             </div>
