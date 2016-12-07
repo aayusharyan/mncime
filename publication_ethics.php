@@ -1,18 +1,6 @@
 <!DOCTYPE html>
-<!--
-
-	Theme Name: HASWELL
-	Description: HTML/CSS 
-	Author: Abcgomel 
-	Version: 1.0
-	Designed & Coded by Abcgomel
-	
--->
-
 <html>
  	
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/page-title-big-grey.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:38 GMT -->
-
     <?php require_once ("include_header.php"); ?>
     
     <body>
@@ -54,10 +42,10 @@
              <ol type="1">
 				 <li>The research being reported should have been conducted in an ethical and responsible manner and should comply with all relevant legislation. </li><br/>
 				 <li>Researchers should present their results clearly, honestly, and without fabrication, falsification or inappropriate data manipulation.</li><br/>
-				 <li>Researchers should strive to describe their methods clearly and unambiguously so that their findings can be confirmed by others. </li>
-				 <li>Researchers should adhere to publication requirements that submitted work is original, is not plagiarised, and has not been published elsewhere. </li>
-				 <li>Authors should take collective responsibility for submitted and published work. </li>
-				 <li>The authorship of research publications should accurately reflect individuals’ contributions to the work and its reporting. </li>
+				 <li>Researchers should strive to describe their methods clearly and unambiguously so that their findings can be confirmed by others. </li><br/>
+				 <li>Researchers should adhere to publication requirements that submitted work is original, is not plagiarised, and has not been published elsewhere. </li><br/>
+				 <li>Authors should take collective responsibility for submitted and published work. </li><br/>
+				 <li>The authorship of research publications should accurately reflect individuals’ contributions to the work and its reporting. </li><br/>
 				 <li>Funding sources and relevant conflicts of interest should be disclosed.</li>
 				 
 			</ol>
@@ -79,6 +67,4 @@
 <?php require_once ("include_js.php"); ?>
 	
 	</body>
-
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/page-title-big-grey.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:38 GMT -->
 </html>		

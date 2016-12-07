@@ -187,8 +187,8 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                         </a>
                                     </li>
                                     <!-- MENU ITEM -->
-                                    <li class="">
-                                        <a href="">
+                                    <li class="<?= ($page_link == "register.php")?"current":""; ?>">
+                                        <a href="register.php">
                                             <div class="main-menu-title">SIGN UP</div>
                                         </a>
                                     </li>

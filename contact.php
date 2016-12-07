@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
  	
 
@@ -190,6 +189,11 @@
 			
 
         <?php require_once ("include_js.php"); ?>
+        
+        
+        <!-- GOOLE MAP -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDzf6Gmc9u7rr2JHijOERAmC_j0gWYtR2c"></script>
+    <script type="text/javascript" src="js/gmap3.min.js"></script>
         
 	</body>
 

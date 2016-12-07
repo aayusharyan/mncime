@@ -13,7 +13,7 @@
             <div class="left">
                 <a class="footer-2-copy" href="index.php" target="_blank">&copy; SIT, LONAVALA 2016</a>
                 <br />
-                Website by <a class="footer-2-copy" href="https://www.facebook.com/sudarshan.amirineni" target="_blank">Sudarshan</a> &amp; <a class="footer-2-copy" href="http://www.aayushsinha.com" target="_blank">Aayush</a>
+                 Website by <a class="footer-2-copy" href="http://www.aayushsinha.com" target="_blank">Aayush</a> &amp; <a class="footer-2-copy" href="https://www.facebook.com/sudarshan.amirineni" target="_blank">Sudarshan</a> 
             </div>
             
         </div>

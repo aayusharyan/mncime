@@ -54,5 +54,4 @@
 	
 	</body>
 
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/page-title-big-img.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:38 GMT -->
 </html>		

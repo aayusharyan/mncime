@@ -27,7 +27,7 @@
                                 <li style="background:url(assets/1.jpg) no-repeat; background-position:50% 0">
                                     <div class="container">
                                         <div class="sixteen columns contain">
-                                            <h2 data-toptitle="20%" class="norm-43-wide text-center font-white caption-18-wide-767 flex-top-bot"><span class="slider-caption-border slider-caption-border-767">5<sup>th</sup> NCIME</span></h2>
+                                            <h2 data-toptitle="20%" class="norm-43-wide text-center font-white caption-18-wide-767 flex-top-bot"><span class="slider-caption-border slider-caption-border-767">NCIME</span></h2>
                                         </div>
                                     </div>
                                     <!-- End Container -->
@@ -168,7 +168,7 @@
 
             <!-- CALL TO ACTION  -->
             <div class="port-view-more-cont-dark">
-                <a class="port-view-more-dark">OR STILL NOT CONVINCED?</a>
+                <a href="contact.php" class="port-view-more-dark">OR STILL NOT CONVINCED?</a>
                 <small>Drop us a message on the Following Addresses and we will get back to you</small>
             </div>
 
@@ -231,7 +231,9 @@
 
                     <!-- Copyright -->
                     <div class="footer-copy">
-                        <a href="http://themeforest.net/user/abcgomel/portfolio" target="_blank">&copy; HASWELL 2016</a>
+                        <a class="footer-2-copy" href="index.php" target="_blank">&copy; SIT, LONAVALA 2016</a>
+                <br />
+                Website by <a class="footer-2-copy" href="http://www.aayushsinha.com" target="_blank">Aayush</a> &amp; <a class="footer-2-copy" href="https://www.facebook.com/sudarshan.amirineni" target="_blank">Sudarshan</a> 
                     </div>
 
                 </div>
@@ -249,7 +251,4 @@
 
     <?php require_once ("include_js.php"); ?>
 </body>
-
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/index-construction.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:13:34 GMT -->
-
 </html>

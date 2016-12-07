@@ -1,17 +1,5 @@
 <!DOCTYPE html>
-<!--
-
-	Theme Name: HASWELL
-	Description: HTML/CSS 
-	Author: Abcgomel 
-	Version: 1.0
-	Designed & Coded by Abcgomel
-	
--->
-
 <html>
- 	
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/shortcodes.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:17:13 GMT -->
     <?php require_once ("include_header.php"); ?>
     
     <body>
@@ -68,11 +56,11 @@
 						<h3 class="mt-0">College Campus</h3>
 					</div>
 					<div class="row">
-						<div class="col-md-6 mb-30">
+						<div class="col-md-4 mb-30">
 							<div class="lightbox-item">
-								<a href="images/content/blog-big-1.jpg" class="lightbox">
+								<a href="assets/about_1.jpg" class="lightbox">
                   <div class="port-img-overlay">
-                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                    <img class="port-main-img" src="assets/about_1.jpg" alt="About SIT" >
                   </div>
                   <div class="port-overlay-cont">
                     <div class="port-btn-cont">
@@ -84,11 +72,11 @@
 							</div>
               
 						</div>
-                        <div class="col-md-6 mb-30">
+                        <div class="col-md-4 mb-30">
 							<div class="lightbox-item">
-								<a href="images/content/blog-big-1.jpg" class="lightbox">
+								<a href="assets/about_2.jpg" class="lightbox">
                   <div class="port-img-overlay">
-                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                    <img class="port-main-img" src="assets/about_2.jpg" alt="About SIT" >
                   </div>
                   <div class="port-overlay-cont">
                     <div class="port-btn-cont">
@@ -100,7 +88,105 @@
 							</div>
               
 						</div>
+                        
+                        <div class="col-md-4 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/about_3.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/about_3.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        
+                    </div>
+                        <div class="row">
+                        
+                        <div class="col-md-4 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/about_4.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/about_4.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        
+                        
+                        <div class="col-md-4 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/about_5.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/about_5.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        
+                        
+                        <div class="col-md-4 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/about_6.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/about_6.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        
+                        
+                        
 					</div>
+                    
+                    <div class="row">
+                        
+                        <div class="col-md-4 col-md-offset-4 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/about_7.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/about_7.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        
+                    </div>
+                    
 
 				</div>
 				
@@ -112,11 +198,11 @@
           
                   
 					<div class="row">
-						<div class="col-md-4 mb-30">
+						<div class="col-md-3 mb-30">
 							<div class="lightbox-item">
-								<a href="images/content/blog-big-1.jpg" class="lightbox">
+								<a href="assets/facilities_1.jpg" class="lightbox">
                   <div class="port-img-overlay">
-                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                    <img class="port-main-img" src="assets/facilities_1.jpg" alt="About SIT" >
                   </div>
                   <div class="port-overlay-cont">
                     <div class="port-btn-cont">
@@ -128,11 +214,11 @@
 							</div>
               
 						</div>
-						<div class="col-md-4 mb-30">
+						<div class="col-md-3 mb-30">
 							<div class="lightbox-item">
-								<a href="images/content/blog-big-1.jpg" class="lightbox">
+								<a href="assets/facilities_2.jpg" class="lightbox">
                   <div class="port-img-overlay">
-                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                    <img class="port-main-img" src="assets/facilities_2.jpg" alt="About SIT" >
                   </div>
                   <div class="port-overlay-cont">
                     <div class="port-btn-cont">
@@ -144,11 +230,28 @@
 							</div>
               
 						</div>
-						<div class="col-md-4 mb-30">
+						<div class="col-md-3 mb-30">
 							<div class="lightbox-item">
-								<a href="images/content/blog-big-1.jpg" class="lightbox">
+								<a href="assets/facilities_3.jpg" class="lightbox">
                   <div class="port-img-overlay">
-                    <img class="port-main-img" src="images/content/blog-big-1.jpg" alt="img" >
+                    <img class="port-main-img" src="assets/facilities_3.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        
+                        <div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_4.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_4.jpg" alt="About SIT" >
                   </div>
                   <div class="port-overlay-cont">
                     <div class="port-btn-cont">
@@ -162,6 +265,286 @@
 						</div>
           
 				</div>
+                    
+                    <div class="row">
+						<div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_5.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_5.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+						<div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_6.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_6.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+						<div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_7.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_7.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        
+                        <div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_8.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_8.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+          
+				</div>
+                    
+                    <div class="row">
+						<div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_9.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_9.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+						<div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_10.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_10.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+						<div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_11.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_11.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        
+                        <div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_12.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_12.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+          
+				</div>
+                    
+                    <div class="row">
+						<div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_13.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_13.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+						<div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_14.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_14.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+						<div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_15.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_15.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        
+                        <div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_16.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_16.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+          
+				</div>
+
+                    
+                    <div class="row">
+						<div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_17.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_17.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+						<div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_18.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_18.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+						<div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_19.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_19.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+                        
+                        <div class="col-md-3 mb-30">
+							<div class="lightbox-item">
+								<a href="assets/facilities_20.jpg" class="lightbox">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="assets/facilities_20.jpg" alt="About SIT" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                      <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>  
+
+							</div>
+              
+						</div>
+          
+				</div>
+
+
+
 
 				</div>
 
@@ -355,5 +738,4 @@
 	
 	</body>
 
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/shortcodes.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:18:13 GMT -->
 </html>		

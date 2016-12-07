@@ -1,17 +1,6 @@
 <!DOCTYPE html>
-<!--
-
-	Theme Name: HASWELL
-	Description: HTML/CSS 
-	Author: Abcgomel 
-	Version: 1.0
-	Designed & Coded by Abcgomel
-	
--->
-
 <html>
  	
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:27 GMT -->
 <?php require_once ("include_header.php"); ?>
     
     <body>
@@ -53,35 +42,35 @@
             
               <div class="member col-md-3 col-sm-3 wow fadeInUp">
                 <div class="member-image">
-                  <img src="assets/chief_patron_1.jpg" alt="Chief Patron 1">
+                  <img src="assets/chief_patron_1.jpg" alt="Chief Patron 1" style="height: 140px;">
                 </div>
-                <h3>JESSICA DOE</h3>
-                <span>VP ENGINEERING</span>
+                <h3>Prof. M. N. Navale</h3>
+                <span>Founder President, STES, Pune</span>
                 
               </div>
               
               <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="200ms">
                 <div class="member-image">
-                  <img src="assets/chief_patron_2.jpg" alt="img">
+                  <img src="assets/chief_patron_2.jpg" alt="Chief Patron 2" style="height: 140px;">
                 </div>
-                <h3>JOHN DOE</h3>
-                <span>FOUNDER AND CEO</span>
+                <h3>Dr. (Mrs.) Sunanda Navale</h3>
+                <span>Founder SEcretary, STES, Pune</span>
                 
               </div>
               
               <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
                 <div class="member-image">
-                  <img src="assets/chief_patron_3.jpg" alt="img">
+                  <img src="assets/chief_patron_3.jpg" alt="Chief Patron 3" style="height: 140px;">
                 </div>
-                <h3>EDWARD DOE</h3>
-                <span>CREATIVE DIRECTOR</span>
+                <h3>Mrs. Rachana M. Navale-Ashtekar</h3>
+                <span>Vide-President (Admin), STET, Pune</span>
                 
               </div><div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
                 <div class="member-image">
-                  <img src="assets/chief_patron_4.jpg" alt="img">
+                  <img src="assets/chief_patron_4.jpg" alt="Chief Patron 4"  style="height: 140px;">
                 </div>
-                <h3>EDWARD DOE</h3>
-                <span>CREATIVE DIRECTOR</span>
+                <h3>Mr. Rohit M. Navale</h3>
+                <span>Vice President (HR), STES, Pune</span>
                 
               </div>
               
@@ -101,7 +90,7 @@
                 </div>
                 
                 <div class="col-md-4 col-md-offset-1">
-                  <div class="ts-author-cont">
+                  <div class="ts-author-cont" style="vertical-align: top;">
                     <div class="ts-author-info">
                       <div class="ts-name">
                         <span class="bold">Dr. M. S. Gaikwad</span>
@@ -110,7 +99,7 @@
                       <div class="ts-type">Principal, SIT, Lonavala</div>
                     </div>
                     <div class="ts-author-img">
-                      <img src="assets/ncime_logo.png" alt="photo">
+                      <img src="assets/patron.jpg" alt="Patron" style="height: 140px;">
                     </div>
                   </div>
                 </div>
@@ -136,10 +125,10 @@
                       <div class="ts-name">
                         <span class="bold">Dr. V. V. Shinde</span>
                       </div>
-                      <div class="ts-type">Head of Mechanical Engineering Department, SIT, Lonavala</div>
+                      <div class="ts-type">HOD Mechanical Engineering,<br />SIT, Lonavala</div>
                     </div>
                     <div class="ts-author-img">
-                      <img src="assets/ncime_logo.png" alt="photo">
+                      <img src="assets/organising_secretary.jpg" alt="Organising Secretary" style="height: 140px;">
                     </div>
                   </div>
                 </div>
@@ -165,10 +154,10 @@
                       <div class="ts-name">
                         <span class="bold">Prof. A. G. Kamble</span>
                       </div>
-                      <div class="ts-type">Associate Professor, Mechanical Engineering</div>
+                      <div class="ts-type">Associate Professor,<br />Mechanical Engineering</div>
                     </div>
                     <div class="ts-author-img">
-                      <img src="assets/ncime_logo.png" alt="photo">
+                      <img src="assets/convener.jpg" alt="Convenor" style="height: 140px;">
                     </div>
                   </div>
                 </div>
@@ -179,56 +168,25 @@
 						<h3 class="mt-0">Coordinators</h3>
 					</div>
             
-              <div class="member col-md-3 col-sm-3 wow fadeInUp">
+              <div class="member col-md-4 col-sm-4 wow fadeInUp">
                 <div class="member-image">
-                  <img src="images/team/team-6.jpg" alt="img">
+                  <img src="assets/coordinator_1.jpg" alt="img" style="height: 140px;">
                 </div>
-                <h3>EMMA GRIFFITH</h3>
-                <span>VP ENGINEERING</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
+                <h3>Prof. L. P. Puranik</h3>
               </div>
               
-              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="200ms">
+              <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
                 <div class="member-image">
-                  <img src="images/team/team-8.jpg" alt="img">
+                  <img src="assets/coordinator_2.jpg" alt="img" style="height: 140px;">
                 </div>
-                <h3>MARY BLACK</h3>
-                <span>HR MANAGER</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
+                <h3>Prof. A. P. Ogale</h3>
               </div>
               
-              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+              <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="member-image">
-                  <img src="images/team/team-7.jpg" alt="img">
+                  <img src="assets/coordinator_3.jpg" alt="img" style="height: 140px;">
                 </div>
-                <h3>BRIAN GREEN</h3>
-                <span>ANDROID DEVELOPER</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
-              </div>
-
-              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
-                <div class="member-image">
-                  <img src="images/team/team-10.jpg" alt="img">
-                </div>
-                <h3>PAUL BISHOP</h3>
-                <span>iOS DEVELOPER</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
+                <h3>Prof. S. V. Karankoti</h3>
               </div>
               
             </div>
@@ -237,57 +195,186 @@
 						<h3 class="mt-0">Committee Members</h3>
 					</div>
             
-              <div class="member col-md-3 col-sm-3 wow fadeInUp">
+              <div class="member col-md-2 col-sm-2 wow fadeInUp">
                 <div class="member-image">
-                  <img src="images/team/team-6.jpg" alt="img">
+                  <img src="assets/committee_1.jpg" alt="Prof. S. R. Meshram" style="height: 140px;">
                 </div>
-                <h3>EMMA GRIFFITH</h3>
-                <span>VP ENGINEERING</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
+                <h3>Prof. S. R. Meshram</h3>
               </div>
-              
-              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="200ms">
+                            
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="200ms">
                 <div class="member-image">
-                  <img src="images/team/team-8.jpg" alt="img">
+                  <img src="assets/committee_2.jpg" alt="Prof. S. S. Mulye" style="height: 140px;" >
                 </div>
-                <h3>MARY BLACK</h3>
-                <span>HR MANAGER</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
+                <h3>Prof. S. S. Mulye</h3>
               </div>
-              
-              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+                            
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="400ms">
                 <div class="member-image">
-                  <img src="images/team/team-7.jpg" alt="img">
+                  <img src="assets/committee_3.jpg" alt="Prof. N. S. Hirulkar" style="height: 140px;">
                 </div>
-                <h3>BRIAN GREEN</h3>
-                <span>ANDROID DEVELOPER</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
+                <h3>Prof. N. S. Hirulkar</h3>
               </div>
-
-              <div class="member col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="400ms">
+                            
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="600ms">
                 <div class="member-image">
-                  <img src="images/team/team-10.jpg" alt="img">
+                  <img src="assets/committee_4.png" alt="Prof. S. C. Saddu" style="height: 140px;">
                 </div>
-                <h3>PAUL BISHOP</h3>
-                <span>iOS DEVELOPER</span>
-                <ul class="team-social">
-                  <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                  <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
-                </ul>
+                <h3>Prof. S. C. Saddu</h3>
               </div>
+                            
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="800ms">
+                <div class="member-image">
+                  <img src="assets/committee_5.png" alt="Prof. S. G. Patil" style="height: 140px;">
+                </div>
+                <h3>Prof. S. G. Patil</h3>
+              </div>
+                            
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp"data-wow-delay="1000ms">
+                <div class="member-image">
+                  <img src="assets/committee_6.jpg" alt="Prof. P. E. Lokhande" style="height: 140px;">
+                </div>
+                <h3>Prof. P. E. Lokhande</h3>
+              </div>
+                            
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp">
+                <div class="member-image">
+                  <img src="assets/committee_7.jpg" alt="Prof. P. P. Jawale" style="height: 140px;">
+                </div>
+                <h3>Prof. P. P. Jawale</h3>
+              </div>
+                            
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp"data-wow-delay="200ms">
+                <div class="member-image">
+                  <img src="assets/committee_8.jpg" alt="Prof. M. N. Chougle" style="height: 140px;">
+                </div>
+                <h3>Prof. M. N. Chougle</h3>
+              </div>
+                            
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="assets/committee_9.jpg" alt="Prof. A. R. Wasnik" style="height: 140px;">
+                </div>
+                <h3>Prof. A. R. Wasnik</h3>
+              </div>
+                            
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="600ms">
+                <div class="member-image">
+                  <img src="assets/committee_10.jpg" alt="Prof. S. G. Dabade" style="height: 140px;">
+                </div>
+                <h3>Prof. S. G. Dabade</h3>
+              </div>
+                            
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="800ms">
+                <div class="member-image">
+                  <img src="assets/committee_11.jpg" alt="Prof. P. A. Pesode" style="height: 140px;">
+                </div>
+                <h3>Prof. P. A. Pesode</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="1000ms">
+                <div class="member-image">
+                  <img src="assets/committee_12.jpg" alt="Prof. S. V. Chavan" style="height: 140px;">
+                </div>
+                <h3>Prof. S. V. Chavan</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp">
+                <div class="member-image">
+                  <img src="assets/committee_13.jpg" alt="Prof. A. R. Narode" style="height: 140px;">
+                </div>
+                <h3>Prof. A. R. Narode</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="200ms">
+                <div class="member-image">
+                  <img src="assets/committee_14.jpg" alt="Prof. V. M. Ugare" style="height: 140px;">
+                </div>
+                <h3>Prof. V. M. Ugare</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="assets/committee_15.jpg" alt="Prof. C. R. Kamthane" style="height: 140px;">
+                </div>
+                <h3>Prof. C. R. Kamthane</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="600ms">
+                <div class="member-image">
+                  <img src="assets/committee_16.jpg" alt="Prof. S. B. Salukne" style="height: 140px;">
+                </div>
+                <h3>Prof. S. B. Salukne</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="800ms">
+                <div class="member-image">
+                  <img src="assets/committee_17.jpg" alt="Prof. V. V. Gaikwad" style="height: 140px;">
+                </div>
+                <h3>Prof. V. V. Gaikwad</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="1000ms">
+                <div class="member-image">
+                  <img src="assets/committee_18.jpg" alt="Prof. N. A. Shinde" style="height: 140px;">
+                </div>
+                <h3>Prof. N. A. Shinde</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp">
+                <div class="member-image">
+                  <img src="assets/committee_19.jpg" alt="Prof. V. H. Magar" style="height: 140px;">
+                </div>
+                <h3>Prof. V. H. Magar</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="200ms">
+                <div class="member-image">
+                  <img src="assets/committee_20.png" alt="Prof. S. L. Tale" style="height: 140px;">
+                </div>
+                <h3>Prof. S. L. Tale</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="assets/committee_21.jpg" alt="Prof. S. B. Bhoyar" style="height: 140px;">
+                </div>
+                <h3>Prof. S. B. Bhoyar</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="600ms">
+                <div class="member-image">
+                  <img src="assets/committee_22.jpg" alt="Prof. P. P. Dataer" style="height: 140px;">
+                </div>
+                <h3>Prof. P. P. Dataer</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="800ms">
+                <div class="member-image">
+                  <img src="assets/committee_23.jpg" alt="Prof. S. G. Pandit" style="height: 140px;">
+                </div>
+                <h3>Prof. S. G. Pandit</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="1000ms">
+                <div class="member-image">
+                  <img src="assets/committee_24.jpg" alt="Prof. A. C. Deshpande" style="height: 140px;">
+                </div>
+                <h3>Prof. A. C. Deshpande</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 col-sm-offset-2 wow fadeInUp">
+                <div class="member-image">
+                  <img src="assets/committee_25.jpg" alt="Prof. P. R. Gharde" style="height: 140px;">
+                </div>
+                <h3>Prof. P. R. Gharde</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="200ms">
+                <div class="member-image">
+                  <img src="assets/committee_26.jpg" alt="Prof. A. A. Satpute" style="height: 140px;">
+                </div>
+                <h3>Prof. A. A. Satpude</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="400ms">
+                <div class="member-image">
+                  <img src="assets/committee_27.png" alt="Prof. C. C. Dube" style="height: 140px;">
+                </div>
+                <h3>Prof. C. C. Dube</h3>
+              </div>
+                            <div class="member col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="600ms">
+                <div class="member-image">
+                  <img src="assets/committee_28.jpg" alt="Prof. R. B. Chingle" style="height: 140px;">
+                </div>
+                <h3>Prof. R. B. Chingle</h3>
+              </div>
+                            
+    
               
             </div>
 					</div>
@@ -306,6 +393,4 @@
 <?php require_once ("include_js.php"); ?>
 	
 	</body>
-
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:36 GMT -->
 </html>		

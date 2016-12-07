@@ -1,17 +1,6 @@
 <!DOCTYPE html>
-<!--
-
-	Theme Name: HASWELL
-	Description: HTML/CSS 
-	Author: Abcgomel 
-	Version: 1.0
-	Designed & Coded by Abcgomel
-	
--->
-
 <html>
  	
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/page-title-big-img.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:38 GMT -->
 
     <?php require_once ("include_header.php"); ?>
     <body>
@@ -110,6 +99,4 @@
 <?php require_once ("include_js.php"); ?>
 	
 	</body>
-
-<!-- Mirrored from abcgomel.ru/haswell-1.8.1-demo/page-title-big-img.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Dec 2016 17:16:38 GMT -->
 </html>		
