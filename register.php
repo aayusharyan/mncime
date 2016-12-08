@@ -35,7 +35,7 @@
         <div class="container p-100-cont">
             <h4 class="pb-50 pt-20" style="text-align:center">Enter your details Below <a href="login.php" class="pull-right">Already Registered?</a></h4>
 
-			  
+			  <form action="register_user.php" method="POST">
 			 <div class="row">
 			  <select class="form-inline col-xs-12 col-md-1 mb-30" name="title">
 				  <option value="Dr.">Dr.</option>
@@ -67,27 +67,28 @@
                             <textarea maxlength="5000" data-msg-required="Please enter your Correspondence Address." rows="3" class="form-control" name="address" id="message" placeholder="Correspondence Address" required="" aria-required="true"></textarea>
                           </div>
                 <input type="number" name="mobile" class="form-inline col-xs-12 col-md-offset-1 col-md-3 mb-30" placeholder="Mobile Number">
-                <input type="text" name="mail" class="form-inline col-xs-12 col-md-3 col-md-offset-1 mb-30" placeholder="EMail Id">
+                <input type="mail" name="mail" class="form-inline col-xs-12 col-md-3 col-md-offset-1 mb-30" placeholder="EMail Id">
             
             </div>
             <div class="row">
                 
                 <select name="accodomation" class="form-inline col-xs-12 col-md-3 mb-30">
-				  <option value="yes">Acomodation Required</option>
-				  <option value="no">Accomidation Not Required</option>
+				  <option value="Yes">Acomodation Required</option>
+				  <option value="No">Accomidation Not Required</option>
 			  </select>
                 <select name="tour" class="form-inline col-xs-12 col-md-3 col-md-offset-1 mb-30">
-				  <option value="yes">Interested in Lonavala Tour</option>
-				  <option value="no">Not Interested in Lonavala Tour</option>
+				  <option value="Yes">Interested in Lonavala Tour</option>
+				  <option value="No">Not Interested in Lonavala Tour</option>
 			  </select>
-                <select name="importance" class="form-inline col-xs-12 col-md-4 col-md-offset-1 mb-30">
-				  <option value="listener/attendee">I am a Listener/Attendee</option>
-				  <option value="presentor">I will be Presenting Paper</option>
+                <select name="importance" onchange="change_payment (this);" class="form-inline col-xs-12 col-md-4 col-md-offset-1 mb-30">
+				  <option value="Listener/Attendee">I am a Listener/Attendee</option>
+				  <option value="Paper Presentor">I will be Presenting Paper</option>
 			  </select>
             
             </div>
-			  <a class="button small blue thin btn-5 btn-5bb pull-right mb-30 mt-20" href="#"><span aria-hidden="true" class="button-icon-anim icon_cart"></span><span class="button-text-anim">Proceed to Payment</span></a>
-			  
+                  <div id="payment"><button class="submit button small blue thin btn-5 btn-5bb pull-right mb-30 mt-20" href="#"><span aria-hidden="true" class="button-icon-anim icon_cart"></span><span class="button-text-anim">Proceed to Payment</span></button></div>
+                  <div id="upload" style="display: none;"><button class="submit button small blue thin btn-5 btn-5bb pull-right mb-30 mt-20" href="#"><span aria-hidden="true" class="button-icon-anim fa fa-long-arrow-right"></span><span class="button-text-anim">Proceed to File Upload</span></button></div>
+            </form> 
         	
         </div>
         
@@ -103,6 +104,23 @@
 		</div><!-- End wrap -->	
 			
 <?php require_once ("include_js.php"); ?>
+        
+        <script>
+            function change_payment (element) {
+                var value = element.value;
+                if (value == "Paper Presentor") {
+                    $("#payment").fadeOut (500, function () {
+                        $("#upload").fadeIn (500);
+                    });
+                } else if (value == "Listener/Attendee") {
+                    $("#upload").fadeOut (500, function () {
+                        $("#payment").fadeIn (500);
+                    });
+                } else {
+                    window.location.reload();
+                }
+            }
+        </script>
 	
 	</body>
 </html>		
