@@ -27,10 +27,9 @@
 			<div class="page-section">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-md-6">
-							<div class="row">
-								<div data-address="410401" id="google-map"></div>
-							</div>
+						<div class="col-md-6" style="padding: 0px; height: 600px;">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28095.642111985064!2d73.41310303783469!3d18.72926153421526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2c0268c23675ef3!2sSinhgad+Technical+Education+Society!5e0!3m2!1sen!2sin!4v1481316359996" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen style="height: 600px;"></iframe>
+								<!--<div data-address="Kusgaon, Lonavala, Maharashtra 410401" id="google-map"></div>-->
 						</div>
 						<div class="col-md-6">
 							<div class="contact-form-cont">
@@ -39,7 +38,7 @@
 									<h2 class="section-title">CONTACT <span class="bold">US</span></h2>
 								</div><!-- CONTACT FORM -->
 								<div class="">
-									<form action="#" id="contact-form" method="post" name="contact-form">
+									<form action="contact_submit.php" id="contact-form" method="post" name="contact-form">
 										<div class="row">
 											<div class="col-md-12 mb-30">
 												<!-- <label>Your name *</label> -->

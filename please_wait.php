@@ -1,8 +1,15 @@
+<?php
+
+
+ session_start();
+    $_SESSION ["mail"] = "";
+    $_SESSION ["phone"] = "";
+
+?>
+
 <!DOCTYPE html>
 <html>
- 	<?php
-    require_once ("include_check_user.php");
-    ?>
+ 	
 
     <?php require_once ("include_header.php"); ?>
     <body>
@@ -15,17 +22,20 @@
 				<!-- HEADER 1 NO-TRANSPARENT -->
 				<?php require_once ("include_navbar.php"); ?>  
         <!-- PAGE TITLE BIG IMG -->
-        <div class="page-title-cont page-title-big page-title-img grey-dark-bg" style="background-image: url(assets/schedule.jpg)">
+        <div class="page-title-cont page-title-large page-title-img grey-dark-bg pt-250" style="background-image: url(assets/thank_you.jpg)">
           <div class="relative container align-left">
             <div class="row">
                
               <div class="col-md-8">
-                <h1 class="page-title">Upload your Paper</h1>
+                <h1 class="page-title">Thank you</h1>
+                <div class="page-sub-title">
+                  We have received your paper.
+                </div>
               </div>
                
               <div class="col-md-4">
                 <div class="breadcrumbs">
-                  <a href="index.php">Home</a><span class="slash-divider">/</span><span class="bread-current">Upload File</span>
+                  <a href="index.php">Home</a><span class="slash-divider">/</span><a href="#">Upload</a><span class="slash-divider">/</span><span class="bread-current">Success</span>
                 </div>
               </div>
               
@@ -35,17 +45,8 @@
  
         <!-- CONTAINER -->
         <div class="container p-100-cont">
-            <h4 class="pb-50 pt-20" style="text-align:center">Upload your Paper <a href="login.php" class="pull-right">Logout</a></h4>
-            <form action="upload.php" method="post" enctype="multipart/form-data">
-            <div class="row">
-                <input class="col-xs-12 col-md-4 col-md-offset-4 mb-30" type="file" name="fileToUpload" id="fileToUpload" placeholder="Upload your Paper">
-                 
-            </div>
-            <div class="row mb-50">
-                 <button type="submit" class="button medium blue col-xs-12 col-md-2 col-md-offset-5 btn-4 btn-4aa-inv mt-30" href="#">Upload the File&nbsp;&nbsp;<span aria-hidden="true" class="button-icon-anim arrow_carrot-right"></span></button>
-                 
-            </div>
-            </form>
+            <h4 class="pb-20 pt-20" style="text-align:center">Thank You for Registering, we have received your file, we are going through it and will mail you for further steps.
+            </h4>
              
 			  
 			  

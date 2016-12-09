@@ -1,5 +1,6 @@
 <?php
     require_once ("include_connect.php");
+    require_once ("include_check_user.php");
     session_start ();
 
     $all_ok = true;
@@ -20,26 +21,14 @@
         }
     }
 
-    $title = clean_text ("title");
-    $first_name = clean_text ("first_name");
-    $middle_name = clean_text ("middle_name");
-    $last_name = clean_text ("last_name");
-    $designation = clean_text ("designation");
-    $department = clean_text ("department");
-    $institute = clean_text ("institute");
-    $address = clean_text ("address");
-    $number = clean_text ("number");
-    $mail = clean_text ("mail");
-    $accomodation = clean_text ("accomodation");
-    $tour = clean_text ("tour");
-    $importance = clean_text ("importance");
-
-
+    $account_transaction_id = clean_text ("account_transaction_id");
+    $account_transaction_amount = clean_text ("account_transaction_amount");
+    $account_transaction_date = clean_text ("account_transaction_date");
     $all_ok = true;
 
     if ($all_ok) {
         
-        $query = "INSERT INTO `users` (`mail`, `phone`, `type`) VALUES ('$mail', '$number', '$importance')";
+        $query = "UPDATE `users` SET `paid`=1 WHERE 1";
         $result = mysql_query ($query);
         
         echo mysql_error ();
@@ -49,9 +38,9 @@
         
         if ($result) {
             
-            
+            $mail = $user_details ["mail"];
             $to = "$mail";
-            $subject = "Thank you for Registering with us";
+            $subject = "Thank you for Completing the Registration with us";
 
             $message = "
                         <!DOCTYPE html>
@@ -89,17 +78,13 @@
                                     <body>
                                         <form id=\"previewform\" action=\"\">
                                             <h1>Thank you for Registering with us.</h1>
-                                            <p>You have successfull registered, use your Registered Email Id and Registered Phone number to login and Proceed to the next steps:</p>
+                                            <p>You have successfull registered and paid.</p>
                                             <p>
-                                                Your Registration Details are As Follows:<br />
-                                                $title $first_name $middle_name $last_name<br />
-                                                $designation, $department, $institute<br />
-                                                Address: $address<br />
-                                                Mobile Number: $number<br />
-                                                EMail Id: $mail<br />
-                                                Accomodation Required: $accomodation<br />
-                                                Interested In Lonavala Tour: $tour<br />
-                                                I am a $importance<br />
+                                                Your Payment are As Follows:<br />
+                                                Method: Account Transfer<br/ >
+                                                Transaction Id: $account_transaction_id<br />
+                                                Trandasction Date: $account_transaction_date<br/ >
+                                                Amount: $account_transaction_amount<br />
                                             </p>
                                             <p id=\"footer\">Thanks - <a href=\"#\">Sinhgad Institute of Technology</a></p>
                                         </form>
@@ -119,10 +104,10 @@
             mail($to,$subject,$message,$headers);
             
             
-            
+            $mobile_number = $user_details ["phone"];
             
             $return_to = "info@domain.com";
-            $return_subject = "New Registration";
+            $return_subject = "New Payment";
 
             $return_message = "
                         <!DOCTYPE html>
@@ -159,17 +144,15 @@
                                         </head>
                                     <body>
                                         <form id=\"previewform\" action=\"\">
-                                            <h1>You have a new Registration.</h1>
+                                            <h1>You have a new Payment.</h1>
                                             <p>
-                                                The Registration Details are As Follows: <br/>
-                                                $title $first_name $middle_name $last_name<br />
-                                                $designation, $department, $institute<br />
-                                                Address: $address<br />
-                                                Mobile Number: $number<br />
-                                                EMail Id: $mail<br />
-                                                Accomodation Required: $accomodation<br />
-                                                Interested In Lonavala Tour: $tour<br />
-                                                I am a $importance<br />
+                                                Your Payment are As Follows:<br />
+                                                Method: Account Transfer<br/ >
+                                                From Mail: $mail<br />
+                                                From Mobile Number: $mobile_number<br />
+                                                Transaction Id: $account_transaction_id<br />
+                                                Transaction Date: $account_transaction_date<br/ >
+                                                Amount: $account_transaction_amount<br />
                                             </p>
                                             <p id=\"footer\">Thanks - <a href=\"#\">Sinhgad Institute of Technology</a></p>
                                         </form>
@@ -191,11 +174,7 @@
             $_SESSION ["mail"] = $mail;
             $_SESSION ["phone"] = $number;
             
-            if ($importance == "Listener/Attendee") {
-                header("location: payment.php");
-            } else {
-                header ("location: upload_file.php");
-            }
+            header ("location: thank_you.php");
             
             
         }

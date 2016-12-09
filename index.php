@@ -149,7 +149,7 @@
                         </div>
 
                         <div class="col-md-3 text-center pb-30">
-                            <a class="button medium thin gray" href="#">REGISTER</a>
+                            <a class="button medium thin gray" href="register.php">REGISTER</a>
                         </div>
 
                     </div>
@@ -233,7 +233,7 @@
                     <div class="footer-copy">
                         <a class="footer-2-copy" href="index.php" target="_blank">&copy; SIT, LONAVALA 2016</a>
                 <br />
-                Website by <a class="footer-2-copy" href="http://www.aayushsinha.com" target="_blank">Aayush</a> &amp; <a class="footer-2-copy" href="https://www.facebook.com/sudarshan.amirineni" target="_blank">Sudarshan</a> 
+                Website by <a class="footer-2-copy" href="http://www.aayushsinha.com" target="_blank">Aayush Sinha</a> &amp; <a class="footer-2-copy" href="https://www.facebook.com/sudarshan.amirineni" target="_blank">Sudarshan A.</a> 
                     </div>
 
                 </div>

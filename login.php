@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
- 	
+<?php
+    session_start();
+    $_SESSION ["mail"] = "";
+    $_SESSION ["phone"] = "";
+    
+    ?>
 
     <?php require_once ("include_header.php"); ?>
     <body>

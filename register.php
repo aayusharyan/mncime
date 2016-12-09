@@ -45,8 +45,8 @@
 				  <option value="Mrs.">Mrs.</option>
 			  </select>
 			  <input type="text" name="first_name" class="form-inline col-xs-12 col-md-offset-1 col-md-3 mb-30" placeholder="First Name" required>
-                 <input type="text" name="middle_name" class="form-inline col-xs-12 col-md-offset-1 col-md-2 mb-30" placeholder="Middle Name" required>
-                 <input type="text" name="last_name" class="form-inline col-xs-12 col-md-offset-1 col-md-3 mb-30" placeholder="Last Name" required>
+                 <input type="text" name="middle_name" class="form-inline col-xs-12 col-md-offset-1 col-md-2 mb-30" placeholder="Middle Name">
+                 <input type="text" name="last_name" class="form-inline col-xs-12 col-md-offset-1 col-md-3 mb-30" placeholder="Last Name">
               </div>
               <div class="row">
                 <select class="form-inline col-xs-12 col-md-2 mb-30" name="designation">
@@ -66,13 +66,13 @@
                     <div class="col-md-4 col-xs-12 mb-30">
                             <textarea maxlength="5000" data-msg-required="Please enter your Correspondence Address." rows="3" class="form-control" name="address" id="message" placeholder="Correspondence Address" required="" aria-required="true"></textarea>
                           </div>
-                <input type="number" name="mobile" class="form-inline col-xs-12 col-md-offset-1 col-md-3 mb-30" placeholder="Mobile Number">
+                <input type="number" name="number" class="form-inline col-xs-12 col-md-offset-1 col-md-3 mb-30" placeholder="Mobile Number">
                 <input type="mail" name="mail" class="form-inline col-xs-12 col-md-3 col-md-offset-1 mb-30" placeholder="EMail Id">
             
             </div>
             <div class="row">
                 
-                <select name="accodomation" class="form-inline col-xs-12 col-md-3 mb-30">
+                <select name="accomodation" class="form-inline col-xs-12 col-md-3 mb-30">
 				  <option value="Yes">Acomodation Required</option>
 				  <option value="No">Accomidation Not Required</option>
 			  </select>
