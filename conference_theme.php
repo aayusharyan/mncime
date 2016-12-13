@@ -32,7 +32,7 @@
 						<br>
 						&emsp;&emsp;&emsp;NCIME addresses key topics and issues related to all aspects of Mechanical, Production, Automobile and Manufacturing will be presented in a program of technical sessions, panel discussions, and keynote speeches.<br>
 						<br>
-						The Conference is indexed by <strong>SCOPUS, Web of Science, Thomson Reuters and Google Scholar.</strong></p><br>
+						The Conference is indexed (awaited) by <strong>SCOPUS, Web of Science, Thomson Reuters and Google Scholar.</strong></p><br>
 						<br>
 						<h4><span style="color:red; font-size:150%">Potential themes to be addressed in this conference include:</span></h4>
 						<ol type="A">

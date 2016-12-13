@@ -52,7 +52,7 @@
 
                                     <div class="container">
                                         <div class="sixteen columns contain">
-                                            <h2 data-toptitle="47%" class="norm-43-wide text-center top-28-767 flex-top-bot">SINHGAD INSTITUTE OF TECHNOLOGY<br></h2>
+                                            <h2 data-toptitle="47%" class="norm-43-wide text-center top-28-767 flex-top-bot">SINHGAD INSTITUTE OF TECHNOLOGY,<br>LONAVALA</h2>
                                         </div>
                                     </div>
                                     <!-- End Container -->
@@ -195,7 +195,7 @@
                                 </div>
                                 <div class="cis-text">
                                     <h3><span class="bold">EMAIL</span></h3>
-                                    <p><a href="mailto:vshinde.sit@sinhgad.edu">VVSHINDE.SIT@SINHGAD.EDU</a></p>
+                                    <p><a href="mailto:vshinde.sit@sinhgad.edu">apogale.sit@sinhgad.edu</a></p>
                                 </div>
                             </div>
                         </div>
