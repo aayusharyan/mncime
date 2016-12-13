@@ -163,7 +163,8 @@
                 </div>
           </div>
             </div>
-			<div class="row">
+                        <div class="col-md-12">
+			<div class="col-md-6">
 				<div class="heading-underline h3-line">
 						<h3 class="mt-0">Coordinators</h3>
 					</div>
@@ -180,10 +181,10 @@
                   <img src="assets/coordinator_2.jpg" alt="img" style="height: 140px;">
                 </div>
                 <h3>Prof. S. V. Karankoti</h3>
-              </div>
-              
-            </div>
-			<div class="row">
+              </div>   
+                            </div>
+                            <div class="col-md-6">
+            
 				<div class="heading-underline h3-line">
 						<h3 class="mt-0">Co - Coordinators</h3>
 					</div>
@@ -203,6 +204,7 @@
               </div>
               
             </div>
+                            </div>
 						<div class="row">
 				<div class="heading-underline h3-line">
 						<h3 class="mt-0">Committee Members</h3>
