@@ -8,10 +8,10 @@
 	<meta content="National Conference on Innovations in Mechanical Engineering - 2017" name="description">
 	<meta content="Aayush & Sudarshan" name="author">
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"><!-- FAVICONS -->
-	<link href="images/favicon/favicon.png" rel="shortcut icon">
-	<link href="images/favicon/apple-touch-icon.png" rel="apple-touch-icon">
-	<link href="images/favicon/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
-	<link href="images/favicon/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"><!-- CSS -->
+	<link href="assets/ncime.png" rel="shortcut icon">
+	<link href="assets/ncime.png" rel="apple-touch-icon">
+	<link href="assets/ncime.png" rel="apple-touch-icon" sizes="72x72">
+	<link href="assets/logo.png" rel="apple-touch-icon" sizes="114x114"><!-- CSS -->
 	<!-- FLEXSLIDER SLIDER CSS -->
 	<link href="css/flexslider.css" rel="stylesheet" type="text/css"><!-- BOOTSTRAP -->
 	<link href="css/bootstrap.min.css" rel="stylesheet"><!-- GOOGLE FONT -->
