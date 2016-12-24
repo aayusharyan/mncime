@@ -57,7 +57,7 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                                 <a href="#">ABOUT CONFERENCE</a>
                                                 <ul class="sub">
                                                     <li><a href="conference_theme.php">CONFERENCE THEME</a></li>
-                                                    <li><a href="schedule.php">SCHEDULE</a></li>
+                                                    <li><a href="Schedule.php">SCHEDULE</a></li>
                                                     <li><a href="imp_dates.php">IMPORTANT DATES</a></li>
                                                     <li><a href="benefits_conference.php">BENEFITS OF CONFERENCE</a></li>
                                                 </ul>
@@ -116,7 +116,7 @@ $page_link = $page_link_array [(count ($page_link_array) - 1)];
                                                 <a href="registration_details.php">Registration Details</a>
                                             </li>
                                             <li class="">
-                                                <a href="accomodation.php">Accomodation</a>
+                                                <a href="Accomodation.php">Accomodation</a>
                                             </li>
                                             <li class="">
                                                 <a href="transportation.php">Transportation</a>
